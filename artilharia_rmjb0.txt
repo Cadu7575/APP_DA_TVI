@@ -1,0 +1,510 @@
+      {
+      "title":"Scorers"
+        "header":[
+           "Goal" 
+        ],
+        "players":[
+           {
+      "name": "Leonardo Candido Ferreira",
+      "nickName":"Leonardo",
+      "position":1,
+      "photo":"null",
+      "teamName":"Palmerinha",
+      "teamId":"-OTEitQy5LL5JU9vfWuW",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEitQy5LL5JU9vfWuW.jpg?alt=media&token=1&m=1750775722897",
+      "playerId":"1751732693070",
+      "data":[ "7" ]
+    }, {
+      "name": "Rafael Rodrigues do Nascimento",
+      "nickName":"Rafael",
+      "position":2,
+      "photo":"null",
+      "teamName":"Juventus Itapê",
+      "teamId":"-OTEj3ura9AXdofRW7HP",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj3ura9AXdofRW7HP.jpg?alt=media&token=1&m=1750777288826",
+      "playerId":"1752750329858",
+      "data":[ "7" ]
+    }, {
+      "name": "Lucas Gabriel Pedroso de Oliveira",
+      "nickName":"Lucas Gabriel",
+      "position":3,
+      "photo":"null",
+      "teamName":"Chef Chips FC ",
+      "teamId":"-OTEjF2E4TZfc3acP-Tm",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjF2E4TZfc3acP-Tm.jpg?alt=media&token=1&m=1753436165216",
+      "playerId":"1753367248305",
+      "data":[ "5" ]
+    }, {
+      "name": "Abraao Leonardo dos Santos",
+      "nickName":"Abraao",
+      "position":4,
+      "photo":"null",
+      "teamName":"Atlético GVR",
+      "teamId":"-OTEivhUNlc5BMfchW8c",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEivhUNlc5BMfchW8c.jpg?alt=media&token=1&m=1750775811174",
+      "playerId":"1752261518555",
+      "data":[ "4" ]
+    }, {
+      "name": "Kleber Ferreira da Neves",
+      "nickName":"Kleber",
+      "position":5,
+      "photo":"null",
+      "teamName":"Bala de Prata",
+      "teamId":"-OTEiyXGm8_VD7AEhzoW",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEiyXGm8_VD7AEhzoW.jpg?alt=media&token=1&m=1750776568659",
+      "playerId":"1752262830322",
+      "data":[ "4" ]
+    }, {
+      "name": "Carlos Daniel Rodrigues dos Santos",
+      "nickName":"Carlos Eduardo",
+      "position":6,
+      "photo":"null",
+      "teamName":"Monte Santo FC",
+      "teamId":"-OTEj1CHI0tXQQjHFDR_",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj1CHI0tXQQjHFDR_.jpg?alt=media&token=1&m=1750776612529",
+      "playerId":"1752264585016",
+      "data":[ "4" ]
+    }, {
+      "name": "Leandro Correa Messias",
+      "nickName":"Leandro",
+      "position":7,
+      "photo":"null",
+      "teamName":"Monte Santo FC",
+      "teamId":"-OTEj1CHI0tXQQjHFDR_",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj1CHI0tXQQjHFDR_.jpg?alt=media&token=1&m=1750776612529",
+      "playerId":"1752265175343",
+      "data":[ "4" ]
+    }, {
+      "name": "Valter Aparecido Feliciano",
+      "nickName":"Valter",
+      "position":8,
+      "photo":"null",
+      "teamName":"Juventus Itapê",
+      "teamId":"-OTEj3ura9AXdofRW7HP",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj3ura9AXdofRW7HP.jpg?alt=media&token=1&m=1750777288826",
+      "playerId":"1752750236201",
+      "data":[ "4" ]
+    }, {
+      "name": "Marcio Queiros Maia",
+      "nickName":"Marcio Queiros",
+      "position":9,
+      "photo":"null",
+      "teamName":"Boche FC",
+      "teamId":"-OTEjDL-0LE75Yamet1z",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjDL-0LE75Yamet1z.jpg?alt=media&token=1&m=1750777520970",
+      "playerId":"1753359317583",
+      "data":[ "4" ]
+    }, {
+      "name": "Flavio Roberto Bicudo de Oliveira",
+      "nickName":"Flavio",
+      "position":10,
+      "photo":"null",
+      "teamName":"Palmerinha",
+      "teamId":"-OTEitQy5LL5JU9vfWuW",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEitQy5LL5JU9vfWuW.jpg?alt=media&token=1&m=1750775722897",
+      "playerId":"1751731994436",
+      "data":[ "3" ]
+    }, {
+      "name": "Cesar Augusto Rodrigues Mendes",
+      "nickName":"Cesar Augusto",
+      "position":11,
+      "photo":"null",
+      "teamName":"Athenas FC",
+      "teamId":"-OTEioQKYpYURBvCfOd8",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEioQKYpYURBvCfOd8.jpg?alt=media&token=1&m=1750780725346",
+      "playerId":"1753387791796",
+      "data":[ "3" ]
+    }, {
+      "name": "Fabricio Rolim de Goes",
+      "nickName":"Fabricio",
+      "position":12,
+      "photo":"null",
+      "teamName":"Nostravamos FC",
+      "teamId":"-OTEiqGGKV4nLh7Lpsrh",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEiqGGKV4nLh7Lpsrh.jpg?alt=media&token=1&m=1750775622968",
+      "playerId":"1751664664482",
+      "data":[ "2" ]
+    }, {
+      "name": "Vitor Manoel Ferreira Antunes",
+      "nickName":"Vitor",
+      "position":13,
+      "photo":"null",
+      "teamName":"Palmerinha",
+      "teamId":"-OTEitQy5LL5JU9vfWuW",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEitQy5LL5JU9vfWuW.jpg?alt=media&token=1&m=1750775722897",
+      "playerId":"1751732280195",
+      "data":[ "2" ]
+    }, {
+      "name": "Luiz Alexandre Caetano Oliveira",
+      "nickName":"Luiz",
+      "position":14,
+      "photo":"null",
+      "teamName":"Palmerinha",
+      "teamId":"-OTEitQy5LL5JU9vfWuW",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEitQy5LL5JU9vfWuW.jpg?alt=media&token=1&m=1750775722897",
+      "playerId":"1751732798706",
+      "data":[ "2" ]
+    }, {
+      "name": "Vitor Cristofoli",
+      "nickName":"",
+      "position":15,
+      "photo":"null",
+      "teamName":"Real Maricóta",
+      "teamId":"-OTEivBniMeC12PigFVH",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEivBniMeC12PigFVH.jpg?alt=media&token=1&m=1750775793479",
+      "playerId":"1752254904421",
+      "data":[ "2" ]
+    }, {
+      "name": "Gustavo Correa de Oliveira",
+      "nickName":"",
+      "position":16,
+      "photo":"null",
+      "teamName":"Águia Paulista FC",
+      "teamId":"-OTEiwQySG2FZWsS67JJ",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEiwQySG2FZWsS67JJ.jpg?alt=media&token=1&m=1750776553385",
+      "playerId":"1752257244297",
+      "data":[ "2" ]
+    }, {
+      "name": "Aparecido Jones Valter Rodrigues de Medeiros",
+      "nickName":"Aparecido",
+      "position":17,
+      "photo":"null",
+      "teamName":"Bala de Prata",
+      "teamId":"-OTEiyXGm8_VD7AEhzoW",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEiyXGm8_VD7AEhzoW.jpg?alt=media&token=1&m=1750776568659",
+      "playerId":"1752262924076",
+      "data":[ "2" ]
+    }, {
+      "name": "José Mauro Almeida Barreiros",
+      "nickName":"José",
+      "position":18,
+      "photo":"null",
+      "teamName":"Monte Santo FC",
+      "teamId":"-OTEj1CHI0tXQQjHFDR_",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj1CHI0tXQQjHFDR_.jpg?alt=media&token=1&m=1750776612529",
+      "playerId":"1752264482784",
+      "data":[ "2" ]
+    }, {
+      "name": "Jonatas Henrique Soares",
+      "nickName":"Jonatas",
+      "position":19,
+      "photo":"null",
+      "teamName":"Juventus Itapê",
+      "teamId":"-OTEj3ura9AXdofRW7HP",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj3ura9AXdofRW7HP.jpg?alt=media&token=1&m=1750777288826",
+      "playerId":"1752750773218",
+      "data":[ "2" ]
+    }, {
+      "name": "Jefferson Candido de Jesus",
+      "nickName":"Jefferson Candido",
+      "position":20,
+      "photo":"null",
+      "teamName":"Associação Atlética Itapê ",
+      "teamId":"-OTEj8rUrD4QyCHwMQL6",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj8rUrD4QyCHwMQL6.jpg?alt=media&token=1&m=1750777476936",
+      "playerId":"1752843455584",
+      "data":[ "2" ]
+    }, {
+      "name": "Luiz Fernando Pires Lopes",
+      "nickName":"Luiz Fernando Pires",
+      "position":21,
+      "photo":"null",
+      "teamName":"Vila Nova - AAA",
+      "teamId":"-OTEjFfgnqK0nOlDx2u_",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjFfgnqK0nOlDx2u_.jpg?alt=media&token=1&m=1750777597462",
+      "playerId":"1753358240713",
+      "data":[ "2" ]
+    }, {
+      "name": "Jonyffer Henrique Scott de Campos",
+      "nickName":"Jonyffer Henrique",
+      "position":22,
+      "photo":"null",
+      "teamName":"Boche FC",
+      "teamId":"-OTEjDL-0LE75Yamet1z",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjDL-0LE75Yamet1z.jpg?alt=media&token=1&m=1750777520970",
+      "playerId":"1753358730944",
+      "data":[ "2" ]
+    }, {
+      "name": "Rodrigo Spagola Alves Camargo",
+      "nickName":"Rodrigo",
+      "position":23,
+      "photo":"null",
+      "teamName":"Athenas FC",
+      "teamId":"-OTEioQKYpYURBvCfOd8",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEioQKYpYURBvCfOd8.jpg?alt=media&token=1&m=1750780725346",
+      "playerId":"1753387642828",
+      "data":[ "2" ]
+    }, {
+      "name": "João Marcos Novais Souza",
+      "nickName":"",
+      "position":24,
+      "photo":"null",
+      "teamName":"Cruzeiro BH",
+      "teamId":"-OTEjENhHyL2nf7ZWfcY",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjENhHyL2nf7ZWfcY.jpg?alt=media&token=1&m=1750777537660",
+      "playerId":"1758308553315",
+      "data":[ "2" ]
+    }, {
+      "name": "Luiz Guilherme Lima Fonseca",
+      "nickName":"Luiz Guilherme Lima",
+      "position":25,
+      "photo":"null",
+      "teamName":"Juventus Itapê",
+      "teamId":"-OTEj3ura9AXdofRW7HP",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj3ura9AXdofRW7HP.jpg?alt=media&token=1&m=1750777288826",
+      "playerId":"1752750384330",
+      "data":[ "2" ]
+    }, {
+      "name": "Elivan da Silva de Mattos",
+      "nickName":"Elivan",
+      "position":26,
+      "photo":"null",
+      "teamName":"Cruzeiro BH",
+      "teamId":"-OTEjENhHyL2nf7ZWfcY",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjENhHyL2nf7ZWfcY.jpg?alt=media&token=1&m=1750777537660",
+      "playerId":"1753375510254",
+      "data":[ "1" ]
+    }, {
+      "name": "Jose Rafael Meira Rezende",
+      "nickName":"Jose Rafael",
+      "position":27,
+      "photo":"null",
+      "teamName":"Cruzeiro BH",
+      "teamId":"-OTEjENhHyL2nf7ZWfcY",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjENhHyL2nf7ZWfcY.jpg?alt=media&token=1&m=1750777537660",
+      "playerId":"1753375562926",
+      "data":[ "1" ]
+    }, {
+      "name": "Pedro Henrique Leite de Oliveira",
+      "nickName":"Pedro Henrique",
+      "position":28,
+      "photo":"null",
+      "teamName":"Cruzeiro BH",
+      "teamId":"-OTEjENhHyL2nf7ZWfcY",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjENhHyL2nf7ZWfcY.jpg?alt=media&token=1&m=1750777537660",
+      "playerId":"1753376800192",
+      "data":[ "1" ]
+    }, {
+      "name": "Gilberto Marlos de Souza Santos",
+      "nickName":"Gilberto",
+      "position":29,
+      "photo":"null",
+      "teamName":"Athenas FC",
+      "teamId":"-OTEioQKYpYURBvCfOd8",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEioQKYpYURBvCfOd8.jpg?alt=media&token=1&m=1750780725346",
+      "playerId":"1753387147804",
+      "data":[ "1" ]
+    }, {
+      "name": "Josue Nunes",
+      "nickName":"Josue Nunes",
+      "position":30,
+      "photo":"null",
+      "teamName":"Athenas FC",
+      "teamId":"-OTEioQKYpYURBvCfOd8",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEioQKYpYURBvCfOd8.jpg?alt=media&token=1&m=1750780725346",
+      "playerId":"1753387861668",
+      "data":[ "1" ]
+    }, {
+      "name": "Matheus Cecconi Prestes",
+      "nickName":"Matheus",
+      "position":31,
+      "photo":"null",
+      "teamName":"Athenas FC",
+      "teamId":"-OTEioQKYpYURBvCfOd8",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEioQKYpYURBvCfOd8.jpg?alt=media&token=1&m=1750780725346",
+      "playerId":"1753388214568",
+      "data":[ "1" ]
+    }, {
+      "name": "Decio Garcia",
+      "nickName":"Decio Garcia",
+      "position":32,
+      "photo":"null",
+      "teamName":"Cruzeiro BH",
+      "teamId":"-OTEjENhHyL2nf7ZWfcY",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjENhHyL2nf7ZWfcY.jpg?alt=media&token=1&m=1750777537660",
+      "playerId":"1753368779723",
+      "data":[ "1" ]
+    }, {
+      "name": "Danilo Fernando Bianchi",
+      "nickName":"Danilo",
+      "position":33,
+      "photo":"null",
+      "teamName":"Grêmio Barcelona ",
+      "teamId":"-OTEjHjyOgOvOTGQE-1Q",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjHjyOgOvOTGQE-1Q.png?alt=media&token=1&m=1750777724546",
+      "playerId":"1753389398713",
+      "data":[ "1" ]
+    }, {
+      "name": "Fabricio Rodrigues Silveira",
+      "nickName":"Fabricio",
+      "position":34,
+      "photo":"null",
+      "teamName":"Grêmio Barcelona ",
+      "teamId":"-OTEjHjyOgOvOTGQE-1Q",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjHjyOgOvOTGQE-1Q.png?alt=media&token=1&m=1750777724546",
+      "playerId":"1753389578161",
+      "data":[ "1" ]
+    }, {
+      "name": "Rodrigo da Silva  Rodrigues de Sousa",
+      "nickName":"",
+      "position":35,
+      "photo":"null",
+      "teamName":"Águia Paulista FC",
+      "teamId":"-OTEiwQySG2FZWsS67JJ",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEiwQySG2FZWsS67JJ.jpg?alt=media&token=1&m=1750776553385",
+      "playerId":"1754053278704",
+      "data":[ "1" ]
+    }, {
+      "name": "Pedro Henrique de Souza Dias",
+      "nickName":"",
+      "position":36,
+      "photo":"null",
+      "teamName":"Bela Vista Futebol Arte ",
+      "teamId":"-OTEj1mxRTAQczW_mg4q",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj1mxRTAQczW_mg4q.jpg?alt=media&token=1&m=1750777399213",
+      "playerId":"1754053666782",
+      "data":[ "1" ]
+    }, {
+      "name": "Vanderson Franco Moreira",
+      "nickName":"",
+      "position":37,
+      "photo":"null",
+      "teamName":"Bela Vista Futebol Arte ",
+      "teamId":"-OTEj1mxRTAQczW_mg4q",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj1mxRTAQczW_mg4q.jpg?alt=media&token=1&m=1750777399213",
+      "playerId":"1754511729627",
+      "data":[ "1" ]
+    }, {
+      "name": "Ryan Vitorio Santos Oliveira",
+      "nickName":"Ryan",
+      "position":38,
+      "photo":"null",
+      "teamName":"Esporte Clube União Bela Vista",
+      "teamId":"-OTEj5QlMI6BRby7QnAo",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj5QlMI6BRby7QnAo.jpg?alt=media&token=1&m=1750777329097",
+      "playerId":"1755289059475",
+      "data":[ "1" ]
+    }, {
+      "name": "João Guilherme Melo de Almeida",
+      "nickName":"João Guilherme",
+      "position":39,
+      "photo":"null",
+      "teamName":"N2 Futebol Clube ",
+      "teamId":"-OTEj4r8YkpRkNTPxY57",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj4r8YkpRkNTPxY57.jpg?alt=media&token=1&m=1750777315244",
+      "playerId":"1755289218395",
+      "data":[ "1" ]
+    }, {
+      "name": "Daniel Jesus Camargo Silva",
+      "nickName":"Daniel Jesus",
+      "position":40,
+      "photo":"null",
+      "teamName":"Chef Chips FC ",
+      "teamId":"-OTEjF2E4TZfc3acP-Tm",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjF2E4TZfc3acP-Tm.jpg?alt=media&token=1&m=1753436165216",
+      "playerId":"1753367427329",
+      "data":[ "1" ]
+    }, {
+      "name": "Samuel Mariano de Lima",
+      "nickName":"Samuel",
+      "position":41,
+      "photo":"null",
+      "teamName":"Associação Atlética Itapê ",
+      "teamId":"-OTEj8rUrD4QyCHwMQL6",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj8rUrD4QyCHwMQL6.jpg?alt=media&token=1&m=1750777476936",
+      "playerId":"1755289778538",
+      "data":[ "1" ]
+    }, {
+      "name": "Amauri Assis de Lima",
+      "nickName":"Amauri",
+      "position":42,
+      "photo":"null",
+      "teamName":"N2 Futebol Clube ",
+      "teamId":"-OTEj4r8YkpRkNTPxY57",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj4r8YkpRkNTPxY57.jpg?alt=media&token=1&m=1750777315244",
+      "playerId":"1755289350723",
+      "data":[ "1" ]
+    }, {
+      "name": "Gusthavo Henrique Paes Pereira",
+      "nickName":"Gusthavo",
+      "position":43,
+      "photo":"null",
+      "teamName":"Ressak FC ",
+      "teamId":"-OTEj7r2IuHmtLocDuH4",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj7r2IuHmtLocDuH4.jpg?alt=media&token=1&m=1750777433824",
+      "playerId":"1755290321258",
+      "data":[ "1" ]
+    }, {
+      "name": "Joabe Augusto Pires Lopes",
+      "nickName":"Joabe",
+      "position":44,
+      "photo":"null",
+      "teamName":"Ressak FC ",
+      "teamId":"-OTEj7r2IuHmtLocDuH4",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj7r2IuHmtLocDuH4.jpg?alt=media&token=1&m=1750777433824",
+      "playerId":"1755290391776",
+      "data":[ "1" ]
+    }, {
+      "name": "José Carlos Roque",
+      "nickName":"José Roque",
+      "position":45,
+      "photo":"null",
+      "teamName":"Ressak FC ",
+      "teamId":"-OTEj7r2IuHmtLocDuH4",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEj7r2IuHmtLocDuH4.jpg?alt=media&token=1&m=1750777433824",
+      "playerId":"1755290483376",
+      "data":[ "1" ]
+    }, {
+      "name": "Daniel Ribeiro de Morais",
+      "nickName":"Daniel Ribeiro",
+      "position":46,
+      "photo":"null",
+      "teamName":"Chef Chips FC ",
+      "teamId":"-OTEjF2E4TZfc3acP-Tm",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjF2E4TZfc3acP-Tm.jpg?alt=media&token=1&m=1753436165216",
+      "playerId":"1755802421317",
+      "data":[ "1" ]
+    }, {
+      "name": "Augusto Silva Passos",
+      "nickName":"Augusto",
+      "position":47,
+      "photo":"null",
+      "teamName":"Tróia FC",
+      "teamId":"-OTEjGykGbWejWGrDj8o",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjGykGbWejWGrDj8o.jpg?alt=media&token=1&m=1750777683584",
+      "playerId":"1755804742086",
+      "data":[ "1" ]
+    }, {
+      "name": "Alexandre Fernandes Pereira",
+      "nickName":"Alexandre",
+      "position":48,
+      "photo":"null",
+      "teamName":"Tróia FC",
+      "teamId":"-OTEjGykGbWejWGrDj8o",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjGykGbWejWGrDj8o.jpg?alt=media&token=1&m=1750777683584",
+      "playerId":"1755804917005",
+      "data":[ "1" ]
+    }, {
+      "name": "Ferdinando Andreza Correa",
+      "nickName":"Ferdinando",
+      "position":49,
+      "photo":"null",
+      "teamName":"Vila Santana EC",
+      "teamId":"-OTEjIP3nBzuNuooN761",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEjIP3nBzuNuooN761.jpg?alt=media&token=1&m=1750874706218",
+      "playerId":"1755886231611",
+      "data":[ "1" ]
+    }, {
+      "name": "Silas Calegari",
+      "nickName":"Silas",
+      "position":50,
+      "photo":"null",
+      "teamName":"Athenas FC",
+      "teamId":"-OTEioQKYpYURBvCfOd8",
+      "teamPhoto":"https://copafacil-storage.b-cdn.net/events%2F-rmjb0%2Fk6f8%2Fteams%2F-OTEioQKYpYURBvCfOd8.jpg?alt=media&token=1&m=1750780725346",
+      "playerId":"1753388453983",
+      "data":[ "1" ]
+    }
+        ]
+      }
+     

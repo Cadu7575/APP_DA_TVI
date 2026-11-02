@@ -1,0 +1,74 @@
+{
+  "0": {
+    "destak": true,
+    "cod": "0",
+    "title": "Pontos-Pts"
+  },
+  "1": {
+    "cod": "1",
+    "title": "Jogos-J"
+  },
+  "2": {
+    "cod": "2",
+    "d": true,
+    "title": "Vitórias-V"
+  },
+  "3": {
+    "cod": "3",
+    "show": false,
+    "d": true,
+    "title": "Empate-E"
+  },
+  "4": {
+    "cod": "4",
+    "d": true,
+    "title": "Derrotas-D"
+  },
+  "5": {
+    "cod": "5",
+    "eli": true,
+    "title": "Bolas Feitas-BF"
+  },
+  "6": {
+    "cod": "6",
+    "eli": true,
+    "title": "Bolas Sofridas-BS"
+  },
+  "7": {
+    "cod": "7",
+    "sinal": true,
+    "title": "Saldo de Bolas-SB"
+  },
+  "8": {
+    "calc": "A5 / A6",
+    "cod": "12",
+    "places": 2,
+    "show": false,
+    "title": "Bolas Average-BA"
+  },
+  "9": {
+    "cod": "8",
+    "show": false,
+    "title": "Rodadas Ganhas-RG"
+  },
+  "10": {
+    "cod": "9",
+    "show": false,
+    "title": "Rodadas Perdidas-RP"
+  },
+  "11": {
+    "cod": "10",
+    "show": false,
+    "title": "Saldo de Rodadas-SR"
+  },
+  "12": {
+    "show": false,
+    "cod": "14",
+    "title": "Pontos Extras-PE"
+  },
+  "13": {
+    "cod": "13",
+    "show": false,
+    "title": "Cartão Vermelho-CV"
+  }
+}

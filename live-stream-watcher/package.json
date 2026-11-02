@@ -1,0 +1,11 @@
+{
+  "name": "live-stream-watcher",
+  "version": "1.0.0",
+  "description": "HLS Stream Watcher with FCM Notifications for TVI News",
+  "main": "api/watch-stream.js",
+  "dependencies": {
+    "firebase-admin": "^12.1.0",
+    "axios": "^1.7.2"
+  },
+  "private": true
+}

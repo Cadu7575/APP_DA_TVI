@@ -1,0 +1,14 @@
+{
+  "// ATENÇÃO": "Este é um arquivo PLACEHOLDER. Substitua pelo google-services.json real do Firebase.",
+  "// Como gerar": [
+    "1. Acesse https://console.firebase.google.com",
+    "2. Crie um projeto (ex: 'tvi-news')",
+    "3. Clique em 'Adicionar app' → Android",
+    "4. Package name: com.tvi.tvi_news",
+    "5. Baixe o google-services.json gerado",
+    "6. Substitua ESTE ARQUIVO pelo baixado",
+    "7. Rode: flutter pub get && flutter run"
+  ],
+  "// Localização correta": "android/app/google-services.json",
+  "// NÃO commite o arquivo real no Git": "Adicione 'google-services.json' ao .gitignore"
+}

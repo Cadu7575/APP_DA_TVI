@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "787119632003",
+    "project_id": "tvi-news",
+    "storage_bucket": "tvi-news.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787119632003:android:05eb8d45a643347fee75b6",
+        "android_client_info": {
+          "package_name": "com.tvi.tvi_news"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAqZ5f_SqNL0nZbR1Kq8FHYLDzXiyH-3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

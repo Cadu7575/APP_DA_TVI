@@ -1,0 +1,6396 @@
+{
+  "acess": {
+    "06FerZI6FyQroXKWm2bNMrMunJz2": 4,
+    "15KMRIzmakWV5FKYKMRoLr8tr1V2": 22,
+    "1786o65kKlQ6AS0fJd4kNZaaj4s1": 42,
+    "1P0cByII7eXerhzOM6PMyMZH0Ia2": 1,
+    "1Tk1afg7J4gAGa73ZwzkNc7aJY13": 6,
+    "1UiIKahZE0hSyKg0C5fjTKWsX752": 1,
+    "1kQKsT0DN6gRW818gCmQ4kwC2og2": 9,
+    "1yCbIYEeFlP30YN9Dy7dHYfCifa2": 3,
+    "1ywa4RPaSzWXGvqENuM4OYKptIL2": 16,
+    "2BxoHgucv9MkCTqTTdCPgSJs7Fd2": 1,
+    "2WH9X1XqRHOcmYjXY47Zfsdsipg2": 8,
+    "2nXApNo75fPT0GO3Z9NtWALwvPh1": 1,
+    "33qFpnTFkOOHWZJwPgQokTiCMro1": 2,
+    "3pLASbOULxhig8v4sMQEp7NPLRe2": 11,
+    "4Hy5RvhmX8XQMSss7Mi0ibG167h1": 25,
+    "4kMRJuW47lSJOhSNZFSj1Td3x7M2": 30,
+    "6bOvt2Nh0Ef4tuaR7a8yT7Qqqii2": 51,
+    "6ytWv8Pge6NZrhhULYD75wvQ59j1": 1,
+    "6ytuatSKo8RcikrRu0qagSNoNJ42": 3,
+    "7B2geWKAGuW6evFhqbxfdSjE4ak2": 1,
+    "7F1afzjur0gS9KrzeTOvUpejhJo1": 1,
+    "7kzKhFHRYTVavsEsbixcxLpJ3Vw1": 1,
+    "82DJ9EMbS6feBWvPr1sk011TJ4T2": 15,
+    "8FycvdBzOpZ8B46a4OwEhfAcRB43": 1,
+    "8G33gFHCGVZhOqHA7zLJC9OGQyE2": 12,
+    "8OgBRQzoQ6cj8xOtFTe1SZmziza2": 5,
+    "8cR4ZFxc7uOyMoe2eJaMAAFPL2B3": 2,
+    "8pyfrDplougFjckSGLOPH5fyGSi2": 2,
+    "8rb2BOkGoRSlYm8rnVOdlq3WyA33": 1,
+    "9MrMPOyuq9g4HGKQdOQCKJa1NsS2": 1,
+    "9ProKUbnAkbEnX34BGHHuzqE6GG3": 1,
+    "9iXvph0mjMgHt10Xj6O8oqYwVlQ2": 5,
+    "9u5rjNWU7vNZi1hyI7mMbPKWxQT2": 19,
+    "9xaFAPOHmYW08alm9QDqqS2aLhj2": 5,
+    "BUJpr5prZWYeTjoUVz1ptXWr2yv2": 5,
+    "BuTf8E0dbcepmQXiU0755ilpRpA3": 7,
+    "CKHFlXnpKqbiTm4zDpHpFf6WAWR2": 1,
+    "Cf9GVOD1JRWh3h0NGe6bbtDyt7b2": 5,
+    "DCl3iefXthOBH8Llib8KTPOBb9l2": 1,
+    "DLp8tliQnmcf4emGWHx8KxAJydn1": 2,
+    "DzBmxc6gWfVJ3O07dPjTG6ANOBf2": 54,
+    "ECdUlUCP3QZJSV7scuGFLk0Nscj2": 5,
+    "Eh15EfozbXPWJHHemML45BKC4Ok1": 2,
+    "EjHm5I8dhYOxcNnpApgHr1EO0Yx1": 1,
+    "F72idkpT1GMI5zroSbDzRK8NR072": 8,
+    "FHKlOxOOageqwbBQpFepdRZaYPT2": 1,
+    "FQJnJaWoNwa7zVzorHZ5Iv8QNUm1": 55,
+    "FbCy2NLOSvXIBUBhDiAyrzRtfHG2": 28,
+    "G5Wnbopvn9TqH4WDJHSK9N5huWr2": 33,
+    "G82nuhWeypheYkmk3InCNd7OTnT2": 12,
+    "GRpn5hpPtTWKsW8qpbojx4W0Bps1": 3,
+    "GbHn9zRSYFOasB4ptE1mxXRwXvK2": 3,
+    "HgGJKnN2DpQDR1T64DOhFxrUpKu2": 4,
+    "Hly2DfSdFPcVMLOMhREBOkAnpgK2": 2,
+    "IeblyRTRPmO4EtvDrhDs3Tm3Ec42": 7,
+    "IvsddPOFkFYGm7Ix9qARYI9qrrX2": 1,
+    "JZb7zo5q54O6Bz9Ml5uj5L8GR5z1": 13,
+    "JakYUClHHJUMd4ioZ9JktPMVWhE3": 2,
+    "K4UXsU4G8qXA7cpnRqz69VpOtua2": 1,
+    "KR9EejmcMmTy0VHS9756QWTOFdf2": 1,
+    "KxVRig9Rqlgm29593mTCTSspgyq2": 8,
+    "LgX6bbRPPtORxr70nFENc2oY6B03": 7,
+    "LkTVp1PYVWU6r1W4BzdmGN7wVqw1": 16,
+    "M5eafSUMOlUZCLRUFfXz7X5mJJZ2": 16,
+    "M8wUuj0o3Xag12CSogkFEkuP5943": 2,
+    "MStfvTH9qHe69ajcjaAMttVWNVr2": 1,
+    "N1H4uXVXPOZHiOlhsUdAU7kIkK13": 13,
+    "N2LClcTPUiS7Y2oL2HZ1XthEio82": 23,
+    "N9cWm909tCVfWLEh64kkERUWuW63": 32,
+    "NSSunQ7nEIXHw8Z6ji1WllT98Ul2": 33,
+    "Oaeiz7YESCUmw0y2jnFp3VE4Eux2": 1,
+    "Ob6UgQNGYIOu0rAUeyxlzOZ7q7I2": 8,
+    "PiJgeEjOGGb5EE84VqXX7MSGhU73": 24,
+    "Pk5B5ge2aWS6QNX5vXYmTSZktmO2": 29,
+    "Q0OAmMnpGKVHcCvTFP8A0gwpaSz1": 4,
+    "QWMyGryxrJgUPoXkcutKDbDStLY2": 1,
+    "QflbHPAtBXPNAr1rx2FvNVbLcsk1": 11,
+    "QtDae9YBR7fspx7AMTrY6cRu6WV2": 1,
+    "QwMOdaAB71Vru85ruDGsoWUrINF3": 17,
+    "RMjzjtyKC6ZdWsLikHVWtynqMXj1": 25,
+    "RdjenRzK0cY8I9PaDKSc3sYiIhf1": 41,
+    "RinjrR7pLNNc6rEtU6rYOBurB8w1": 1,
+    "S2IIyGJxAkRWM99FjwpSQN500DB2": 2,
+    "ShXq2iCgJRhI1GOuH9EvrvfDNTB3": 6,
+    "Sy60Kq53VIb3ypxwhM4N6UO2NHd2": 28,
+    "TZZ8XaApiOeD3nyvCWCzyU3Vjzp2": 29,
+    "UUoIeBVCQ3MJuuynhPKXQNUH5TT2": 3,
+    "UdzIDNocu3ccqAYvkuiCnlyOV8j1": 1,
+    "VAxE2gG8ilRaGLfoVmjAfJvBrUO2": 1,
+    "VCQeSVo9dTeZHJYTQ6laMVxVkGK2": 5,
+    "VXlW8OjLqHfzAFIgGHSYSKQH2Vs2": 226,
+    "VkKadSftaRTY7JV2nHGEDcV8WZT2": 7,
+    "VmqJTkIBlOh1afJKCcIeEHgDfWR2": 1,
+    "WXLqEaLxWmPvUI3HRgh3vcIxLyc2": 17,
+    "Wg6jZRpzSSQVNrchkPZCKmidz5n1": 2,
+    "Wr03zFWKcnSMAHGtAuayFeKyVGN2": 19,
+    "WyecYOqjbSURzjB58WPp39dT4Cc2": 7,
+    "X9sp5CrpRFh0o7dNuZWcGfIqTMK2": 1,
+    "YLPSSJMen4ZWjDiBAckeuwLGvjt2": 4,
+    "YTU434HQLah7YVxh8uWRFjAU3ei1": 26,
+    "YtxVgoz56nYLZ4DHm1qA4Q4ND7U2": 3,
+    "Z4nrzIctk9NvOCfFyi8qrGZE8Ay1": 2,
+    "ZW3iOX451jb2fRCEmLpdn542ppG2": 1,
+    "aM8STCvtjxa5pkpeAb2KY2jC7Gh1": 1,
+    "aWLAuZUNBfMARzLZ19dl62sw5UE2": 1,
+    "aXSZhC5KnSbauXyesCB7foq80Ds2": 27,
+    "apInWWntMrQ2TGsagID8gPE3HLF3": 20,
+    "axSmcjP3XBbDx0CGlUjkxXnqe6Z2": 1,
+    "b7ye2m0Q3KW4IZsVdl4y3E3cM8k1": 2,
+    "c7FtDTLCqgObHBCrtAoCfktJbLI2": 5,
+    "cPz7kkZOuvTuIJFym7GYhKyr2b33": 13,
+    "cbNpMbIr8cgk4gx8iY6oRQlE7xp1": 35,
+    "cjkmJdJlANNBD7nz8TZ36icVMGZ2": 1,
+    "cwEKenZBCETZUzlrAZGItPyOdDs2": 10,
+    "cydHUSHCZ1darADoFLMnBW5vsMF3": 1,
+    "dGityzeZdyUB3S7T9LoWVfJUaai2": 2,
+    "dJY4TFDCN1ReeRt3JDUCZCMoESK2": 25,
+    "dNUMI4Z1gUQRd4XTDbTR2Cm6ykt1": 1,
+    "dOUFyyXwA4W4aL12jsq5V1E7AjF2": 11,
+    "deuk3IjujFNbDQgTS0h2iAulJnE3": 1,
+    "e4D5IsoA7UR0WQyqxT9g69ubuk22": 6,
+    "eaZRJ9q8DXdJDtYKrEETUCKTNa33": 1,
+    "emVE702m3xai2OdqZ7SBzgW3i5X2": 18,
+    "ezN2HN0ibffShWKpZFdmMdzSzXa2": 57,
+    "f9phxT0uPcYbSeuL2NUy308ykz13": 88,
+    "fUxtGqWghofciPD0yHeKe2jMjGA2": 2,
+    "fX1fTsfSPLej7AG8iZYYzd6Zeru1": 3,
+    "gTiJN2yJtocvlxbTreAGsIV4xjF3": 13,
+    "h1AW3jbSUtMg9jXXEPmUoWQmEAt1": 4,
+    "hK4U6caatAgH6riE1xQYrwdwFJr2": 1,
+    "hSabDi31uoX2LFgfofxMnJv1tqe2": 5,
+    "heWyHuCsXahv625XCvIUPWfabel1": 2,
+    "iDaAtpUST0hnGi4cFVpNcCxalBG2": 77,
+    "iPo1YA8eK8aVwLBky0qhzpHdyCt1": 1,
+    "iVVKqhNKKYViAgw4Qw7P7bZHplE2": 5,
+    "iaBk11aTniXMSJpo8DnrrzwmXtb2": 4,
+    "jTQAcUSh3YUJKfcS8LHD8U4z0If1": 18,
+    "jam6SoWIVFWpJeEsRytFd2AhAmL2": 1,
+    "jxs8tOAU2QNFP6a1ilj28NMIMKU2": 1,
+    "k4mUHOMTJDfZOu5ImN8ST9WyYxv1": 13,
+    "kHwPtz2mbdXBZxlJqkwugAGYo6f2": 1,
+    "kRm7orLmL5gxl47v3LbTavdGLUY2": 36,
+    "kwjSBQ48PRa2JZPrhGjAA1N6xmk2": 6,
+    "l1EYAPqDyfNbWyhoHZxJNv1foyB2": 5,
+    "l1tRftBddDftvm8LnJoVB8Ksl1O2": 5,
+    "l3oztLKbwVMTvDGfKLajMw4rRg32": 51,
+    "lk6JZgAGPGRq3iRtJVXWTqteE7a2": 2,
+    "llE4IQbcuoTmtNQZb5uCRAy159Y2": 10,
+    "ltfziwUp97NuyzcoOYNXZ2hbBmF2": 1,
+    "m3U8kpNzS5cKXQRLQ6sou6JYb5q1": 24,
+    "m8GvDbXuDEMXpEMSRxEsurt98VA3": 2,
+    "m8ONvhVmC5amQ9pgThbHamXpVkJ3": 6,
+    "mE9PJVkET0WN4fCWWlPTrthMt912": 227,
+    "mHSBG5fOmqR52MtV2vLIG6fr9AT2": 20,
+    "mKrfW3kOBCU3F5s4syNKySh2rrf1": 6,
+    "mO4SEDFCWvhmUFEd8JDmdv2a4Uy1": 11,
+    "mcr18QqfdFWDky02nWuJ4nNUOqy1": 164,
+    "mmvg8UamVjdr7YiS73JDXeCGyjB2": 44,
+    "nEWemwgeeWeeOLDwG5Wm6ri41Vq2": 1,
+    "nNa80HLkX6TLd54n36qa95Q2lQJ3": 4,
+    "nPEt0MLW5wfKOFyDSZ1Ipe7aPZC2": 60,
+    "nYQbv8o3jMT8LhnVr2wmQtG4nvC3": 2,
+    "nZRvVOHTttUtTt1W4EeHUPxio3x2": 2,
+    "neljr202eGTLqRfCyBPjAr1rQ6a2": 1,
+    "nk5BaSmJgiZReqfrTvwKfxeGtfr1": 12,
+    "ogIRNy8aKpd4aBqjUV4YoZafDk93": 26,
+    "qJktbVKOe1dwXTpY29fmRo09LRf2": 2,
+    "rDum27JJZld8zh432KNUrCmmPah1": 5,
+    "rOSETKr3NlangdBB2GM0Pg4vVv22": 40,
+    "rWBPNcayAdWgPZ4CwQVXsXtnPIl2": 1,
+    "rlWrjMFRwKhuqyjCfDQbVkiwCNA2": 40,
+    "s0fKvdeEt8cIHFbb3SEXI1JXURG2": 1,
+    "suz2oEIwm5aQtdhjwPWxaFSrPi83": 2,
+    "tKc56RfVesROKsxkiDYAeg4onjs1": 1,
+    "tXbS7cwbVCdcD45c3xtYYV3MZ8s1": 54,
+    "ucqv0U4xdKYuKwI2lFsQukk2NpN2": 27,
+    "un5lrQYC98hIsFgPiGPw1wshIGV2": 5,
+    "vg6nO1nYXhURz0UVGDY16zzgBAh2": 1,
+    "x3qFkOum7PhsLniZkVKq7wLXC5t1": 1,
+    "xBYwtpCrMqht2LnrkgbPGy5nNci1": 2,
+    "xyWxGkZiYlVlN1YDyUrozlLFJOD3": 1,
+    "yHK2V2vF4vULGa8vduQ4Mc00aBn1": 28,
+    "yM2o7s18vFbm8RgqvlUGmngptqR2": 17,
+    "yOMN3JnHoxUEAjifLyc2TxHtsMq1": 6,
+    "z4H3vSj9qJS5yRuab1gIQIzDWJi2": 6,
+    "z98u5h22imMrWGOFau1h9RIL2a73": 4,
+    "zH6dYwKr8MaHe4vWrI82X9EfihB3": 10,
+    "zTKWbXwowFgoXLxkLl3I9gQOu9v1": 57,
+    "zVc99wi8xncQo4l00tviyXnWpEF3": 1,
+    "zcBVrACHgPZ5J6hJ4KqPYirhGXv1": 1
+  },
+  "acess_count": {
+    "distinct": 190,
+    "user_acess": 2619,
+    "user_anonimo": 1372
+  },
+  "copy": {
+    "id": "-5fqd2",
+    "lks": true,
+    "m": 1784657773366,
+    "m_evt": true,
+    "matchs": false,
+    "player": false,
+    "sport": 3,
+    "sub_title": "A NOSSA COPA DO MUNDO",
+    "team": false,
+    "title": "Copa TVitapê 2026 "
+  },
+  "emails": {
+    "1P0cByII7eXerhzOM6PMyMZH0Ia2": {
+      "a_m": true,
+      "a_r": true,
+      "a_t": true,
+      "events": "-jcgq9"
+    },
+    "dOUFyyXwA4W4aL12jsq5V1E7AjF2": {
+      "a_m": true,
+      "a_r": true,
+      "a_t": true,
+      "events": "-jcgq9"
+    },
+    "iVVKqhNKKYViAgw4Qw7P7bZHplE2": {
+      "a_m": true,
+      "a_r": true,
+      "a_t": true,
+      "events": "-jcgq9"
+    }
+  },
+  "info": {
+    "admin": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+    "aut_m": true,
+    "d_f": 1765638000000,
+    "d_i": 1754146800000,
+    "info": {
+      "title": "Copa TVitapê 2025"
+    },
+    "loc": {
+      "lat": 0,
+      "lon": 0
+    },
+    "m_evt": true,
+    "new_inscription": true,
+    "premium2": 10,
+    "publ": 1755709675245,
+    "q_l": 118,
+    "site": "https://copafacil.com/copatvitape",
+    "tournament_plan": 20,
+    "url": "https://firebasestorage.googleapis.com/v0/b/copafacil-web.appspot.com/o/events%2F-jcgq9%2Finfo.jpg?alt=media&token=1&m=1752708612544"
+  },
+  "last": {
+    "info": 1790731287597,
+    "users": 1790731287580
+  },
+  "list_evt": {
+    "-jcgq9@284z": {
+      "m": -1753729870224,
+      "sport": 3
+    },
+    "-jcgq9@5mng": {
+      "m": -1752708795659,
+      "sport": 3
+    },
+    "-jcgq9@5mv4": {
+      "m": -1753729861574,
+      "sport": 3
+    },
+    "-jcgq9@9v8k": {
+      "m": -1753729868432,
+      "sport": 3
+    },
+    "-jcgq9@arqr": {
+      "m": -1752708772991,
+      "sport": 3
+    },
+    "-jcgq9@gytm": {
+      "m": -1753729873077,
+      "sport": 3
+    },
+    "-jcgq9@qckh": {
+      "m": 1752708645051,
+      "sport": 3
+    },
+    "-jcgq9@v3dl": {
+      "m": -1753729871532,
+      "sport": 3
+    },
+    "-jcgq9@ztuy": {
+      "m": -1752708707254,
+      "sport": 3
+    }
+  },
+  "lks": {
+    "15KMRIzmakWV5FKYKMRoLr8tr1V2": {
+      "f": 1
+    },
+    "1786o65kKlQ6AS0fJd4kNZaaj4s1": {
+      "f": 1
+    },
+    "1P0cByII7eXerhzOM6PMyMZH0Ia2": {
+      "f": 1
+    },
+    "1Tk1afg7J4gAGa73ZwzkNc7aJY13": {
+      "f": 1
+    },
+    "1kQKsT0DN6gRW818gCmQ4kwC2og2": {
+      "f": 1
+    },
+    "1yCbIYEeFlP30YN9Dy7dHYfCifa2": {
+      "f": 1
+    },
+    "1ywa4RPaSzWXGvqENuM4OYKptIL2": {
+      "f": 1
+    },
+    "2jn84NXdeAVwPX07HNsFlbNzuK02": {
+      "f": 1
+    },
+    "3kjhCdHeHzVsHQFKHHo2EPZhs4I3": {
+      "f": 1
+    },
+    "3pLASbOULxhig8v4sMQEp7NPLRe2": {
+      "f": 1
+    },
+    "4Hy5RvhmX8XQMSss7Mi0ibG167h1": {
+      "f": 1
+    },
+    "6bOvt2Nh0Ef4tuaR7a8yT7Qqqii2": {
+      "f": 1
+    },
+    "82DJ9EMbS6feBWvPr1sk011TJ4T2": {
+      "f": 1
+    },
+    "8OgBRQzoQ6cj8xOtFTe1SZmziza2": {
+      "f": 1
+    },
+    "8cR4ZFxc7uOyMoe2eJaMAAFPL2B3": {
+      "f": 1
+    },
+    "9MrMPOyuq9g4HGKQdOQCKJa1NsS2": {
+      "f": 1
+    },
+    "9iXvph0mjMgHt10Xj6O8oqYwVlQ2": {
+      "f": 1
+    },
+    "9u5rjNWU7vNZi1hyI7mMbPKWxQT2": {
+      "f": 1
+    },
+    "9xaFAPOHmYW08alm9QDqqS2aLhj2": {
+      "f": 1
+    },
+    "BUJpr5prZWYeTjoUVz1ptXWr2yv2": {
+      "f": 1
+    },
+    "BuTf8E0dbcepmQXiU0755ilpRpA3": {
+      "f": 1
+    },
+    "Cf9GVOD1JRWh3h0NGe6bbtDyt7b2": {
+      "f": 1
+    },
+    "DCl3iefXthOBH8Llib8KTPOBb9l2": {
+      "f": 1
+    },
+    "DzBmxc6gWfVJ3O07dPjTG6ANOBf2": {
+      "f": 1
+    },
+    "ECdUlUCP3QZJSV7scuGFLk0Nscj2": {
+      "f": 1
+    },
+    "EjHm5I8dhYOxcNnpApgHr1EO0Yx1": {
+      "f": 1
+    },
+    "FQJnJaWoNwa7zVzorHZ5Iv8QNUm1": {
+      "f": 1
+    },
+    "FbCy2NLOSvXIBUBhDiAyrzRtfHG2": {
+      "f": 1
+    },
+    "G5Wnbopvn9TqH4WDJHSK9N5huWr2": {
+      "f": 1
+    },
+    "G82nuhWeypheYkmk3InCNd7OTnT2": {
+      "f": 1
+    },
+    "GbHn9zRSYFOasB4ptE1mxXRwXvK2": {
+      "f": 1
+    },
+    "HgGJKnN2DpQDR1T64DOhFxrUpKu2": {
+      "f": 1
+    },
+    "IeblyRTRPmO4EtvDrhDs3Tm3Ec42": {
+      "f": 1
+    },
+    "K4UXsU4G8qXA7cpnRqz69VpOtua2": {
+      "f": 1
+    },
+    "M8wUuj0o3Xag12CSogkFEkuP5943": {
+      "f": 1
+    },
+    "NSSunQ7nEIXHw8Z6ji1WllT98Ul2": {
+      "f": 1
+    },
+    "OQMl7euI6kTjPu9TdH6c3Njm2Hw1": {
+      "f": 1
+    },
+    "Oaeiz7YESCUmw0y2jnFp3VE4Eux2": {
+      "f": 1
+    },
+    "Ob6UgQNGYIOu0rAUeyxlzOZ7q7I2": {
+      "f": 1
+    },
+    "PT3SXbkpkfYyM01mXjnrqLvncdN2": {
+      "f": 1
+    },
+    "PiJgeEjOGGb5EE84VqXX7MSGhU73": {
+      "f": 1
+    },
+    "Q0OAmMnpGKVHcCvTFP8A0gwpaSz1": {
+      "f": 1
+    },
+    "QWMyGryxrJgUPoXkcutKDbDStLY2": {
+      "f": 1
+    },
+    "RMjzjtyKC6ZdWsLikHVWtynqMXj1": {
+      "f": 1
+    },
+    "RZ9Wh7YN4FVviqzsofU6qgQTumC2": {
+      "f": 1
+    },
+    "RdjenRzK0cY8I9PaDKSc3sYiIhf1": {
+      "f": 1
+    },
+    "RinjrR7pLNNc6rEtU6rYOBurB8w1": {
+      "f": 1
+    },
+    "ShXq2iCgJRhI1GOuH9EvrvfDNTB3": {
+      "f": 1
+    },
+    "Sy60Kq53VIb3ypxwhM4N6UO2NHd2": {
+      "f": 1
+    },
+    "TZZ8XaApiOeD3nyvCWCzyU3Vjzp2": {
+      "f": 1
+    },
+    "U2ndesJ7kkWywDhDTWl6QpEmPao1": {
+      "f": 1
+    },
+    "UUoIeBVCQ3MJuuynhPKXQNUH5TT2": {
+      "f": 1
+    },
+    "VXlW8OjLqHfzAFIgGHSYSKQH2Vs2": {
+      "f": 1
+    },
+    "VkKadSftaRTY7JV2nHGEDcV8WZT2": {
+      "f": 1
+    },
+    "VmqJTkIBlOh1afJKCcIeEHgDfWR2": {
+      "f": 1
+    },
+    "WXLqEaLxWmPvUI3HRgh3vcIxLyc2": {
+      "f": 1
+    },
+    "WyecYOqjbSURzjB58WPp39dT4Cc2": {
+      "f": 1
+    },
+    "YLPSSJMen4ZWjDiBAckeuwLGvjt2": {
+      "f": 1
+    },
+    "YTU434HQLah7YVxh8uWRFjAU3ei1": {
+      "f": 1
+    },
+    "apInWWntMrQ2TGsagID8gPE3HLF3": {
+      "f": 1
+    },
+    "b7ye2m0Q3KW4IZsVdl4y3E3cM8k1": {
+      "f": 1
+    },
+    "cPz7kkZOuvTuIJFym7GYhKyr2b33": {
+      "f": 1
+    },
+    "cwEKenZBCETZUzlrAZGItPyOdDs2": {
+      "f": 1
+    },
+    "cydHUSHCZ1darADoFLMnBW5vsMF3": {
+      "f": 1
+    },
+    "dGityzeZdyUB3S7T9LoWVfJUaai2": {
+      "f": 1
+    },
+    "dJY4TFDCN1ReeRt3JDUCZCMoESK2": {
+      "f": 1
+    },
+    "dOUFyyXwA4W4aL12jsq5V1E7AjF2": {
+      "f": 1
+    },
+    "deuk3IjujFNbDQgTS0h2iAulJnE3": {
+      "f": 1
+    },
+    "e4D5IsoA7UR0WQyqxT9g69ubuk22": {
+      "f": 1
+    },
+    "eaZRJ9q8DXdJDtYKrEETUCKTNa33": {
+      "f": 1
+    },
+    "emVE702m3xai2OdqZ7SBzgW3i5X2": {
+      "f": 1
+    },
+    "ezN2HN0ibffShWKpZFdmMdzSzXa2": {
+      "f": 1
+    },
+    "f9phxT0uPcYbSeuL2NUy308ykz13": {
+      "f": 1
+    },
+    "gTiJN2yJtocvlxbTreAGsIV4xjF3": {
+      "f": 1
+    },
+    "h1AW3jbSUtMg9jXXEPmUoWQmEAt1": {
+      "f": 1
+    },
+    "hK4U6caatAgH6riE1xQYrwdwFJr2": {
+      "f": 1
+    },
+    "hSabDi31uoX2LFgfofxMnJv1tqe2": {
+      "f": 1
+    },
+    "iDaAtpUST0hnGi4cFVpNcCxalBG2": {
+      "f": 1
+    },
+    "iVVKqhNKKYViAgw4Qw7P7bZHplE2": {
+      "f": 1
+    },
+    "jTQAcUSh3YUJKfcS8LHD8U4z0If1": {
+      "f": 1
+    },
+    "jam6SoWIVFWpJeEsRytFd2AhAmL2": {
+      "f": 1
+    },
+    "k4mUHOMTJDfZOu5ImN8ST9WyYxv1": {
+      "f": 1
+    },
+    "kRm7orLmL5gxl47v3LbTavdGLUY2": {
+      "f": 1
+    },
+    "kwjSBQ48PRa2JZPrhGjAA1N6xmk2": {
+      "f": 1
+    },
+    "l1EYAPqDyfNbWyhoHZxJNv1foyB2": {
+      "f": 1
+    },
+    "l1tRftBddDftvm8LnJoVB8Ksl1O2": {
+      "f": 1
+    },
+    "l3oztLKbwVMTvDGfKLajMw4rRg32": {
+      "f": 1
+    },
+    "llE4IQbcuoTmtNQZb5uCRAy159Y2": {
+      "f": 1
+    },
+    "m3U8kpNzS5cKXQRLQ6sou6JYb5q1": {
+      "f": 1
+    },
+    "m8GvDbXuDEMXpEMSRxEsurt98VA3": {
+      "f": 1
+    },
+    "mE9PJVkET0WN4fCWWlPTrthMt912": {
+      "f": 1
+    },
+    "mO4SEDFCWvhmUFEd8JDmdv2a4Uy1": {
+      "f": 1
+    },
+    "mcr18QqfdFWDky02nWuJ4nNUOqy1": {
+      "f": 1
+    },
+    "mmvg8UamVjdr7YiS73JDXeCGyjB2": {
+      "f": 1
+    },
+    "nPEt0MLW5wfKOFyDSZ1Ipe7aPZC2": {
+      "f": 1
+    },
+    "nYQbv8o3jMT8LhnVr2wmQtG4nvC3": {
+      "f": 1
+    },
+    "neljr202eGTLqRfCyBPjAr1rQ6a2": {
+      "f": 1
+    },
+    "nk5BaSmJgiZReqfrTvwKfxeGtfr1": {
+      "f": 1
+    },
+    "ogIRNy8aKpd4aBqjUV4YoZafDk93": {
+      "f": 1
+    },
+    "qJktbVKOe1dwXTpY29fmRo09LRf2": {
+      "f": 1
+    },
+    "qh24eM6jdaanitjkIqY9fMZ66el2": {
+      "f": 1
+    },
+    "rDum27JJZld8zh432KNUrCmmPah1": {
+      "f": 1
+    },
+    "rOSETKr3NlangdBB2GM0Pg4vVv22": {
+      "f": 1
+    },
+    "rlWrjMFRwKhuqyjCfDQbVkiwCNA2": {
+      "f": 1
+    },
+    "s0fKvdeEt8cIHFbb3SEXI1JXURG2": {
+      "f": 1
+    },
+    "suz2oEIwm5aQtdhjwPWxaFSrPi83": {
+      "f": 1
+    },
+    "tXbS7cwbVCdcD45c3xtYYV3MZ8s1": {
+      "f": 1
+    },
+    "un5lrQYC98hIsFgPiGPw1wshIGV2": {
+      "f": 1
+    },
+    "x3qFkOum7PhsLniZkVKq7wLXC5t1": {
+      "f": 1
+    },
+    "xyWxGkZiYlVlN1YDyUrozlLFJOD3": {
+      "f": 1
+    },
+    "yHK2V2vF4vULGa8vduQ4Mc00aBn1": {
+      "f": 1
+    },
+    "yM2o7s18vFbm8RgqvlUGmngptqR2": {
+      "f": 1
+    },
+    "yOMN3JnHoxUEAjifLyc2TxHtsMq1": {
+      "f": 1
+    },
+    "z4H3vSj9qJS5yRuab1gIQIzDWJi2": {
+      "f": 1
+    },
+    "z98u5h22imMrWGOFau1h9RIL2a73": {
+      "f": 1
+    },
+    "zH6dYwKr8MaHe4vWrI82X9EfihB3": {
+      "f": 1
+    },
+    "zTKWbXwowFgoXLxkLl3I9gQOu9v1": {
+      "f": 1
+    },
+    "zVc99wi8xncQo4l00tviyXnWpEF3": {
+      "f": 1
+    }
+  },
+  "matchs": {
+    "1753876934630": {
+      "d_i": 1754134200000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753876885940",
+      "st": 3,
+      "team1": "-OWFvy-UxIzR-GQEMi2_",
+      "team2": "-OWFw4hreBOamrMVJsas",
+      "title": "Grupo B"
+    },
+    "1753876935390": {
+      "d_i": 1754139900000,
+      "dt": {
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753876885940",
+      "st": 3,
+      "team1": "-OWFw6hOD3AVjOi64V7W",
+      "team2": "-OWFw9XkFcZnCIvOSIVT",
+      "title": "Grupo C "
+    },
+    "1753876937182": {
+      "d_i": 1754158500000,
+      "dt": {
+        "qt_g1": 6
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753876885940",
+      "st": 3,
+      "team1": "-OWFvk_1jot0RsHw5ezS",
+      "team2": "-OWFvu2kSo_br76DRhYP",
+      "title": "Grupo A"
+    },
+    "1753876938150": {
+      "d_i": 1754223600000,
+      "dt": {
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753876885940",
+      "st": 3,
+      "team1": "-OWFwcOcqaV4w2MedNtx",
+      "team2": "-OWFwoVVYvbZVQeQcqv_",
+      "title": "1° SEMANA - Grupo E"
+    },
+    "1753876939086": {
+      "d_i": 1754236800000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753876885940",
+      "st": 3,
+      "team1": "-OWFwFoN0ImTkW8TF85-",
+      "team2": "-OWFwWAsfEIOpCRhzv8W",
+      "title": "Grupo D"
+    },
+    "1753877779198": {
+      "d_i": 1754142600000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753877764127",
+      "st": 3,
+      "team1": "-OWGw1VOK3FLaDHKFSez",
+      "team2": "-OWGw3jGm9nX_10rqgKm",
+      "title": "Grupo C"
+    },
+    "1753877780031": {
+      "d_i": 1754161200000,
+      "dt": {
+        "qt_g1": 8
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753877764127",
+      "st": 3,
+      "team1": "-OWGvq_QTESr1kH0MILO",
+      "team2": "-OWGvv7lIiLcQ-AvZF-t",
+      "title": "Grupo A"
+    },
+    "1753877781318": {
+      "d_i": 1754151300000,
+      "dt": {
+        "qt_g1": 4
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1753877764127",
+      "st": 3,
+      "team1": "-OWGwFid3MFW70eTgFRt",
+      "team2": "-OWGwHGmOK8L5pRtp0GY",
+      "title": "Grupo E"
+    },
+    "1753877782630": {
+      "d_i": 1754154000000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "m_set": "1753877764127",
+      "st": 3,
+      "team1": "-OWGwfJuSbSj3kxZe13b",
+      "team2": "-OWGwj1dcqZBHpfNBWnT",
+      "title": "Grupo H"
+    },
+    "1753877813646": {
+      "d_i": 1754220300000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753877764127",
+      "st": 3,
+      "team1": "-OWGwB6dLNAwKDZwkbYy",
+      "team2": "-OWGwHGmOK8L5pRtp0GY",
+      "title": "Grupo E"
+    },
+    "1753878727486": {
+      "d_i": 1754145300000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753878716511",
+      "st": 3,
+      "team1": "-OWHFaMO50LbjktK7f0n",
+      "team2": "-OWHFc8tye500nblSHh2",
+      "title": "Grupo C"
+    },
+    "1753878728199": {
+      "d_i": 1751477400000,
+      "dt": {
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753878716511",
+      "st": 3,
+      "team1": "-OWHKtg80d3xRts4bqsm",
+      "team2": "-OWHKwx-zzP220Tma83G",
+      "title": "GRUPO K "
+    },
+    "1753878729536": {
+      "d_i": 1754163900000,
+      "dt": {
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753878716511",
+      "st": 3,
+      "team1": "-OWHFSmsE9pgcBz7Gh98",
+      "team2": "-OWHFVKdwjmgHx28pun4",
+      "title": "Grupo A"
+    },
+    "1753878751744": {
+      "d_i": 1754156700000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1753878716511",
+      "st": 3,
+      "team1": "-OWHKYeFWfiBpyTBJ_ER",
+      "team2": "-OWHKcLFcEe-rUFSI56D",
+      "title": "Grupo H"
+    },
+    "1753878752599": {
+      "d_i": 1754226300000,
+      "dt": {
+        "qt_g1": 1
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1753878716511",
+      "st": 3,
+      "team1": "-OWHKJlkKvBVMQSFAc3q",
+      "team2": "-OWHKKhVjy-f5cn88c5W",
+      "title": "Grupo E "
+    },
+    "1753966490100": {
+      "d_i": 1754147700000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753966488181",
+      "st": 3,
+      "team1": "-OWHPM4EqaOye7672JcQ",
+      "team2": "-OWHPMxFuuo836sFGPIx",
+      "title": "Grupo C"
+    },
+    "1753966490684": {
+      "d_i": 1754145900000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1753966488181",
+      "st": 3,
+      "team1": "-OWHQ79bhjcipMsb-HkB",
+      "team2": "-OWHQ8H8lw2cHBOzRCyF",
+      "title": "Grupo J"
+    },
+    "1753966491964": {
+      "d_i": 1754148600000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1753966488181",
+      "st": 3,
+      "team1": "-OWHPe2XpjPvpACe1Swm",
+      "team2": "-OWHPfuj9lpwm_mXGgmq",
+      "title": "Grupo F "
+    },
+    "1753966492676": {
+      "d_i": 1754159400000,
+      "dt": {
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1753966488181",
+      "st": 3,
+      "team1": "-OWHPujn_jO8Ognf7P61",
+      "team2": "-OWHPvqj3ZzACVaRRJO5",
+      "title": "Grupo H"
+    },
+    "1753966493391": {
+      "d_i": 1754229000000,
+      "dt": {
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753966488181",
+      "st": 3,
+      "team1": "-OWHPUbcNiwu9AtZhCec",
+      "team2": "-OWHPY_MsuWHuFWyS8zH",
+      "title": "Grupo E"
+    },
+    "1753966978915": {
+      "d_i": 1754239500000,
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753966488181",
+      "st": 3,
+      "team1": "-OWHPPPM5vCsC6oi5T1h",
+      "team2": "-OWHPShEGJ7AXFNhFnxG",
+      "title": "Grupo D"
+    },
+    "1753967126859": {
+      "d_i": 1754150400000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753967124123",
+      "st": 3,
+      "team1": "-OWL5XDw0fiSTinF7z6T",
+      "team2": "-OWL5XuvfSs98o-BmJlW",
+      "title": "Grupo C"
+    },
+    "1753967127459": {
+      "d_i": 1754162100000,
+      "dt": {
+        "qt_g1": 1
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1753967124123",
+      "st": 3,
+      "team1": "-OWL5viod5_5RYkmGV5F",
+      "team2": "-OWL5xpRNvXLPrm84XD4",
+      "title": "Grupo H"
+    },
+    "1753967130044": {
+      "d_i": 1754231700000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753967124123",
+      "st": 3,
+      "team1": "-OWL5nJoAhx7XOOD7Zfs",
+      "team2": "-OWL5nsZzkeg6mQQCWbn",
+      "title": "Grupo E"
+    },
+    "1753967130877": {
+      "d_i": 1754242200000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753967124123",
+      "st": 3,
+      "team1": "-OWL5ea2Tt0M03GpI2Zk",
+      "team2": "-OWL5kofPmkN48GDoKI1",
+      "title": "Grupo D"
+    },
+    "1753968303600": {
+      "d_i": 1754137200000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753967124123",
+      "st": 3,
+      "team1": "-OWL5RZ3H-LFJQGF_5DU",
+      "team2": "-OWL5VzfqJ9RDx9TXEpG",
+      "title": "Grupo A"
+    },
+    "1753968375024": {
+      "d_i": 1754153100000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753968373376",
+      "st": 3,
+      "team1": "-OWL8kDZA3hBiWGtGHJZ",
+      "team2": "-OWL8ndRCZUd9UqofGBG",
+      "title": "Grupo C"
+    },
+    "1753968375648": {
+      "d_i": 1754166600000,
+      "dt": {
+        "qt_g1": 3
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753968373376",
+      "st": 3,
+      "team1": "-OWL8_dBK_w7YOJbvw14",
+      "team2": "-OWL8aeQB5228A-1PZi8",
+      "title": "Grupo A"
+    },
+    "1753968377304": {
+      "d_i": 1754143200000,
+      "dt": {
+        "qt_g1": 12,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1753968373376",
+      "st": 3,
+      "team1": "-OWL8qRf1hHI789SJNHM",
+      "team2": "-OWL8rzvDxPTI80i3q-H",
+      "title": "Grupo D"
+    },
+    "1753968397207": {
+      "d_i": 1754251200000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "m_set": "1753968373376",
+      "st": 3,
+      "team1": "-OWL8bW2aFCcpu9bZQYE",
+      "team2": "-OWL8fXnvbpiLjduOGzJ",
+      "title": "Grupo B"
+    },
+    "1753968398880": {
+      "d_i": 1754234100000,
+      "dt": {
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1753968373376",
+      "st": 3,
+      "team1": "-OWL8hTZ1c3DeOKRSpC8",
+      "team2": "-OWL8i03X6UbBJYomzOo",
+      "title": "Grupo C"
+    },
+    "1755626344091": {
+      "dt": {
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "m_set": "1755626185083",
+      "st": 3,
+      "team1": "-OWFxBCU7cOclw3hJSZi",
+      "team2": "-OWFxHcrc952VNy3vy9t"
+    },
+    "1755628776114": {
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "m_set": "1755628761498",
+      "st": 3,
+      "team1": "-OWGwMXdZIsKGyUIETlG",
+      "team2": "-OWGwO8m644hp0YzzXdd"
+    },
+    "1755630039701": {
+      "d_i": 1754752500000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 6
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755629909678",
+      "st": 3,
+      "team1": "-OWHKQpF9jSVHgN7ZR_X",
+      "team2": "-OWHKS-l-Ue0CrAOi-0b",
+      "title": ""
+    },
+    "1755630069989": {
+      "d_i": 1754757900000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "m_set": "1755629909678",
+      "st": 3,
+      "team1": "-OWHKjos2GVamquQ9ubV",
+      "team2": "-OWHKlw7s_TFJKZBxMs3",
+      "title": ""
+    },
+    "1755630879316": {
+      "d_i": 1754763300000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755629909678",
+      "st": 3,
+      "team1": "-OWHKnBunX_APWT9Va3m",
+      "team2": "-OWHKsJVuxLSGG3wLsEr",
+      "title": ""
+    },
+    "1755692968805": {
+      "d_i": 1754742000000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755692272541",
+      "st": 3,
+      "team1": "-OWHPBAUV_dRP5zKLp54",
+      "team2": "-OWHPC6MwmbpKL9CUawd",
+      "title": ""
+    },
+    "1755692969847": {
+      "d_i": 1754760600000,
+      "dt": {
+        "qt_g1": 2
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755692272541",
+      "st": 3,
+      "team1": "-OWHQ1U73D5ivaElUBQn",
+      "team2": "-OWHQ41XuSy1juh4phv_",
+      "title": ""
+    },
+    "1755695475156": {
+      "d_i": 1754744700000,
+      "dt": {
+        "qt_g1": 6
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755695447994",
+      "st": 3,
+      "team1": "-OWL5MkQmsB-4LKBOmCc",
+      "team2": "-OWL5OzvFy19o6GuRYz2",
+      "title": ""
+    },
+    "1755696115432": {
+      "d_i": 1754755200000,
+      "dt": {
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755695799989",
+      "st": 3,
+      "team1": "-OWL8rzvDxPTI80i3q-H",
+      "team2": "-OWL8tsffWMLVRRW5sNL",
+      "title": ""
+    },
+    "1755696116650": {
+      "d_i": 1754766000000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755695799989",
+      "st": 3,
+      "team1": "-OWL8hTZ1c3DeOKRSpC8",
+      "team2": "-OWL8kDZA3hBiWGtGHJZ",
+      "title": ""
+    },
+    "1755778332715": {
+      "d_i": 1755966000000,
+      "dt": {
+        "qt_g1": 4
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755626187507",
+      "st": 3,
+      "team1": "-OWFxMLV41tIG0A1Fp-v",
+      "team2": "-OWFx_LV0Xuu8O9rIYQN",
+      "title": ""
+    },
+    "1755778333331": {
+      "d_i": 1755975600000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755626187507",
+      "st": 3,
+      "team1": "-OWFwcOcqaV4w2MedNtx",
+      "team2": "-OWFwlHUDBLV4rzXbC7F",
+      "title": ""
+    },
+    "1755780170592": {
+      "d_i": 1756041600000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1755626187507",
+      "st": 3,
+      "team1": "-OWFwFoN0ImTkW8TF85-",
+      "team2": "-OWFwLBtFtjEORPlg2e2",
+      "title": ""
+    },
+    "1755780171634": {
+      "d_i": 1756059600000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1755626187507",
+      "st": 3,
+      "team1": "-OWFw1YkA6Bqp8XklBDl",
+      "team2": "-OWFw4hreBOamrMVJsas",
+      "title": "3° SEMANA - GRUPO B"
+    },
+    "1755780486206": {
+      "d_i": 1755959400000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755780443726",
+      "st": 3,
+      "team1": "-OWGwPQA-7PRhu3-XxDR",
+      "team2": "-OWGwcHP0twQjJ590AfJ",
+      "title": ""
+    },
+    "1755780486816": {
+      "d_i": 1755973200000,
+      "dt": {
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755780443726",
+      "st": 3,
+      "team1": "-OWGwyxt7BOG2Su28CjR",
+      "team2": "-OWGx050r9wiHEjWUQe0",
+      "title": ""
+    },
+    "1755780488271": {
+      "d_i": 1755978000000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755780443726",
+      "st": 3,
+      "team1": "-OWGwB6dLNAwKDZwkbYy",
+      "team2": "-OWGwFid3MFW70eTgFRt",
+      "title": ""
+    },
+    "1755780489064": {
+      "d_i": 1756034700000,
+      "dt": {
+        "qt_g1": 1
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755780443726",
+      "st": 3,
+      "team1": "-OWGwK48WXV28WBdBKvR",
+      "team2": "-OWGwMXdZIsKGyUIETlG",
+      "title": ""
+    },
+    "1755780490535": {
+      "d_i": 1756044000000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1755780443726",
+      "st": 3,
+      "team1": "-OWGw5oXBgLvjpDS2Vyc",
+      "team2": "-OWGw8HOH7q-eulVmcK0",
+      "title": ""
+    },
+    "1755780491383": {
+      "d_i": 1756046400000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1755780443726",
+      "st": 3,
+      "team1": "-OWGwyOHqJxg2TCyI64T",
+      "team2": "-OWGx-DWYFBI8DwHgb9x",
+      "title": ""
+    },
+    "1755780492183": {
+      "d_i": 1756054800000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1755780443726",
+      "st": 3,
+      "team1": "-OWGvzmWfTwJs4_1R_Nj",
+      "team2": "-OWGw0UWMiwzbPRclc0u",
+      "title": ""
+    },
+    "1755781070959": {
+      "d_i": 1755963600000,
+      "dt": {
+        "qt_g1": 7,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755781050518",
+      "st": 3,
+      "team1": "-OWHKT78w7JJD0cbf2ty",
+      "team2": "-OWHKXokTB8UEUY0IezO",
+      "title": ""
+    },
+    "1755781072621": {
+      "d_i": 1755980400000,
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755781050518",
+      "st": 3,
+      "team1": "-OWHKJlkKvBVMQSFAc3q",
+      "team2": "-OWHKN0Vvytv44h1CdS-",
+      "title": ""
+    },
+    "1755781079465": {
+      "d_i": 1756039500000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755781050518",
+      "st": 3,
+      "team1": "-OWHKPHV_A7BH9C27vMl",
+      "team2": "-OWHKQpF9jSVHgN7ZR_X",
+      "title": ""
+    },
+    "1755781080350": {
+      "d_i": 1756057500000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755781050518",
+      "st": 3,
+      "team1": "-OWHKjos2GVamquQ9ubV",
+      "team2": "-OWHKkfcxD0nuWPXLOyk",
+      "title": ""
+    },
+    "1755781084638": {
+      "d_i": 1756039200000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1755781050518",
+      "st": 3,
+      "team1": "-OWHKDpkG2x5Au6zFxWy",
+      "team2": "-OWHKG-7YuMgv9ZfmbAm",
+      "title": ""
+    },
+    "1755781090509": {
+      "d_i": 1756052400000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1755781050518",
+      "st": 3,
+      "team1": "-OWHFYEVMzak4YxF62TK",
+      "team2": "-OWHF_bdlM2YYRJ_1FN5",
+      "title": ""
+    },
+    "1755781904115": {
+      "d_i": 1755968400000,
+      "dt": {
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755781887529",
+      "st": 3,
+      "team1": "-OWHPhcz5yvT5A2IKswJ",
+      "team2": "-OWHPrBk1W_IdDXCicfh",
+      "title": ""
+    },
+    "1755781910713": {
+      "d_i": 1756037100000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755781887529",
+      "st": 3,
+      "team1": "-OWHPcIr57pFrTHueDv4",
+      "team2": "-OWHPe2XpjPvpACe1Swm",
+      "title": ""
+    },
+    "1755781915948": {
+      "d_i": 1756050300000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 6
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755781887529",
+      "st": 3,
+      "team1": "-OWHPY_MsuWHuFWyS8zH",
+      "team2": "-OWHP_mcA8PvoQzk4lmt",
+      "title": ""
+    },
+    "1755781916754": {
+      "d_i": 1756055100000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755781887529",
+      "st": 3,
+      "team1": "-OWHQ1U73D5ivaElUBQn",
+      "team2": "-OWHQ2hjeKvVoY7xHqUD",
+      "title": ""
+    },
+    "1755781920754": {
+      "d_i": 1756036800000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1755781887529",
+      "st": 3,
+      "team1": "-OWHPPPM5vCsC6oi5T1h",
+      "team2": "-OWHPRMOa1jVhRgZHMla",
+      "title": ""
+    },
+    "1755781925641": {
+      "d_i": 1756057200000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1755781887529",
+      "st": 3,
+      "team1": "-OWHPFIG1IEEj3iAtoYS",
+      "team2": "-OWHPH4M2Q6-5Ux0WYlN",
+      "title": ""
+    },
+    "1755782364721": {
+      "d_i": 1755970800000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755782345152",
+      "st": 3,
+      "team1": "-OWL5sZ3fFAhKgDDRppj",
+      "team2": "-OWL5t_BNyen1E8KyYfr",
+      "title": ""
+    },
+    "1755782375592": {
+      "d_i": 1756041900000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755782345152",
+      "st": 3,
+      "team1": "-OWL5r3nHlSUMD6_TUtC",
+      "team2": "-OWLEbpQvkU8Ib3K17vO",
+      "title": ""
+    },
+    "1755782379409": {
+      "d_i": 1756046700000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755782345152",
+      "st": 3,
+      "team1": "-OWL5nsZzkeg6mQQCWbn",
+      "team2": "-OWL5pfgal2MUJzq6V7J",
+      "title": ""
+    },
+    "1755782390217": {
+      "d_i": 1756050000000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1755782345152",
+      "st": 3,
+      "team1": "-OWL5ea2Tt0M03GpI2Zk",
+      "team2": "-OWL5ifQENBmFD0mKRNX",
+      "title": ""
+    },
+    "1755782394402": {
+      "d_i": 1756062000000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1755782345152",
+      "st": 3,
+      "team1": "-OWL5VHQzK8_gCYCrgUj",
+      "team2": "-OWL5VzfqJ9RDx9TXEpG",
+      "title": ""
+    },
+    "1755783281366": {
+      "d_i": 1756044300000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755783257852",
+      "st": 3,
+      "team1": "-OWL8i03X6UbBJYomzOo",
+      "team2": "-OWL8kDZA3hBiWGtGHJZ",
+      "title": ""
+    },
+    "1755783284516": {
+      "d_i": 1756052700000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755783257852",
+      "st": 3,
+      "team1": "-OWL8qRf1hHI789SJNHM",
+      "team2": "-OWL8tsffWMLVRRW5sNL",
+      "title": ""
+    },
+    "1755783289653": {
+      "d_i": 1756034400000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1755783257852",
+      "st": 3,
+      "team1": "-OWL8YcQ_rumO8KwPlq5",
+      "team2": "-OWL8_dBK_w7YOJbvw14",
+      "title": ""
+    },
+    "1755783297455": {
+      "d_i": 1756064400000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1755783257852",
+      "st": 3,
+      "team1": "-OWL8eVpM5fSS_taparM",
+      "team2": "-OWL8fXnvbpiLjduOGzJ",
+      "title": ""
+    },
+    "1755868045646": {
+      "d_i": 1756161000000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864597",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755867958439",
+      "st": 3,
+      "team1": "-OWLAOqnv7ZsKIS3-9en",
+      "team2": "-OWLAW6n3QxRUKLVkW0a",
+      "title": "GRUPO ÚNICO"
+    },
+    "1755868101271": {
+      "d_i": 1755983700000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755868089312",
+      "st": 3,
+      "team1": "-OWLBn6ncWXenvmwxYi1",
+      "team2": "-OWLBrAQC4-KqZiuyh8A",
+      "title": ""
+    },
+    "1755868154621": {
+      "d_i": 1756164600000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755868138557",
+      "st": 3,
+      "team1": "-OWLG8O4VBw-_w6h6AZr",
+      "team2": "-OWLG9fBrZKcnsbOHrFY",
+      "title": ""
+    },
+    "1755868155168": {
+      "d_i": 1756168200000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1755868138557",
+      "st": 3,
+      "team1": "-OWLGfd2_OX8K603cjpU",
+      "team2": "-OWLGkY23pPRNMH4ykXw",
+      "title": ""
+    },
+    "1755868156559": {
+      "d_i": 1756249200000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1755868138557",
+      "st": 3,
+      "team1": "-OWLGerIZIPPg3HJmapV",
+      "team2": "-OWLGj-AUIKXUQRsI_8i",
+      "title": ""
+    },
+    "1755868157341": {
+      "d_i": 1756252800000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1755868138557",
+      "st": 3,
+      "team1": "-OWLG7c3hgnovTCRX32o",
+      "team2": "-OWLGCxBKeKpFvXOWtce",
+      "title": ""
+    },
+    "1756636773585": {
+      "d_i": 1756639200000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756636758204",
+      "st": 3,
+      "team1": "-OWL5x8RY8DG8-9LEt_N",
+      "team2": "-OWL5xpRNvXLPrm84XD4",
+      "title": ""
+    },
+    "1756636825387": {
+      "d_i": 1756641600000,
+      "dt": {
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756636815641",
+      "st": 3,
+      "team1": "-OWL8bW2aFCcpu9bZQYE",
+      "team2": "-OWL8dRvkxxlyWs-2onX",
+      "title": ""
+    },
+    "1756637628391": {
+      "d_i": 1756644000000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 8
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756637604103",
+      "st": 3,
+      "team1": "-OWHPE8r8pUMmGbvgHLL",
+      "team2": "-OWHPH4M2Q6-5Ux0WYlN",
+      "title": ""
+    },
+    "1756637999787": {
+      "d_i": 1756646400000,
+      "dt": {
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756637991692",
+      "st": 3,
+      "team1": "-OWHFX38qnAHft4OLcDZ",
+      "team2": "-OWHF_bdlM2YYRJ_1FN5",
+      "title": ""
+    },
+    "1756638004666": {
+      "d_i": 1756659600000,
+      "dt": {
+        "qt_g2": 6
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756637991692",
+      "st": 3,
+      "team1": "-OWHFU1OqSwMSsFyvQeU",
+      "team2": "-OWHFVKdwjmgHx28pun4",
+      "title": ""
+    },
+    "1756638005093": {
+      "d_i": 1756664400000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756637991692",
+      "st": 3,
+      "team1": "-OWHKDpkG2x5Au6zFxWy",
+      "team2": "-OWHLJJ7eZeaggbEMcbE",
+      "title": ""
+    },
+    "1756638112832": {
+      "d_i": 1756651200000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756638100941",
+      "st": 3,
+      "team1": "-OWGvwb1COh5_K-Hjixb",
+      "team2": "-OWGw0UWMiwzbPRclc0u",
+      "title": ""
+    },
+    "1756638119355": {
+      "d_i": 1756654800000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756638100941",
+      "st": 3,
+      "team1": "-OWGvscelWuD4KLUZ-3G",
+      "team2": "-OWGvv7lIiLcQ-AvZF-t",
+      "title": ""
+    },
+    "1756638122282": {
+      "d_i": 1756662000000,
+      "dt": {
+        "qt_g1": 2
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756638100941",
+      "st": 3,
+      "team1": "-OWGw5oXBgLvjpDS2Vyc",
+      "team2": "-OWGw9g9m1oAnd18662T",
+      "title": ""
+    },
+    "1756638122824": {
+      "d_i": 1756666800000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756638100941",
+      "st": 3,
+      "team1": "-OWGwyOHqJxg2TCyI64T",
+      "team2": "-OWGwyxt7BOG2Su28CjR",
+      "title": ""
+    },
+    "1756638301808": {
+      "d_i": 1756648800000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 9
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756638289179",
+      "st": 3,
+      "team1": "-OWFvy-UxIzR-GQEMi2_",
+      "team2": "-OWFw1YkA6Bqp8XklBDl",
+      "title": "4° SEMANA - GRUPO B"
+    },
+    "1756638302564": {
+      "d_i": 1756657200000,
+      "dt": {
+        "qt_g1": 2
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756638289179",
+      "st": 3,
+      "team1": "-OWFvnHs0fXgrk4R8oFM",
+      "team2": "-OWFvu2kSo_br76DRhYP",
+      "title": ""
+    },
+    "1756910212157": {
+      "d_i": 1756506600000,
+      "dt": {
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864597",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756910200199",
+      "st": 3,
+      "team1": "-OWLA9LIOoea22hbavvw",
+      "team2": "-OWLACpAfHV6ExdIVzlS",
+      "title": "GRUPO ÚNICO"
+    },
+    "1756910255111": {
+      "d_i": 1756852200000,
+      "dt": {
+        "qt_g1": 7,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864597",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756910243326",
+      "st": 3,
+      "team1": "-OWLA86YSdbjsg43C92h",
+      "team2": "-OWLASRQhWP4uXAcSWzs",
+      "title": "GRUPO ÚNICO"
+    },
+    "1756910379293": {
+      "d_i": 1756510200000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756910366261",
+      "st": 3,
+      "team1": "-OWLBmSnFiUZZAjzM_lM",
+      "team2": "-OWLBpqIa9-EbDnhhU-d",
+      "title": ""
+    },
+    "1756910421708": {
+      "d_i": 1756855800000,
+      "dt": {
+        "qt_g1": 2
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756910367341",
+      "st": 3,
+      "team1": "-OWLBtBBmSAoGqfQMC1f",
+      "team2": "-OWLBvTIXnbDi6eff9T3",
+      "title": ""
+    },
+    "1756910503877": {
+      "d_i": 1756513800000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1756910487429",
+      "st": 3,
+      "team1": "-OWLGH0JNmIHWXobezTj",
+      "team2": "-OWLGSgvHhcVWgkL-0SM",
+      "title": ""
+    },
+    "1756910546700": {
+      "d_i": 1756859400000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756910488324",
+      "st": 3,
+      "team1": "-OWLGXKBy0yNEUbxRMKT",
+      "team2": "-OWLGYwRDqS9zijO4MZ2",
+      "title": ""
+    },
+    "1757849924487": {
+      "d_i": 1757790000000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1757849895428",
+      "st": 3,
+      "team1": "-OWFwLBtFtjEORPlg2e2",
+      "team2": "-OWFwWAsfEIOpCRhzv8W",
+      "title": ""
+    },
+    "1757849925632": {
+      "d_i": 1757797200000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1757849895428",
+      "st": 3,
+      "team1": "-OWFws-7lf1WIhTURHQz",
+      "team2": "-OWFxHcrc952VNy3vy9t",
+      "title": ""
+    },
+    "1757849926591": {
+      "d_i": 1757853600000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1757849895428",
+      "st": 3,
+      "team1": "-OWFw6hOD3AVjOi64V7W",
+      "team2": "-OWFwCxsrDJqObR42Ck2",
+      "title": ""
+    },
+    "1757849927393": {
+      "d_i": 1757869200000,
+      "dt": {
+        "qt_g1": 8,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1757849895428",
+      "st": 3,
+      "team1": "-OWFvk_1jot0RsHw5ezS",
+      "team2": "-OWFvnHs0fXgrk4R8oFM",
+      "title": ""
+    },
+    "1757849928349": {
+      "d_i": 1757881200000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1757849895428",
+      "st": 3,
+      "team1": "-OWFxVRU9EfdVRN53DXh",
+      "team2": "-OWFx_LV0Xuu8O9rIYQN",
+      "title": ""
+    },
+    "1757849929186": {
+      "d_i": 1757869500000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1757849895428",
+      "st": 3,
+      "team1": "-OWFwlHUDBLV4rzXbC7F",
+      "team2": "-OWFwoVVYvbZVQeQcqv_",
+      "title": "5° SEMANA - GRUPO E"
+    },
+    "1757851678123": {
+      "d_i": 1757779200000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1757851530876",
+      "st": 3,
+      "team1": "-OWGwyOHqJxg2TCyI64T",
+      "team2": "-OWGx050r9wiHEjWUQe0",
+      "title": ""
+    },
+    "1757851678772": {
+      "d_i": 1757782800000,
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1757851530876",
+      "st": 3,
+      "team1": "-OWGw8HOH7q-eulVmcK0",
+      "team2": "-OWGw9g9m1oAnd18662T",
+      "title": ""
+    },
+    "1757851685498": {
+      "d_i": 1757860800000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1757851530876",
+      "st": 3,
+      "team1": "-OWGw1VOK3FLaDHKFSez",
+      "team2": "-OWGw4Y8Xu1U5qZkc4WQ",
+      "title": ""
+    },
+    "1757851690689": {
+      "d_i": 1757871600000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1757851530876",
+      "st": 3,
+      "team1": "-OWGvq_QTESr1kH0MILO",
+      "team2": "-OWGvscelWuD4KLUZ-3G",
+      "title": ""
+    },
+    "1757851696544": {
+      "d_i": 1757876400000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1757851530876",
+      "st": 3,
+      "team1": "-OWGwqpeC24UGjgyg-QU",
+      "team2": "-OWGwwOPqf-ASsBfVCuz",
+      "title": ""
+    },
+    "1757851697319": {
+      "d_i": 1757878800000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 6
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1757851530876",
+      "st": 3,
+      "team1": "-OWGwcHP0twQjJ590AfJ",
+      "team2": "-OWGwdG0jrwdXLUBYYFl",
+      "title": ""
+    },
+    "1757853293070": {
+      "d_i": 1757787600000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1756637614401",
+      "st": 3,
+      "team1": "-OWHPRMOa1jVhRgZHMla",
+      "team2": "-OWHPShEGJ7AXFNhFnxG",
+      "title": ""
+    },
+    "1757853301826": {
+      "d_i": 1757802000000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1756637614401",
+      "st": 3,
+      "team1": "-OWHPcIr57pFrTHueDv4",
+      "team2": "-OWHPfuj9lpwm_mXGgmq",
+      "title": ""
+    },
+    "1757853304495": {
+      "d_i": 1757851200000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756637614401",
+      "st": 3,
+      "team1": "-OWHPM4EqaOye7672JcQ",
+      "team2": "-OWHPO0NN2XyNHw8O66K",
+      "title": ""
+    },
+    "1757853309401": {
+      "d_i": 1757866800000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756637614401",
+      "st": 3,
+      "team1": "-OWHP9qbA9C8W9IidWAZ",
+      "team2": "-OWHPBAUV_dRP5zKLp54",
+      "title": ""
+    },
+    "1757853324988": {
+      "d_i": 1757858700000,
+      "dt": {
+        "qt_g1": 7,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1756637614401",
+      "st": 3,
+      "team1": "-OWHPujn_jO8Ognf7P61",
+      "team2": "-OWHPxMUrMOZxpx6_Tus",
+      "title": ""
+    },
+    "1757854120458": {
+      "d_i": 1757785200000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1757854098726",
+      "st": 3,
+      "team1": "-OWHKG-7YuMgv9ZfmbAm",
+      "team2": "-OWHLJJ7eZeaggbEMcbE",
+      "title": ""
+    },
+    "1757854126540": {
+      "d_i": 1757792400000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1757854098726",
+      "st": 3,
+      "team1": "-OWHKudk-NGPm4Au88PV",
+      "team2": "-OWHKwx-zzP220Tma83G",
+      "title": ""
+    },
+    "1757854133694": {
+      "d_i": 1757858400000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1757854098726",
+      "st": 3,
+      "team1": "-OWHFaMO50LbjktK7f0n",
+      "team2": "-OWHKCQFLebrZLWl1oH1",
+      "title": ""
+    },
+    "1757854139865": {
+      "d_i": 1757874000000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1757854098726",
+      "st": 3,
+      "team1": "-OWHFSmsE9pgcBz7Gh98",
+      "team2": "-OWHFU1OqSwMSsFyvQeU",
+      "title": ""
+    },
+    "1757854142811": {
+      "d_i": 1757861100000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1757854098726",
+      "st": 3,
+      "team1": "-OWHKqgjZN2bjGlWdTnr",
+      "team2": "-OWHKsJVuxLSGG3wLsEr",
+      "title": ""
+    },
+    "1757854171846": {
+      "d_i": 1757867100000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1757854098726",
+      "st": 3,
+      "team1": "-OWHKZiVz8v29mbUVtqC",
+      "team2": "-OWHKcLFcEe-rUFSI56D",
+      "title": ""
+    },
+    "1757854547897": {
+      "d_i": 1757799600000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1756636767645",
+      "st": 3,
+      "team1": "-OWLEaM32sxzHxJhW6BG",
+      "team2": "-OWL5r3nHlSUMD6_TUtC",
+      "title": ""
+    },
+    "1757854549379": {
+      "d_i": 1757848800000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756636767645",
+      "st": 3,
+      "team1": "-OWL5XDw0fiSTinF7z6T",
+      "team2": "-OWL5am2Lxi4G6NZDnbT",
+      "title": ""
+    },
+    "1757854553130": {
+      "d_i": 1757864400000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1756636767645",
+      "st": 3,
+      "team1": "-OWL5O7of-s3ayyUYQBk",
+      "team2": "-OWL5MkQmsB-4LKBOmCc",
+      "title": ""
+    },
+    "1757854558577": {
+      "d_i": 1757856300000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1756636767645",
+      "st": 3,
+      "team1": "-OWL5viod5_5RYkmGV5F",
+      "team2": "-OWL5x8RY8DG8-9LEt_N",
+      "title": ""
+    },
+    "1757854780591": {
+      "d_i": 1757794800000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1757854765418",
+      "st": 3,
+      "team1": "-OWL8ZgfwM8lwhk4zoT-",
+      "team2": "-OWL8_dBK_w7YOJbvw14",
+      "title": ""
+    },
+    "1757854785059": {
+      "d_i": 1757856000000,
+      "dt": {
+        "qt_g1": 8,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1757854765418",
+      "st": 3,
+      "team1": "-OWL8i03X6UbBJYomzOo",
+      "team2": "-OWL8ndRCZUd9UqofGBG",
+      "title": ""
+    },
+    "1757854798726": {
+      "d_i": 1757852400000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1757854765418",
+      "st": 3,
+      "team1": "-OWL8opnS4NKaXlCFmBy",
+      "team2": "-OWL8qRf1hHI789SJNHM",
+      "title": ""
+    },
+    "1757854802349": {
+      "d_i": 1757864700000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1757854765418",
+      "st": 3,
+      "team1": "-OWL8bW2aFCcpu9bZQYE",
+      "team2": "-OWL8eVpM5fSS_taparM",
+      "title": ""
+    },
+    "1757854806679": {
+      "d_i": 1757872800000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1757854765418",
+      "st": 3,
+      "team1": "-OWL8YcQ_rumO8KwPlq5",
+      "team2": "-OWL8aeQB5228A-1PZi8",
+      "title": ""
+    },
+    "1758367735019": {
+      "d_i": 1758367200000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758367732629",
+      "st": 3,
+      "team1": "-OWHPMxFuuo836sFGPIx",
+      "team2": "-OWHPO0NN2XyNHw8O66K",
+      "title": ""
+    },
+    "1758367735664": {
+      "d_i": 1758382800000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758367732629",
+      "st": 3,
+      "team1": "-OWHPE8r8pUMmGbvgHLL",
+      "team2": "-OWHPFIG1IEEj3iAtoYS",
+      "title": ""
+    },
+    "1758370939731": {
+      "d_i": 1758369600000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758370936709",
+      "st": 3,
+      "team1": "-OWFw9XkFcZnCIvOSIVT",
+      "team2": "-OWFwCxsrDJqObR42Ck2",
+      "title": ""
+    },
+    "1758375674906": {
+      "d_i": 1758372000000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758375633133",
+      "st": 3,
+      "team1": "-OWGw3jGm9nX_10rqgKm",
+      "team2": "-OWGw4Y8Xu1U5qZkc4WQ",
+      "title": ""
+    },
+    "1758375675849": {
+      "d_i": 1758376800000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758375633133",
+      "st": 3,
+      "team1": "-OWGvwb1COh5_K-Hjixb",
+      "team2": "-OWGvzmWfTwJs4_1R_Nj",
+      "title": ""
+    },
+    "1758375964612": {
+      "d_i": 1758374400000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758375955329",
+      "st": 3,
+      "team1": "-OWHFc8tye500nblSHh2",
+      "team2": "-OWHKCQFLebrZLWl1oH1",
+      "title": ""
+    },
+    "1758375974190": {
+      "d_i": 1758379200000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 7
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758375955329",
+      "st": 3,
+      "team1": "-OWHFX38qnAHft4OLcDZ",
+      "team2": "-OWHFYEVMzak4YxF62TK",
+      "title": ""
+    },
+    "1758375975265": {
+      "d_i": 1758390000000,
+      "dt": {
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758375955329",
+      "st": 3,
+      "team1": "-OWHKtg80d3xRts4bqsm",
+      "team2": "-OWHKudk-NGPm4Au88PV",
+      "title": ""
+    },
+    "1758376813031": {
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "m_set": "1758376803685",
+      "st": 3,
+      "team1": "-OWLBvTIXnbDi6eff9T3",
+      "team2": "-OWLBxjSFhkGznHMdCQ6"
+    },
+    "1758376888020": {
+      "d_i": 1758402000000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758376877550",
+      "st": 3,
+      "team1": "-OWLByqIg-oStUGeCMDN",
+      "team2": "-OWLC-FvWh5GXOUYuRYT",
+      "title": ""
+    },
+    "1758376888602": {
+      "d_i": 1758405600000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758376877550",
+      "st": 3,
+      "team1": "-OWLBmSnFiUZZAjzM_lM",
+      "team2": "-OWLBoUBgnSFkSW8TKYT",
+      "title": ""
+    },
+    "1758376889053": {
+      "d_i": 1758409200000,
+      "dt": {
+        "qt_g2": 7
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758376877550",
+      "st": 3,
+      "team1": "-OWLBtBBmSAoGqfQMC1f",
+      "team2": "-OWLBxjSFhkGznHMdCQ6",
+      "title": ""
+    },
+    "1758386742151": {
+      "d_i": 1758385200000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758386730260",
+      "st": 3,
+      "team1": "-OWL8dRvkxxlyWs-2onX",
+      "team2": "-OWL8eVpM5fSS_taparM",
+      "title": ""
+    },
+    "1758386742641": {
+      "d_i": 1758392400000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758386730260",
+      "st": 3,
+      "team1": "-OWL8YcQ_rumO8KwPlq5",
+      "team2": "-OWL8ZgfwM8lwhk4zoT-",
+      "title": ""
+    },
+    "1758389641944": {
+      "d_i": 1758387600000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758389632736",
+      "st": 3,
+      "team1": "-OWL5RZ3H-LFJQGF_5DU",
+      "team2": "-OWL5VHQzK8_gCYCrgUj",
+      "title": ""
+    },
+    "1758389642437": {
+      "d_i": 1758394800000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758389632736",
+      "st": 3,
+      "team1": "-OWLEaM32sxzHxJhW6BG",
+      "team2": "-OWLEbpQvkU8Ib3K17vO",
+      "title": ""
+    },
+    "1758389643123": {
+      "d_i": 1758397200000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758389632736",
+      "st": 3,
+      "team1": "-OWL5ifQENBmFD0mKRNX",
+      "team2": "-OWL5kofPmkN48GDoKI1",
+      "title": ""
+    },
+    "1758722033803": {
+      "d_i": 1758066000000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864597",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758722021246",
+      "st": 3,
+      "team1": "-OWLA86YSdbjsg43C92h",
+      "team2": "-OWLAOqnv7ZsKIS3-9en",
+      "title": "GRUPO ÚNICO"
+    },
+    "1758731389740": {
+      "dt": {
+        "qt_g1": 1
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "m_set": "1758731379427",
+      "st": 3,
+      "team1": "-OWLBmSnFiUZZAjzM_lM",
+      "team2": "-OWLBn6ncWXenvmwxYi1"
+    },
+    "1758832545757": {
+      "d_i": 1758069000000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758831078411",
+      "st": 3,
+      "team1": "-OWLG7c3hgnovTCRX32o",
+      "team2": "-OWLG8O4VBw-_w6h6AZr",
+      "title": ""
+    },
+    "1758832685348": {
+      "d_i": 1758670800000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758832676376",
+      "st": 3,
+      "team1": "-OWLGYwRDqS9zijO4MZ2",
+      "team2": "-OWLG_hnL2wJVRAoB1sA",
+      "title": ""
+    },
+    "1758917585295": {
+      "d_i": 1758929400000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 6
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864597",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758917574015",
+      "st": 3,
+      "team1": "-OWLAOqnv7ZsKIS3-9en",
+      "team2": "-OWLASRQhWP4uXAcSWzs",
+      "title": ""
+    },
+    "1758917644183": {
+      "d_i": 1758925800000,
+      "dt": {
+        "qt_g1": 5
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758917634786",
+      "st": 3,
+      "team1": "-OWLBxjSFhkGznHMdCQ6",
+      "team2": "-OWLC-FvWh5GXOUYuRYT",
+      "title": ""
+    },
+    "1758917819630": {
+      "d_i": 1758933000000,
+      "dt": {
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758917808390",
+      "st": 3,
+      "team1": "-OWLGerIZIPPg3HJmapV",
+      "team2": "-OWLGfd2_OX8K603cjpU",
+      "title": ""
+    },
+    "1758917907406": {
+      "d_i": 1758992400000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758917881389",
+      "st": 3,
+      "team1": "-OWFws-7lf1WIhTURHQz",
+      "team2": "-OWFxBCU7cOclw3hJSZi",
+      "title": ""
+    },
+    "1758917908054": {
+      "d_i": 1759065900000,
+      "dt": {
+        "qt_g1": 14
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645051",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758917881389",
+      "st": 3,
+      "team1": "-OWFxMLV41tIG0A1Fp-v",
+      "team2": "-OWFxVRU9EfdVRN53DXh",
+      "title": ""
+    },
+    "1758918062406": {
+      "d_i": 1758990000000,
+      "dt": {
+        "qt_g1": 3
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758917989790",
+      "st": 3,
+      "team1": "-OWGwqpeC24UGjgyg-QU",
+      "team2": "-OWGwuSO61lV8bT8sEsT",
+      "title": ""
+    },
+    "1758918063510": {
+      "d_i": 1758994800000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758917989790",
+      "st": 3,
+      "team1": "-OWGwK48WXV28WBdBKvR",
+      "team2": "-OWGwO8m644hp0YzzXdd",
+      "title": ""
+    },
+    "1758918064415": {
+      "d_i": 1759002000000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758917989790",
+      "st": 3,
+      "team1": "-OWGwfJuSbSj3kxZe13b",
+      "team2": "-OWGwotmpdkA-QE4olr5",
+      "title": ""
+    },
+    "1758918065231": {
+      "d_i": 1759070700000,
+      "dt": {
+        "qt_g1": 5
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758917989790",
+      "st": 3,
+      "team1": "-OWGx-DWYFBI8DwHgb9x",
+      "team2": "-OWGx050r9wiHEjWUQe0",
+      "title": ""
+    },
+    "1758918339756": {
+      "d_i": 1758997200000,
+      "dt": {
+        "qt_g2": 8
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758918317951",
+      "st": 3,
+      "team1": "-OWHKPHV_A7BH9C27vMl",
+      "team2": "-OWHKS-l-Ue0CrAOi-0b",
+      "title": ""
+    },
+    "1758918344324": {
+      "d_i": 1759004400000,
+      "dt": {
+        "qt_g1": 5
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758918317951",
+      "st": 3,
+      "team1": "-OWHKYeFWfiBpyTBJ_ER",
+      "team2": "-OWHKZiVz8v29mbUVtqC",
+      "title": ""
+    },
+    "1758918470508": {
+      "d_i": 1759063500000,
+      "dt": {
+        "qt_g1": 2
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758918317951",
+      "st": 3,
+      "team1": "-OWHKT78w7JJD0cbf2ty",
+      "team2": "-OWHKVp7CXysbF1VLiqE",
+      "title": ""
+    },
+    "1758918477908": {
+      "d_i": 1759074300000,
+      "dt": {
+        "qt_g1": 4
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758918317951",
+      "st": 3,
+      "team1": "-OWHKkfcxD0nuWPXLOyk",
+      "team2": "-OWHKlw7s_TFJKZBxMs3",
+      "title": ""
+    },
+    "1758918621294": {
+      "d_i": 1758983400000,
+      "dt": {
+        "qt_g1": 2
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758918593548",
+      "st": 3,
+      "team1": "-OWHPUbcNiwu9AtZhCec",
+      "team2": "-OWHP_mcA8PvoQzk4lmt",
+      "title": ""
+    },
+    "1758918685403": {
+      "d_i": 1759068300000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758918593548",
+      "st": 3,
+      "team1": "-OWHPhcz5yvT5A2IKswJ",
+      "team2": "-OWHPtBsIFaOdVPSh61d",
+      "title": ""
+    },
+    "1758918686181": {
+      "d_i": 1759076700000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758918593548",
+      "st": 3,
+      "team1": "-OWHQ2hjeKvVoY7xHqUD",
+      "team2": "-OWHQ41XuSy1juh4phv_",
+      "title": ""
+    },
+    "1758918686987": {
+      "d_i": 1759079100000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758918593548",
+      "st": 3,
+      "team1": "-OWHQ5JVEnugynOmTBSL",
+      "team2": "-OWHQ8H8lw2cHBOzRCyF",
+      "title": ""
+    },
+    "1758918688299": {
+      "d_i": 1759081500000,
+      "dt": {
+        "qt_g1": 6,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758918593548",
+      "st": 3,
+      "team1": "-OWHPvqj3ZzACVaRRJO5",
+      "team2": "-OWHPxMUrMOZxpx6_Tus",
+      "title": ""
+    },
+    "1758918689148": {
+      "d_i": 1759086600000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758918593548",
+      "st": 3,
+      "team1": "-OWHP9qbA9C8W9IidWAZ",
+      "team2": "-OWHPC6MwmbpKL9CUawd",
+      "title": ""
+    },
+    "1758918970507": {
+      "d_i": 1758987600000,
+      "dt": {
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758918895674",
+      "st": 3,
+      "team1": "-OWL5nJoAhx7XOOD7Zfs",
+      "team2": "-OWL5pfgal2MUJzq6V7J",
+      "title": ""
+    },
+    "1758919020154": {
+      "d_i": 1759061100000,
+      "dt": {
+        "qt_g1": 4
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758918895674",
+      "st": 3,
+      "team1": "-OWL5sZ3fFAhKgDDRppj",
+      "team2": "-OWL5uEn6FJVV6WZye7C",
+      "title": ""
+    },
+    "1758919021035": {
+      "d_i": 1759088700000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758918895674",
+      "st": 3,
+      "team1": "-OWL5O7of-s3ayyUYQBk",
+      "team2": "-OWL5OzvFy19o6GuRYz2",
+      "title": ""
+    },
+    "1758919427417": {
+      "d_i": 1758999600000,
+      "dt": {
+        "qt_g1": 3
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758919411354",
+      "st": 3,
+      "team1": "-OWL8dRvkxxlyWs-2onX",
+      "team2": "-OWL8fXnvbpiLjduOGzJ",
+      "title": ""
+    },
+    "1758919427946": {
+      "d_i": 1759006800000,
+      "dt": {
+        "qt_g1": 6
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1758919411354",
+      "st": 3,
+      "team1": "-OWL8opnS4NKaXlCFmBy",
+      "team2": "-OWL8rzvDxPTI80i3q-H",
+      "title": ""
+    },
+    "1758919496665": {
+      "d_i": 1759058700000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758919411354",
+      "st": 3,
+      "team1": "-OWL8hTZ1c3DeOKRSpC8",
+      "team2": "-OWL8ndRCZUd9UqofGBG",
+      "title": ""
+    },
+    "1758919504512": {
+      "d_i": 1759083900000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758919411354",
+      "st": 3,
+      "team1": "-OWL8opnS4NKaXlCFmBy",
+      "team2": "-OWL8tsffWMLVRRW5sNL",
+      "title": ""
+    },
+    "1759176254396": {
+      "d_i": 1759272000000,
+      "dt": {
+        "qt_g1": 6,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864597",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1759176238181",
+      "st": 3,
+      "team1": "-OWLASRQhWP4uXAcSWzs",
+      "team2": "-OWLAW6n3QxRUKLVkW0a",
+      "title": ""
+    },
+    "1759176295341": {
+      "d_i": 1759185000000,
+      "dt": {
+        "qt_g1": 7
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864597",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1759176223502",
+      "st": 3,
+      "team1": "-OWLA86YSdbjsg43C92h",
+      "team2": "-OWLA9LIOoea22hbavvw",
+      "title": ""
+    },
+    "1759177007370": {
+      "d_i": 1759188600000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1759177002258",
+      "st": 3,
+      "team1": "-OWLG8O4VBw-_w6h6AZr",
+      "team2": "-OWLGCxBKeKpFvXOWtce",
+      "title": ""
+    },
+    "1759177034666": {
+      "d_i": 1759192200000,
+      "dt": {
+        "qt_g1": 7,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1759177002258",
+      "st": 3,
+      "team1": "-OWLGXKBy0yNEUbxRMKT",
+      "team2": "-OWLG_hnL2wJVRAoB1sA",
+      "title": ""
+    },
+    "1759335049915": {
+      "d_i": 1759275000000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1759335046564",
+      "st": 3,
+      "team1": "-OWLBtBBmSAoGqfQMC1f",
+      "team2": "-OWLByqIg-oStUGeCMDN",
+      "title": ""
+    },
+    "1759662480225": {
+      "d_i": 1759663500000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758918060589",
+      "st": 3,
+      "team1": "-OWGwPQA-7PRhu3-XxDR",
+      "team2": "-OWGwdG0jrwdXLUBYYFl",
+      "title": ""
+    },
+    "1759662541855": {
+      "d_i": 1759665900000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758918060589",
+      "st": 3,
+      "team1": "-OWGwyxt7BOG2Su28CjR",
+      "team2": "-OWGx-DWYFBI8DwHgb9x",
+      "title": ""
+    },
+    "1759662542779": {
+      "d_i": 1759668300000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758918060589",
+      "st": 3,
+      "team1": "-OWGwuSO61lV8bT8sEsT",
+      "team2": "-OWGwwOPqf-ASsBfVCuz",
+      "title": ""
+    },
+    "1759662691395": {
+      "d_i": 1759670700000,
+      "dt": {
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695620",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1758918060589",
+      "st": 3,
+      "team1": "-OWGwj1dcqZBHpfNBWnT",
+      "team2": "-OWGwotmpdkA-QE4olr5",
+      "title": ""
+    },
+    "1759662986185": {
+      "d_i": 1759673100000,
+      "dt": {
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1759662933730",
+      "st": 3,
+      "team1": "-OWHKKhVjy-f5cn88c5W",
+      "team2": "-OWHKN0Vvytv44h1CdS-",
+      "title": ""
+    },
+    "1759663041505": {
+      "d_i": 1759681500000,
+      "dt": {
+        "qt_g1": 3
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1759662933730",
+      "st": 3,
+      "team1": "-OWHKVp7CXysbF1VLiqE",
+      "team2": "-OWHKXokTB8UEUY0IezO",
+      "title": ""
+    },
+    "1759663062323": {
+      "d_i": 1759679100000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1759663052742",
+      "st": 3,
+      "team1": "-OWL5t_BNyen1E8KyYfr",
+      "team2": "-OWL5uEn6FJVV6WZye7C",
+      "title": ""
+    },
+    "1759663086954": {
+      "d_i": 1759675500000,
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1759663074085",
+      "st": 3,
+      "team1": "-OWHPrBk1W_IdDXCicfh",
+      "team2": "-OWHPtBsIFaOdVPSh61d",
+      "title": ""
+    },
+    "1759663123797": {
+      "d_i": 1759683900000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746173",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1759663052742",
+      "st": 3,
+      "team1": "-OWL5XuvfSs98o-BmJlW",
+      "team2": "-OWL5am2Lxi4G6NZDnbT",
+      "title": ""
+    },
+    "1759663185704": {
+      "d_i": 1759686300000,
+      "dt": {
+        "qt_g1": 4
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847546",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1759663176636",
+      "st": 3,
+      "team1": "-OWL8ZgfwM8lwhk4zoT-",
+      "team2": "-OWL8aeQB5228A-1PZi8",
+      "title": ""
+    },
+    "1759663217349": {
+      "d_i": 1759688700000,
+      "dt": {
+        "qt_g1": 8,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1752708792876",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1759663074085",
+      "st": 3,
+      "team1": "-OWHQ5JVEnugynOmTBSL",
+      "team2": "-OWHQ79bhjcipMsb-HkB",
+      "title": ""
+    },
+    "1759663278929": {
+      "d_i": 1759691100000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738023",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1759662933730",
+      "st": 3,
+      "team1": "-OWHKnBunX_APWT9Va3m",
+      "team2": "-OWHKqgjZN2bjGlWdTnr",
+      "title": ""
+    },
+    "1759757542642": {
+      "d_i": 1759530600000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864597",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1759757529082",
+      "st": 3,
+      "team1": "-OWLA86YSdbjsg43C92h",
+      "team2": "-OWLACpAfHV6ExdIVzlS",
+      "title": ""
+    },
+    "1759757805448": {
+      "d_i": 1759534200000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1759757794952",
+      "st": 3,
+      "team1": "-OWLBoUBgnSFkSW8TKYT",
+      "team2": "-OWLBpqIa9-EbDnhhU-d",
+      "title": ""
+    },
+    "1759758152782": {
+      "d_i": 1759537800000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1759758142079",
+      "st": 3,
+      "team1": "-OWLGH0JNmIHWXobezTj",
+      "team2": "-OWLGR1BF-VRjxXaNGpI",
+      "title": ""
+    },
+    "1759926049273": {
+      "d_i": 1759880400000,
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1759926045474",
+      "st": 3,
+      "team1": "-OWLBn6ncWXenvmwxYi1",
+      "team2": "-OWLBpqIa9-EbDnhhU-d",
+      "title": ""
+    },
+    "1759931079264": {
+      "d_i": 1759876800000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864597",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1759931070680",
+      "st": 3,
+      "team1": "-OWLA9LIOoea22hbavvw",
+      "team2": "-OWLAW6n3QxRUKLVkW0a",
+      "title": ""
+    },
+    "1760378643837": {
+      "d_i": 1760394600000,
+      "dt": {
+        "qt_g1": 10,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864597",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1759931076271",
+      "st": 3,
+      "team1": "-OWLA86YSdbjsg43C92h",
+      "team2": "-OWLAW6n3QxRUKLVkW0a",
+      "title": ""
+    },
+    "1760378686207": {
+      "d_i": 1760398200000,
+      "dt": {
+        "qt_g1": 2
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760378682991",
+      "st": 3,
+      "team1": "-OWLBoUBgnSFkSW8TKYT",
+      "team2": "-OWLBrAQC4-KqZiuyh8A",
+      "title": ""
+    },
+    "1760378757253": {
+      "d_i": 1760438400000,
+      "dt": {
+        "qt_g1": 3
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760378725081",
+      "st": 3,
+      "team1": "-OWLBn6ncWXenvmwxYi1",
+      "team2": "-OWLBoUBgnSFkSW8TKYT",
+      "title": ""
+    },
+    "1760378838042": {
+      "d_i": 1760401800000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760378815318",
+      "st": 3,
+      "team1": "-OWLG7c3hgnovTCRX32o",
+      "team2": "-OWLG9fBrZKcnsbOHrFY",
+      "title": ""
+    },
+    "1760378880794": {
+      "d_i": 1760485200000,
+      "dt": {
+        "qt_g1": 6,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760378817361",
+      "st": 3,
+      "team1": "-OWLGXKBy0yNEUbxRMKT",
+      "team2": "-OWLGaU3i8oMFDNShgGW",
+      "title": ""
+    },
+    "1760380283800": {
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "m_set": "1760380262554",
+      "pos_eli": 0,
+      "st": 3,
+      "team1": "-OWFwlHUDBLV4rzXbC7F",
+      "team2": "-OWFx_LV0Xuu8O9rIYQN",
+      "title": "OITAVAS 1"
+    },
+    "1760380284374": {
+      "d_i": 1760886900000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760380262554",
+      "pos_eli": 1,
+      "qc": 1,
+      "st": 3,
+      "team1": "-OWFwFoN0ImTkW8TF85-",
+      "team2": "-OWFwWAsfEIOpCRhzv8W",
+      "title": "OITAVAS 2"
+    },
+    "1760380284905": {
+      "dt": {
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "m_set": "1760380262554",
+      "pos_eli": 2,
+      "st": 3,
+      "team1": "-OWFxMLV41tIG0A1Fp-v",
+      "team2": "-OWFxBCU7cOclw3hJSZi",
+      "title": "OITAVAS 3 "
+    },
+    "1760380285424": {
+      "d_i": 1762023600000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760380262554",
+      "pos_eli": 3,
+      "st": 3,
+      "team1": "-OWFw9XkFcZnCIvOSIVT",
+      "team2": "-OWFwLBtFtjEORPlg2e2",
+      "title": "OITAVAS 4"
+    },
+    "1760380293060": {
+      "d_i": 1762002300000,
+      "dt": {
+        "qt_g1": 5
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760380262554",
+      "pos_eli": 4,
+      "st": 3,
+      "team1": "-OWFxHcrc952VNy3vy9t",
+      "team2": "-OWFw6hOD3AVjOi64V7W",
+      "title": "OITAVAS 5"
+    },
+    "1760380293941": {
+      "d_i": 1762012800000,
+      "dt": {
+        "qt_g1": 6,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760380262554",
+      "pos_eli": 5,
+      "st": 3,
+      "team1": "-OWFw4hreBOamrMVJsas",
+      "team2": "-OWFvnHs0fXgrk4R8oFM",
+      "title": "OITAVAS 6"
+    },
+    "1760380294778": {
+      "d_i": 1762084800000,
+      "dt": {
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760380262554",
+      "pos_eli": 6,
+      "st": 3,
+      "team1": "-OWFvk_1jot0RsHw5ezS",
+      "team2": "-OWFwoVVYvbZVQeQcqv_",
+      "title": "OITAVAS 7"
+    },
+    "1760380308594": {
+      "d_i": 1762026300000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760380262554",
+      "pos_eli": 7,
+      "st": 3,
+      "team1": "-OWFw1YkA6Bqp8XklBDl",
+      "team2": "-OWFws-7lf1WIhTURHQz",
+      "title": "OITAVAS 8 "
+    },
+    "1760382817979": {
+      "dt": {
+        "qt_g1": 3
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "m_set": "1760382209261",
+      "pos_eli": 0,
+      "st": 3,
+      "team1": "-OWGwFid3MFW70eTgFRt",
+      "team2": "-OWGwotmpdkA-QE4olr5",
+      "title": "OITAVAS 1"
+    },
+    "1760382818643": {
+      "d_i": 1762007700000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760382209261",
+      "pos_eli": 1,
+      "st": 3,
+      "team1": "-OWGw4Y8Xu1U5qZkc4WQ",
+      "team2": "-OWGwwOPqf-ASsBfVCuz",
+      "title": "OITAVAS 2"
+    },
+    "1760382819915": {
+      "d_i": 1760879100000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760382209261",
+      "pos_eli": 2,
+      "st": 3,
+      "team1": "-OWGw5oXBgLvjpDS2Vyc",
+      "team2": "-OWGwK48WXV28WBdBKvR",
+      "title": "OITAVAS 3"
+    },
+    "1760382820651": {
+      "dt": {
+        "qt_g1": 4
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "m_set": "1760382209261",
+      "pos_eli": 3,
+      "st": 3,
+      "team1": "-OWGwdG0jrwdXLUBYYFl",
+      "team2": "-OWGwqpeC24UGjgyg-QU",
+      "title": "OITAVAS 4"
+    },
+    "1760382822155": {
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1,
+        "qt_p1": 3,
+        "qt_p2": 5
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "m_set": "1760382209261",
+      "pos_eli": 4,
+      "st": 3,
+      "team1": "-OWGvq_QTESr1kH0MILO",
+      "team2": "-OWGvscelWuD4KLUZ-3G",
+      "title": "OITAVAS 5"
+    },
+    "1760382822979": {
+      "d_i": 1760884500000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760382209261",
+      "pos_eli": 5,
+      "st": 3,
+      "team1": "-OWGwyOHqJxg2TCyI64T",
+      "team2": "-OWGvwb1COh5_K-Hjixb",
+      "title": "OITAVAS 6"
+    },
+    "1760382824115": {
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "m_set": "1760382209261",
+      "pos_eli": 6,
+      "st": 3,
+      "team1": "-OWGx-DWYFBI8DwHgb9x",
+      "team2": "-OWGwfJuSbSj3kxZe13b",
+      "title": "OITAVAS 7"
+    },
+    "1760382825324": {
+      "dt": {
+        "qt_g1": 3
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "m_set": "1760382209261",
+      "pos_eli": 7,
+      "st": 3,
+      "team1": "-OWGwO8m644hp0YzzXdd",
+      "team2": "-OWGvzmWfTwJs4_1R_Nj",
+      "title": "OITAVAS 8"
+    },
+    "1760384090095": {
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "m_set": "1760383523753",
+      "st": 3,
+      "team1": "-OWHKqgjZN2bjGlWdTnr",
+      "team2": "-OWHLJJ7eZeaggbEMcbE",
+      "title": "OITAVAS 1"
+    },
+    "1760384090703": {
+      "dt": {
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "m_set": "1760383523753",
+      "st": 3,
+      "team1": "-OWHKT78w7JJD0cbf2ty",
+      "team2": "-OWHFc8tye500nblSHh2",
+      "title": "OITAVAS 2"
+    },
+    "1760384091511": {
+      "dt": {
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "m_set": "1760383523753",
+      "st": 3,
+      "team1": "-OWHFVKdwjmgHx28pun4",
+      "team2": "-OWHKN0Vvytv44h1CdS-",
+      "title": "OITAVAS 3"
+    },
+    "1760384092760": {
+      "dt": {
+        "qt_g1": 4
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "m_set": "1760383523753",
+      "st": 3,
+      "team1": "-OWHKwx-zzP220Tma83G",
+      "team2": "-OWHFaMO50LbjktK7f0n",
+      "title": "OITAVAS 4"
+    },
+    "1760384093535": {
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "m_set": "1760383523753",
+      "st": 3,
+      "team1": "-OWHKS-l-Ue0CrAOi-0b",
+      "team2": "-OWHKJlkKvBVMQSFAc3q",
+      "title": "OITAVAS 5"
+    },
+    "1760384094783": {
+      "dt": {
+        "qt_g1": 7
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "m_set": "1760383523753",
+      "st": 3,
+      "team1": "-OWHKkfcxD0nuWPXLOyk",
+      "team2": "-OWHKudk-NGPm4Au88PV",
+      "title": "OITAVAS 6"
+    },
+    "1760384095784": {
+      "dt": {
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "m_set": "1760383523753",
+      "st": 3,
+      "team1": "-OWHF_bdlM2YYRJ_1FN5",
+      "team2": "-OWHFYEVMzak4YxF62TK",
+      "title": "OITAVAS 7"
+    },
+    "1760384096671": {
+      "dt": {
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "m_set": "1760383523753",
+      "st": 3,
+      "team1": "-OWHKYeFWfiBpyTBJ_ER",
+      "team2": "-OWHKDpkG2x5Au6zFxWy",
+      "title": "OITAVAS 8"
+    },
+    "1760384963317": {
+      "dt": {
+        "qt_p1": 4,
+        "qt_p2": 2
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "m_set": "1760384900268",
+      "pos_eli": 0,
+      "st": 3,
+      "team1": "-OWHQ8H8lw2cHBOzRCyF",
+      "team2": "-OWHP_mcA8PvoQzk4lmt",
+      "title": "OITAVAS 1"
+    },
+    "1760384964004": {
+      "dt": {
+        "qt_g1": 6
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "m_set": "1760384900268",
+      "pos_eli": 1,
+      "st": 3,
+      "team1": "-OWHP9qbA9C8W9IidWAZ",
+      "team2": "-OWHPO0NN2XyNHw8O66K",
+      "title": "OITAVAS 2"
+    },
+    "1760384965597": {
+      "d_i": 1760881800000,
+      "dt": {
+        "qt_g1": 10
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760384900268",
+      "pos_eli": 2,
+      "st": 3,
+      "team1": "-OWHPH4M2Q6-5Ux0WYlN",
+      "team2": "-OWHQ41XuSy1juh4phv_",
+      "title": "OITAVAS 3"
+    },
+    "1760384966509": {
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "m_set": "1760384900268",
+      "pos_eli": 3,
+      "st": 3,
+      "team1": "-OWHPRMOa1jVhRgZHMla",
+      "team2": "-OWHPrBk1W_IdDXCicfh",
+      "title": "OITAVAS 4"
+    },
+    "1760384967428": {
+      "dt": {
+        "qt_g1": 3
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "m_set": "1760384900268",
+      "pos_eli": 4,
+      "st": 3,
+      "team1": "-OWHPMxFuuo836sFGPIx",
+      "team2": "-OWHQ5JVEnugynOmTBSL",
+      "title": "OITAVAS 5"
+    },
+    "1760384968733": {
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 2,
+        "qt_p1": 5,
+        "qt_p2": 4
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "m_set": "1760384900268",
+      "pos_eli": 5,
+      "st": 3,
+      "team1": "-OWHPfuj9lpwm_mXGgmq",
+      "team2": "-OWHPujn_jO8Ognf7P61",
+      "title": "OITAVAS 6"
+    },
+    "1760384969500": {
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1,
+        "qt_p1": 2,
+        "qt_p2": 4
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "m_set": "1760384900268",
+      "pos_eli": 6,
+      "st": 3,
+      "team1": "-OWHQ1U73D5ivaElUBQn",
+      "team2": "-OWHPcIr57pFrTHueDv4",
+      "title": "OITAVAS 7"
+    },
+    "1760384971501": {
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "m_set": "1760384900268",
+      "pos_eli": 7,
+      "st": 3,
+      "team1": "-OWHPvqj3ZzACVaRRJO5",
+      "team2": "-OWHPtBsIFaOdVPSh61d",
+      "title": "OITAVAS 8"
+    },
+    "1760385459587": {
+      "d_i": 1760889600000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760385309849",
+      "pos_eli": 0,
+      "st": 3,
+      "team1": "-OWL5nsZzkeg6mQQCWbn",
+      "team2": "-OWL5ea2Tt0M03GpI2Zk",
+      "title": "OITAVAS 1"
+    },
+    "1760385460294": {
+      "d_i": 1762112700000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760385309849",
+      "pos_eli": 1,
+      "st": 3,
+      "team1": "-OWL5viod5_5RYkmGV5F",
+      "team2": "-OWLEaM32sxzHxJhW6BG",
+      "title": "OITAVAS 2"
+    },
+    "1760385467299": {
+      "d_i": 1760895000000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760385309849",
+      "pos_eli": 2,
+      "st": 3,
+      "team1": "-OWLEbpQvkU8Ib3K17vO",
+      "team2": "-OWL5xpRNvXLPrm84XD4",
+      "title": "OITAVAS 3"
+    },
+    "1760385468299": {
+      "d_i": 1762094100000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760385309849",
+      "pos_eli": 3,
+      "st": 3,
+      "team1": "-OWL5XDw0fiSTinF7z6T",
+      "team2": "-OWL5O7of-s3ayyUYQBk",
+      "title": "OITAVAS 4"
+    },
+    "1760385469644": {
+      "d_i": 1760875200000,
+      "dt": {
+        "qt_g1": 5
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760385309849",
+      "pos_eli": 4,
+      "st": 3,
+      "team1": "-OWL5ifQENBmFD0mKRNX",
+      "team2": "-OWL5XuvfSs98o-BmJlW",
+      "title": "OITAVAS 5"
+    },
+    "1760385470531": {
+      "dt": {
+        "qt_g1": 2
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "m_set": "1760385309849",
+      "pos_eli": 5,
+      "st": 3,
+      "team1": "-OWL5sZ3fFAhKgDDRppj",
+      "team2": "-OWL5RZ3H-LFJQGF_5DU",
+      "title": "OITAVAS 6"
+    },
+    "1760385471467": {
+      "d_i": 1762018200000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760385309849",
+      "pos_eli": 6,
+      "st": 3,
+      "team1": "-OWL5pfgal2MUJzq6V7J",
+      "team2": "-OWL5t_BNyen1E8KyYfr",
+      "title": "OITAVAS 7"
+    },
+    "1760385472619": {
+      "d_i": 1762010100000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760385309849",
+      "pos_eli": 7,
+      "st": 3,
+      "team1": "-OWL5VHQzK8_gCYCrgUj",
+      "team2": "-OWL5MkQmsB-4LKBOmCc",
+      "title": "OITAVAS 8"
+    },
+    "1760385895714": {
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1,
+        "qt_p1": 4,
+        "qt_p2": 2
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847547",
+      "m_set": "1760385826218",
+      "pos_eli": 0,
+      "st": 3,
+      "team1": "-OWL8dRvkxxlyWs-2onX",
+      "team2": "-OWL8eVpM5fSS_taparM",
+      "title": "QUARTAS 1"
+    },
+    "1760385896258": {
+      "d_i": 1763217900000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 3,
+        "qt_p1": 5,
+        "qt_p2": 3
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847547",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760385826218",
+      "pos_eli": 1,
+      "st": 3,
+      "team1": "-OWL8tsffWMLVRRW5sNL",
+      "team2": "-OWL8qRf1hHI789SJNHM",
+      "title": "QUARTAS 2"
+    },
+    "1760385897563": {
+      "d_i": 1763223300000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847547",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760385826218",
+      "pos_eli": 2,
+      "st": 3,
+      "team1": "-OWL8ZgfwM8lwhk4zoT-",
+      "team2": "-OWL8_dBK_w7YOJbvw14",
+      "title": "QUARTAS 3"
+    },
+    "1760385898674": {
+      "d_i": 1760892300000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 4,
+        "qt_p1": 3,
+        "qt_p2": 4
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847547",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760385826218",
+      "pos_eli": 3,
+      "st": 3,
+      "team1": "-OWL8i03X6UbBJYomzOo",
+      "team2": "-OWL8hTZ1c3DeOKRSpC8",
+      "title": "QUARTAS 4"
+    },
+    "1760963989183": {
+      "d_i": 1760740200000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760963972119",
+      "st": 3,
+      "team1": "-OWLGYwRDqS9zijO4MZ2",
+      "team2": "-OWLGaU3i8oMFDNShgGW",
+      "title": ""
+    },
+    "1760964048022": {
+      "d_i": 1760743800000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760964038791",
+      "st": 3,
+      "team1": "-OWLBtBBmSAoGqfQMC1f",
+      "team2": "-OWLC-FvWh5GXOUYuRYT",
+      "title": ""
+    },
+    "1760964098974": {
+      "d_i": 1760747400000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864597",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760964089138",
+      "st": 3,
+      "team1": "-OWLACpAfHV6ExdIVzlS",
+      "team2": "-OWLAOqnv7ZsKIS3-9en",
+      "title": ""
+    },
+    "1760985658048": {
+      "d_i": 1761090000000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760985643587",
+      "st": 3,
+      "team1": "-OWLBpqIa9-EbDnhhU-d",
+      "team2": "-OWLBrAQC4-KqZiuyh8A",
+      "title": ""
+    },
+    "1760985773134": {
+      "d_i": 1761086400000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864597",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760985764968",
+      "st": 3,
+      "team1": "-OWLA9LIOoea22hbavvw",
+      "team2": "-OWLASRQhWP4uXAcSWzs",
+      "title": ""
+    },
+    "1761657517197": {
+      "d_i": 1761604200000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864597",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1761657501595",
+      "st": 3,
+      "team1": "-OWLA9LIOoea22hbavvw",
+      "team2": "-OWLAOqnv7ZsKIS3-9en",
+      "title": ""
+    },
+    "1761657722023": {
+      "d_i": 1761607800000,
+      "dt": {
+        "qt_g1": 7,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1761657707311",
+      "st": 3,
+      "team1": "-OWLBmSnFiUZZAjzM_lM",
+      "team2": "-OWLBrAQC4-KqZiuyh8A",
+      "title": ""
+    },
+    "1761657936034": {
+      "d_i": 1761611400000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760963981037",
+      "st": 3,
+      "team1": "-OWLGRRAlOkALMj-cekS",
+      "team2": "-OWLGSgvHhcVWgkL-0SM",
+      "title": ""
+    },
+    "1761759373365": {
+      "d_i": 1761691200000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1761759371263",
+      "st": 3,
+      "team1": "-OWLBvTIXnbDi6eff9T3",
+      "team2": "-OWLC-FvWh5GXOUYuRYT",
+      "title": ""
+    },
+    "1761759640759": {
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864597",
+      "m_set": "1761759638122",
+      "st": 3,
+      "team1": "-OWLACpAfHV6ExdIVzlS",
+      "team2": "-OWLASRQhWP4uXAcSWzs"
+    },
+    "1762198846050": {
+      "d_i": 1761949800000,
+      "dt": {
+        "qt_g1": 1
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864597",
+      "gmt": 10800000,
+      "l": "8883413",
+      "m_set": "1762198827581",
+      "st": 3,
+      "team1": "-OWLACpAfHV6ExdIVzlS",
+      "team2": "-OWLAW6n3QxRUKLVkW0a",
+      "title": ""
+    },
+    "1762199083466": {
+      "d_i": 1761910200000,
+      "dt": {
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "8883413",
+      "m_set": "1762199067707",
+      "st": 3,
+      "team1": "-OWLBxjSFhkGznHMdCQ6",
+      "team2": "-OWLByqIg-oStUGeCMDN",
+      "title": ""
+    },
+    "1762199165340": {
+      "d_i": 1761957000000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "8883413",
+      "m_set": "1762199155958",
+      "st": 3,
+      "team1": "-OWLGerIZIPPg3HJmapV",
+      "team2": "-OWLGkY23pPRNMH4ykXw",
+      "title": ""
+    },
+    "1762277873070": {
+      "d_i": 1762212600000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1762277870852",
+      "st": 3,
+      "team1": "-OWLGfd2_OX8K603cjpU",
+      "team2": "-OWLGj-AUIKXUQRsI_8i",
+      "title": ""
+    },
+    "1762278789821": {
+      "d_i": 1762216200000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1762277870852",
+      "st": 3,
+      "team1": "-OWLG_hnL2wJVRAoB1sA",
+      "team2": "-OWLGaU3i8oMFDNShgGW",
+      "title": ""
+    },
+    "1762279175028": {
+      "d_i": 1762212600000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1762279137686",
+      "st": 3,
+      "team1": "-OWLG9fBrZKcnsbOHrFY",
+      "team2": "-OWLGCxBKeKpFvXOWtce",
+      "title": ""
+    },
+    "1762279175706": {
+      "d_i": 1762299600000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1762279137686",
+      "st": 3,
+      "team1": "-OWLGR1BF-VRjxXaNGpI",
+      "team2": "-OWLGRRAlOkALMj-cekS",
+      "title": ""
+    },
+    "1762279178534": {
+      "d_i": 1762554600000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1762279146468",
+      "st": 3,
+      "team1": "-OWLGH0JNmIHWXobezTj",
+      "team2": "-OWLGRRAlOkALMj-cekS",
+      "title": ""
+    },
+    "1762279178725": {
+      "d_i": 1762558200000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "m_set": "1762279146468",
+      "st": 3,
+      "team1": "-OWLGR1BF-VRjxXaNGpI",
+      "team2": "-OWLGSgvHhcVWgkL-0SM",
+      "title": ""
+    },
+    "1762279179089": {
+      "d_i": 1762302600000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961719",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1762279146468",
+      "st": 3,
+      "team1": "-OWLGj-AUIKXUQRsI_8i",
+      "team2": "-OWLGkY23pPRNMH4ykXw",
+      "title": ""
+    },
+    "1762279463342": {
+      "d_i": 1762209000000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893148",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1762279448955",
+      "st": 3,
+      "team1": "-OWLBvTIXnbDi6eff9T3",
+      "team2": "-OWLByqIg-oStUGeCMDN",
+      "title": ""
+    },
+    "1762546238101": {
+      "d_i": 1762696800000,
+      "dt": {
+        "qt_g2": 6
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760380268983",
+      "st": 3,
+      "team1": "-OWFw4hreBOamrMVJsas",
+      "team2": "-OWFw1YkA6Bqp8XklBDl",
+      "title": "QUARTAS 4"
+    },
+    "1762546238906": {
+      "d_i": 1763298000000,
+      "dt": {
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760380268983",
+      "st": 3,
+      "team1": "-OWFxHcrc952VNy3vy9t",
+      "team2": "-OWFwoVVYvbZVQeQcqv_",
+      "title": "QUARTAS 3"
+    },
+    "1762546239546": {
+      "d_i": 1763315100000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760380268983",
+      "qc": 1,
+      "st": 3,
+      "team1": "-OWFwFoN0ImTkW8TF85-",
+      "team2": "-OWFw9XkFcZnCIvOSIVT",
+      "title": "QUARTAS 2"
+    },
+    "1762546240147": {
+      "d_i": 1763323200000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760380268983",
+      "st": 3,
+      "team1": "-OWFwlHUDBLV4rzXbC7F",
+      "team2": "-OWFxBCU7cOclw3hJSZi",
+      "title": "QUARTAS 1"
+    },
+    "1762546620727": {
+      "d_i": 1762699500000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 2,
+        "qt_p1": 3,
+        "qt_p2": 1
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760382214773",
+      "st": 3,
+      "team1": "-OWGvscelWuD4KLUZ-3G",
+      "team2": "-OWGwfJuSbSj3kxZe13b",
+      "title": "QUARTAS 3"
+    },
+    "1762546621237": {
+      "d_i": 1763307000000,
+      "dt": {
+        "qt_g1": 1
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760382214773",
+      "st": 3,
+      "team1": "-OWGw4Y8Xu1U5qZkc4WQ",
+      "team2": "-OWGwdG0jrwdXLUBYYFl",
+      "title": "QUARTAS 2"
+    },
+    "1762546621714": {
+      "d_i": 1763317800000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760382214773",
+      "st": 3,
+      "team1": "-OWGwFid3MFW70eTgFRt",
+      "team2": "-OWGw5oXBgLvjpDS2Vyc",
+      "title": "QUARTAS 1"
+    },
+    "1762546624274": {
+      "d_i": 1763320500000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760382214773",
+      "st": 3,
+      "team1": "-OWGwyOHqJxg2TCyI64T",
+      "team2": "-OWGwO8m644hp0YzzXdd",
+      "title": "QUARTAS 4"
+    },
+    "1762547144073": {
+      "d_i": 1762707600000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 2,
+        "qt_p1": 3,
+        "qt_p2": 2
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760383530504",
+      "st": 3,
+      "team1": "-OWHKS-l-Ue0CrAOi-0b",
+      "team2": "-OWHFYEVMzak4YxF62TK",
+      "title": "QUARTAS 3"
+    },
+    "1762547144722": {
+      "d_i": 1763301600000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760383530504",
+      "st": 3,
+      "team1": "-OWHFc8tye500nblSHh2",
+      "team2": "-OWHKwx-zzP220Tma83G",
+      "title": "QUARTAS 2"
+    },
+    "1762547145409": {
+      "d_i": 1763309700000,
+      "dt": {
+        "qt_g1": 3
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760383530504",
+      "st": 3,
+      "team1": "-OWHKkfcxD0nuWPXLOyk",
+      "team2": "-OWHKDpkG2x5Au6zFxWy",
+      "title": "QUARTAS 4"
+    },
+    "1762547146009": {
+      "d_i": 1763312400000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760383530504",
+      "st": 3,
+      "team1": "-OWHKqgjZN2bjGlWdTnr",
+      "team2": "-OWHKN0Vvytv44h1CdS-",
+      "title": "QUARTAS 1"
+    },
+    "1762547441106": {
+      "d_i": 1762696800000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760384903415",
+      "st": 3,
+      "team1": "-OWHPMxFuuo836sFGPIx",
+      "team2": "-OWHPcIr57pFrTHueDv4",
+      "title": "QUARTAS 3"
+    },
+    "1762547441865": {
+      "d_i": 1762702200000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760384903415",
+      "st": 3,
+      "team1": "-OWHQ8H8lw2cHBOzRCyF",
+      "team2": "-OWHPH4M2Q6-5Ux0WYlN",
+      "title": "QUARTAS 1"
+    },
+    "1762547443224": {
+      "d_i": 1763228700000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1,
+        "qt_p1": 6,
+        "qt_p2": 5
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760384903415",
+      "st": 3,
+      "team1": "-OWHP9qbA9C8W9IidWAZ",
+      "team2": "-OWHPrBk1W_IdDXCicfh",
+      "title": "QUARTAS 2"
+    },
+    "1762547443921": {
+      "d_i": 1763304300000,
+      "dt": {
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760384903415",
+      "st": 3,
+      "team1": "-OWHPfuj9lpwm_mXGgmq",
+      "team2": "-OWHPtBsIFaOdVPSh61d",
+      "title": "QUARTAS 4"
+    },
+    "1762547864725": {
+      "d_i": 1763211600000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760385393828",
+      "st": 3,
+      "team1": "-OWL5nsZzkeg6mQQCWbn",
+      "team2": "-OWL5xpRNvXLPrm84XD4",
+      "title": "QUARTAS 1"
+    },
+    "1762547865119": {
+      "d_i": 1763215200000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760385393828",
+      "st": 3,
+      "team1": "-OWL5ifQENBmFD0mKRNX",
+      "team2": "-OWL5pfgal2MUJzq6V7J",
+      "title": "QUARTAS 2"
+    },
+    "1762547865618": {
+      "d_i": 1763220600000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760385393828",
+      "st": 3,
+      "team1": "-OWLEaM32sxzHxJhW6BG",
+      "team2": "-OWL5XDw0fiSTinF7z6T",
+      "title": "QUARTAS 3"
+    },
+    "1762547867691": {
+      "d_i": 1763226000000,
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760385393828",
+      "st": 3,
+      "team1": "-OWL5sZ3fFAhKgDDRppj",
+      "team2": "-OWL5MkQmsB-4LKBOmCc",
+      "title": "QUARTAS 4"
+    },
+    "1763556728922": {
+      "d_i": 1763418600000,
+      "dt": {
+        "qt_g1": 9,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893149",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1763556728922",
+      "next1": "1763556728926",
+      "pos_eli": 0,
+      "st": 3,
+      "team1": "-OWLBxjSFhkGznHMdCQ6",
+      "team2": "-OWLBoUBgnSFkSW8TKYT",
+      "title": "Quartas 1"
+    },
+    "1763556728923": {
+      "d_i": 1763508600000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893149",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1763556728922",
+      "next2": "1763556728926",
+      "pos_eli": 1,
+      "st": 3,
+      "team1": "-OWLBn6ncWXenvmwxYi1",
+      "team2": "-OWLBtBBmSAoGqfQMC1f",
+      "title": "Quartas #2 "
+    },
+    "1763556728924": {
+      "d_i": 1763505600000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893149",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1763556728922",
+      "next1": "1763556728927",
+      "pos_eli": 2,
+      "st": 3,
+      "team1": "-OWLByqIg-oStUGeCMDN",
+      "team2": "-OWLBpqIa9-EbDnhhU-d",
+      "title": "Quartas #2"
+    },
+    "1763556728925": {
+      "d_i": 1764023400000,
+      "dt": {
+        "qt_g1": 3
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893149",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1763556728922",
+      "next2": "1763556728927",
+      "pos_eli": 3,
+      "st": 3,
+      "team1": "-OWLBmSnFiUZZAjzM_lM",
+      "team2": "-OWLC-FvWh5GXOUYuRYT",
+      "title": "Quartas #4"
+    },
+    "1763556728926": {
+      "dt": {
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893149",
+      "lost1": "1763556728929",
+      "m_set": "1763556728923",
+      "next1": "1763556728928",
+      "pos_eli": 0,
+      "st": 3,
+      "team1": "-OWLBxjSFhkGznHMdCQ6",
+      "team2": "-OWLBn6ncWXenvmwxYi1",
+      "title": "Semi Final #1 - Quartas #1 x Quartas #2"
+    },
+    "1763556728927": {
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893149",
+      "lost2": "1763556728929",
+      "m_set": "1763556728923",
+      "next2": "1763556728928",
+      "pos_eli": 1,
+      "st": 3,
+      "team1": "-OWLBpqIa9-EbDnhhU-d",
+      "team2": "-OWLBmSnFiUZZAjzM_lM",
+      "title": "Semi Final #2 - Quartas #3 x Quartas #4"
+    },
+    "1763556728928": {
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893149",
+      "m_set": "1763556728924",
+      "pos_eli": 0,
+      "st": 3,
+      "team1": "-OWLBn6ncWXenvmwxYi1",
+      "team2": "-OWLBpqIa9-EbDnhhU-d",
+      "title": "Final"
+    },
+    "1763556728929": {
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@v3dl",
+      "fs": "1752708893149",
+      "m_set": "1763556728924",
+      "pos_eli": 1,
+      "st": 3,
+      "team1": "-OWLBxjSFhkGznHMdCQ6",
+      "team2": "-OWLBmSnFiUZZAjzM_lM",
+      "title": "Disputa de 3º Lugar"
+    },
+    "1763557278523": {
+      "d_i": 1763422200000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961720",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1763557278523",
+      "next1": "1763557278527",
+      "pos_eli": 0,
+      "st": 3,
+      "team1": "-OWLGXKBy0yNEUbxRMKT",
+      "team2": "-OWLG7c3hgnovTCRX32o",
+      "title": "Quartas #1 "
+    },
+    "1763557278524": {
+      "d_i": 1764027000000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961720",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1763557278523",
+      "next2": "1763557278527",
+      "pos_eli": 1,
+      "st": 3,
+      "team1": "-OWLGkY23pPRNMH4ykXw",
+      "team2": "-OWLGRRAlOkALMj-cekS",
+      "title": "Quartas #3"
+    },
+    "1763557278525": {
+      "d_i": 1763425800000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961720",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1763557278523",
+      "next1": "1763557278528",
+      "pos_eli": 2,
+      "st": 3,
+      "team1": "-OWLG9fBrZKcnsbOHrFY",
+      "team2": "-OWLG_hnL2wJVRAoB1sA",
+      "title": "Quartas #3"
+    },
+    "1763557278526": {
+      "d_i": 1764030600000,
+      "dt": {
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961720",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1763557278523",
+      "next2": "1763557278528",
+      "pos_eli": 3,
+      "st": 3,
+      "team1": "-OWLGfd2_OX8K603cjpU",
+      "team2": "-OWLGSgvHhcVWgkL-0SM",
+      "title": "Quartas #4"
+    },
+    "1763557278527": {
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961720",
+      "lost1": "1763557278530",
+      "m_set": "1763557278524",
+      "next1": "1763557278529",
+      "pos_eli": 0,
+      "st": 3,
+      "team1": "-OWLGXKBy0yNEUbxRMKT",
+      "team2": "-OWLGRRAlOkALMj-cekS",
+      "title": "Semi Final #1 - Quartas #1 x Quartas #2"
+    },
+    "1763557278528": {
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961720",
+      "lost2": "1763557278530",
+      "m_set": "1763557278524",
+      "next2": "1763557278529",
+      "pos_eli": 1,
+      "st": 3,
+      "team1": "-OWLG_hnL2wJVRAoB1sA",
+      "team2": "-OWLGSgvHhcVWgkL-0SM",
+      "title": "Semi Final #2 - Quartas #3 x Quartas #4"
+    },
+    "1763557278529": {
+      "d_i": 1765594800000,
+      "dt": {
+        "qt_g1": 6,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961720",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1763557278525",
+      "pos_eli": 0,
+      "st": 3,
+      "team1": "-OWLGXKBy0yNEUbxRMKT",
+      "team2": "-OWLG_hnL2wJVRAoB1sA",
+      "title": "Final"
+    },
+    "1763557278530": {
+      "d_i": 1765130400000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 6
+      },
+      "evt": "-jcgq9@gytm",
+      "fs": "1752708961720",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1763557278525",
+      "pos_eli": 1,
+      "st": 3,
+      "team1": "-OWLGRRAlOkALMj-cekS",
+      "team2": "-OWLGSgvHhcVWgkL-0SM",
+      "title": "Disputa de 3º Lugar"
+    },
+    "1763557650749": {
+      "d_i": 1764110700000,
+      "dt": {
+        "qt_g1": 7,
+        "qt_g2": 5
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864598",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1763557647514",
+      "st": 3,
+      "team1": "-OWLA86YSdbjsg43C92h",
+      "team2": "-OWLAOqnv7ZsKIS3-9en",
+      "title": "SEMI 1"
+    },
+    "1763557651386": {
+      "d_i": 1764114300000,
+      "dt": {
+        "qt_g1": 2
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864598",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1763557647514",
+      "st": 3,
+      "team1": "-OWLACpAfHV6ExdIVzlS",
+      "team2": "-OWLASRQhWP4uXAcSWzs",
+      "title": "SEMI 2"
+    },
+    "1763557940881": {
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "m_set": "1760380271864",
+      "st": 3,
+      "team1": "-OWFxBCU7cOclw3hJSZi",
+      "team2": "-OWFwoVVYvbZVQeQcqv_",
+      "title": "SEMI "
+    },
+    "1763557941466": {
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 6
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "m_set": "1760380271864",
+      "st": 3,
+      "team1": "-OWFw9XkFcZnCIvOSIVT",
+      "team2": "-OWFw1YkA6Bqp8XklBDl",
+      "title": "SEMI"
+    },
+    "1763584847852": {
+      "dt": {
+        "qt_g1": 6
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "m_set": "1760382218084",
+      "st": 3,
+      "team1": "-OWGwFid3MFW70eTgFRt",
+      "team2": "-OWGvscelWuD4KLUZ-3G"
+    },
+    "1763584848447": {
+      "dt": {
+        "qt_g1": 9
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "m_set": "1760382218084",
+      "st": 3,
+      "team1": "-OWGw4Y8Xu1U5qZkc4WQ",
+      "team2": "-OWGw5oXBgLvjpDS2Vyc"
+    },
+    "1763584912058": {
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 2,
+        "qt_p1": 6,
+        "qt_p2": 7
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "m_set": "1760383535128",
+      "st": 3,
+      "team1": "-OWHKN0Vvytv44h1CdS-",
+      "team2": "-OWHKS-l-Ue0CrAOi-0b"
+    },
+    "1763584912443": {
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "m_set": "1760383535128",
+      "st": 3,
+      "team1": "-OWHKwx-zzP220Tma83G",
+      "team2": "-OWHKkfcxD0nuWPXLOyk"
+    },
+    "1763584966215": {
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 0
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "m_set": "1760384904957",
+      "st": 3,
+      "team1": "-OWHPH4M2Q6-5Ux0WYlN",
+      "team2": "-OWHPMxFuuo836sFGPIx"
+    },
+    "1763584966564": {
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 9
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "m_set": "1760384904957",
+      "st": 3,
+      "team1": "-OWHP9qbA9C8W9IidWAZ",
+      "team2": "-OWHPtBsIFaOdVPSh61d"
+    },
+    "1763585005001": {
+      "dt": {
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "m_set": "1760385396963",
+      "st": 3,
+      "team1": "-OWL5nsZzkeg6mQQCWbn",
+      "team2": "-OWL5ifQENBmFD0mKRNX"
+    },
+    "1763585005463": {
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1,
+        "qt_p1": 1,
+        "qt_p2": 4
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "m_set": "1760385396963",
+      "st": 3,
+      "team1": "-OWLEaM32sxzHxJhW6BG",
+      "team2": "-OWL5sZ3fFAhKgDDRppj"
+    },
+    "1763585050514": {
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847547",
+      "m_set": "1760385832435",
+      "st": 3,
+      "team1": "-OWL8dRvkxxlyWs-2onX",
+      "team2": "-OWL8_dBK_w7YOJbvw14"
+    },
+    "1763585050870": {
+      "dt": {
+        "qt_g1": 4,
+        "qt_g2": 8
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847547",
+      "m_set": "1760385832435",
+      "st": 3,
+      "team1": "-OWL8tsffWMLVRRW5sNL",
+      "team2": "-OWL8hTZ1c3DeOKRSpC8"
+    },
+    "1764592457538": {
+      "d_i": 1765123800000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760380273678",
+      "st": 3,
+      "team1": "-OWFxBCU7cOclw3hJSZi",
+      "team2": "-OWFw9XkFcZnCIvOSIVT",
+      "title": "3° LUGAR"
+    },
+    "1764592478494": {
+      "d_i": 1765639800000,
+      "dt": {
+        "qt_g1": 3
+      },
+      "evt": "-jcgq9@qckh",
+      "fs": "1752708645052",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760380275974",
+      "st": 3,
+      "team1": "-OWFwoVVYvbZVQeQcqv_",
+      "team2": "-OWFw1YkA6Bqp8XklBDl",
+      "title": "FINAL"
+    },
+    "1764593017137": {
+      "d_i": 1765636200000,
+      "dt": {
+        "qt_g1": 0,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760382223741",
+      "st": 3,
+      "team1": "-OWGwFid3MFW70eTgFRt",
+      "team2": "-OWGw4Y8Xu1U5qZkc4WQ",
+      "title": "FINAL"
+    },
+    "1764593162429": {
+      "d_i": 1765120800000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@ztuy",
+      "fs": "1752708695621",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760382223036",
+      "st": 3,
+      "team1": "-OWGvscelWuD4KLUZ-3G",
+      "team2": "-OWGwyOHqJxg2TCyI64T",
+      "title": "3° LUGAR "
+    },
+    "1764594609733": {
+      "d_i": 1765632600000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 2
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "gmt": 10800000,
+      "l": "8980847",
+      "m_set": "1760383537729",
+      "st": 3,
+      "team1": "-OWHKS-l-Ue0CrAOi-0b",
+      "team2": "-OWHKwx-zzP220Tma83G",
+      "title": "FINAL "
+    },
+    "1764594611581": {
+      "d_i": 1765117800000,
+      "dt": {
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@arqr",
+      "fs": "1752708738024",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760383536745",
+      "st": 3,
+      "team1": "-OWHKN0Vvytv44h1CdS-",
+      "team2": "-OWHKkfcxD0nuWPXLOyk",
+      "title": "3°LUGAR"
+    },
+    "1764595880099": {
+      "d_i": 1765629000000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760384913425",
+      "st": 3,
+      "team1": "-OWHPH4M2Q6-5Ux0WYlN",
+      "team2": "-OWHPtBsIFaOdVPSh61d",
+      "title": "FINAL"
+    },
+    "1764596051485": {
+      "d_i": 1765114800000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@5mng",
+      "fs": "1760384889662",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760384911254",
+      "st": 3,
+      "team1": "-OWHPMxFuuo836sFGPIx",
+      "team2": "-OWHP9qbA9C8W9IidWAZ",
+      "title": "3° LUGAR"
+    },
+    "1764596112402": {
+      "d_i": 1765111800000,
+      "dt": {
+        "qt_g1": 5,
+        "qt_g2": 3
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760385398564",
+      "st": 3,
+      "team1": "-OWL5nsZzkeg6mQQCWbn",
+      "team2": "-OWLEaM32sxzHxJhW6BG",
+      "title": "3° LUGAR"
+    },
+    "1764596115320": {
+      "d_i": 1765625400000,
+      "dt": {
+        "qt_p1": 4,
+        "qt_p2": 3
+      },
+      "evt": "-jcgq9@5mv4",
+      "fs": "1752708746174",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760385399131",
+      "st": 3,
+      "team1": "-OWL5ifQENBmFD0mKRNX",
+      "team2": "-OWL5sZ3fFAhKgDDRppj",
+      "title": "FINAL"
+    },
+    "1764596571640": {
+      "d_i": 1765108800000,
+      "dt": {
+        "qt_g1": 1,
+        "qt_g2": 1,
+        "qt_p1": 3,
+        "qt_p2": 4
+      },
+      "evt": "-jcgq9@9v8k",
+      "fs": "1752708847547",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760385834994",
+      "st": 3,
+      "team1": "-OWL8dRvkxxlyWs-2onX",
+      "team2": "-OWL8tsffWMLVRRW5sNL",
+      "title": "3° LUGAR"
+    },
+    "1764596573586": {
+      "d_i": 1765643400000,
+      "dt": {
+        "qt_g1": 2,
+        "qt_g2": 4
+      },
+      "evt": "-jcgq9@9v8k",
+      "finished": 1785422926233,
+      "fs": "1752708847547",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1760385835538",
+      "st": 3,
+      "team1": "-OWL8_dBK_w7YOJbvw14",
+      "team2": "-OWL8hTZ1c3DeOKRSpC8",
+      "title": "FINAL"
+    },
+    "1765309167574": {
+      "d_i": 1765594800000,
+      "dt": {
+        "qt_g1": 3,
+        "qt_g2": 1
+      },
+      "evt": "-jcgq9@284z",
+      "fs": "1752708864598",
+      "gmt": 10800000,
+      "l": "7160574",
+      "m_set": "1765309162871",
+      "st": 3,
+      "team1": "-OWLA86YSdbjsg43C92h",
+      "team2": "-OWLACpAfHV6ExdIVzlS",
+      "title": ""
+    }
+  },
+  "mc": {
+    "1760380284374": {
+      "1761169034089": {
+        "c": "vamos lyon",
+        "uid": "FbCy2NLOSvXIBUBhDiAyrzRtfHG2"
+      }
+    },
+    "1762546239546": {
+      "1763390565106": {
+        "c": "Bom dia, o gol do Lyon foi marcado pelo Enzão, não pelo Enzinho.",
+        "uid": "rDum27JJZld8zh432KNUrCmmPah1"
+      }
+    }
+  },
+  "midia": {
+    "9005442759965940": {
+      "evt": "arqr",
+      "i": {
+        "brasao": false,
+        "m": 1756494775051,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/jYl8Fhp-M9M/maxresdefault.jpg?v=68b18e25",
+        "urlP": "https://www.youtube.com/live/jYl8Fhp-M9M?si=IaAF7TJuOiF0bt5A"
+      },
+      "ic": "news",
+      "leg": "SUB12 - Grupo B - FC São Miguel Arcanjo SMA x Soccer 7 Itu – Copa TVitapê 2025 – 10:20"
+    },
+    "9005442759988054": {
+      "evt": "arqr",
+      "i": {
+        "brasao": false,
+        "m": 1756494752937,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/WTdrsF6Laso/maxresdefault.jpg?v=68b18872",
+        "urlP": "https://www.youtube.com/live/WTdrsF6Laso?si=-fx7hP81Qr0ErdjD"
+      },
+      "ic": "news",
+      "leg": "SUB12 - Grupo A - Pilar do Sul x XI de Agosto Vermelho Tatuí – Copa TVitapê 2025 – 14:00"
+    },
+    "9005442760010386": {
+      "evt": "arqr",
+      "i": {
+        "brasao": false,
+        "m": 1756494730605,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/ZK6WjBiDv70/maxresdefault.jpg?v=68b18721",
+        "urlP": "https://www.youtube.com/live/ZK6WjBiDv70?si=o6wqDBBnGM6vznfb"
+      },
+      "ic": "news",
+      "leg": "SUB12 - Grupo D - Lyon Sports Boituva x Juventude FS Angatuba – Copa TVitapê 2025 – 15:20"
+    },
+    "9005442766318555": {
+      "i": {
+        "brasao": false,
+        "m": 1756488422437,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/4V62C-kl4kY/maxresdefault.jpg?v=68b18acf",
+        "urlP": "https://www.youtube.com/live/4V62C-kl4kY?si=6JSrinnVZDgHl4F-"
+      },
+      "ic": "news",
+      "leg": "SUB10 - Grupo A - Pilar do Sul x XI de Agosto Tatuí – Copa TVitapê 2025 – 12:40",
+      "m_evt": true
+    },
+    "9005442766336139": {
+      "i": {
+        "brasao": false,
+        "m": 1756488404852,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/saBeR8RxyXQ/maxresdefault.jpg?v=68b18562",
+        "urlP": "https://www.youtube.com/live/saBeR8RxyXQ?si=Pym3aJlppG_e0ROb"
+      },
+      "ic": "news",
+      "leg": "SUB10 - Grupo J - Lyon Sports B Boituva x CCT Tatuí – Copa TVitapê 2025 – 16:00",
+      "m_evt": true
+    },
+    "9005442766353680": {
+      "i": {
+        "brasao": false,
+        "m": 1756488387312,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/6XUOG1jd6rI/maxresdefault.jpg?v=68b187f7",
+        "urlP": "https://www.youtube.com/live/6XUOG1jd6rI?si=F-YavK8kUxMp657R"
+      },
+      "ic": "news",
+      "leg": "SUB10 - Grupo D - Lyon Sports A Boituva x Juventude FS Angatuba – Copa TVitapê 2025 – 14:40",
+      "m_evt": true
+    },
+    "9005442766373186": {
+      "i": {
+        "brasao": false,
+        "m": 1756488367806,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/6l2hzBSmLvA/maxresdefault.jpg?v=68b18b44",
+        "urlP": "https://www.youtube.com/live/6l2hzBSmLvA?si=V2WyVXQz8JuQR6Qw"
+      },
+      "ic": "news",
+      "leg": "SUB10 - Grupo B - FC São Miguel Arcanjo SMA x CT Diego Futsal Cerquilho – Copa TVitapê 2025 – 11:40",
+      "m_evt": true
+    },
+    "9005442781054127": {
+      "evt": "qckh",
+      "i": {
+        "brasao": false,
+        "m": 1756473693542,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://firebasestorage.googleapis.com/v0/b/copafacil-web.appspot.com/o/evts%2F-jcgq9%2F9005442781054127.jpg?alt=media",
+        "urlP": "https://www.youtube.com/live/rd2ilk_xZ78?si=UWPqQEYeuB7BNHOV"
+      },
+      "ic": "news",
+      "leg": "ADEF X CT DRAC - U08"
+    },
+    "9005442781218267": {
+      "evt": "qckh",
+      "i": {
+        "brasao": false,
+        "m": 1756473522724,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://copafacil-web.firebaseapp.com/assets/images/sample.png",
+        "urlP": "https://www.youtube.com/live/kN8I6OehU88?si=uRteZGbQAHJSn8dr"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | FC SÃO MIGUEL X ALAMBARI | COPA TVI 2025 - SUB 8"
+    },
+    "9005442781274682": {
+      "evt": "qckh",
+      "i": {
+        "brasao": false,
+        "m": 1756473466309,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/opyoiFD9Y0w/maxresdefault.jpg?v=68b1890d",
+        "urlP": "https://www.youtube.com/live/opyoiFD9Y0w?si=MOg2MHiKtdmXBVcS"
+      },
+      "ic": "news",
+      "leg": "SUB08 - Grupo A - Pilar do Sul x XI de Agosto Tatuí – Copa TVitapê 2025 – 13:20"
+    },
+    "9005442781296290": {
+      "evt": "qckh",
+      "i": {
+        "brasao": false,
+        "m": 1756473444701,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/tvLZS4ftRxo/maxresdefault.jpg?v=68b18bc7",
+        "urlP": "https://www.youtube.com/live/tvLZS4ftRxo?si=f5CWuzFxf7VBdE-o"
+      },
+      "ic": "news",
+      "leg": "SUB08 - Grupo B - FC São Miguel Arcanjo SMA x CT Diego Futsal Cerquilho – Copa TVitapê 2025 – 11:00"
+    },
+    "9005445279073411": {
+      "i": {
+        "brasao": false,
+        "m": 1753975667580,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/lw1qwkximQ0/maxresdefault.jpg?v=688a7bac",
+        "urlP": "https://www.youtube.com/live/lw1qwkximQ0?si=TA4bevj6EpQivtMc"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Lyon Sports X MJ Futsal | Copa TVItapê 2025 – SUB16 | GRP D",
+      "m_evt": true
+    },
+    "9005445279093186": {
+      "i": {
+        "brasao": false,
+        "m": 1753975647805,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/tl8rj1cp6AU/maxresdefault.jpg?v=688a7bd8",
+        "urlP": "https://www.youtube.com/live/tl8rj1cp6AU?si=k2eFJRhROazF0GPr"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Lyon Sports X MJ Futsal | Copa TVItapê 2025 – SUB14 | GRP B",
+      "m_evt": true
+    },
+    "9005445279117648": {
+      "i": {
+        "brasao": false,
+        "m": 1753975623343,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/tFYsevK0Ex4/maxresdefault.jpg?v=688a7b40",
+        "urlP": "https://www.youtube.com/live/tFYsevK0Ex4?si=e_NyfdOGku7zGG83"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Lyon Sports X MJ Futsal | Copa TVItapê 2025 – SUB08 | GRP D",
+      "m_evt": true
+    },
+    "9005445279139509": {
+      "i": {
+        "brasao": false,
+        "m": 1753975601482,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/wvrPL_17pqs/maxresdefault.jpg?v=688a7b10",
+        "urlP": "https://www.youtube.com/live/wvrPL_17pqs?si=3T6XxKeTe0uXSMjh"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | PA Futsal X AECB | Copa TVItapê 2025 – SUB18 | GRP C",
+      "m_evt": true
+    },
+    "9005445279162421": {
+      "i": {
+        "brasao": false,
+        "m": 1753975578570,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/VZLHe-F6EVA/maxresdefault.jpg?v=688a7acc",
+        "urlP": "https://www.youtube.com/live/VZLHe-F6EVA?si=vGR5DCuXXpwO4oqY"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Venâncio Ayres X AECB | Copa TVItapê 2025 – SUB16 | GRP E",
+      "m_evt": true
+    },
+    "9005445279183004": {
+      "i": {
+        "brasao": false,
+        "m": 1753975557987,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/3wpSv68g7SY/maxresdefault.jpg?v=688a7a99",
+        "urlP": "https://www.youtube.com/live/3wpSv68g7SY?si=81oxkJJtF9MAPqHj"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Clube Venâncio Ayres X AECB | Copa TVItapê 2025 – SUB14 | GRP E",
+      "m_evt": true
+    },
+    "9005445279209635": {
+      "i": {
+        "brasao": false,
+        "m": 1753975531356,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/G_8Gdrt4rEc/maxresdefault.jpg?v=688a6cf6",
+        "urlP": "https://www.youtube.com/live/G_8Gdrt4rEc?si=F8-weZyGQee6DDKv"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Clube Venâncio Ayres X AECB | Copa TVItapê 2025 – SUB12 | GRP E",
+      "m_evt": true
+    },
+    "9005445279226968": {
+      "i": {
+        "brasao": false,
+        "m": 1753975514023,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/rol7FTQvDCo/maxresdefault.jpg?v=688a6cdf",
+        "urlP": "https://www.youtube.com/live/rol7FTQvDCo?si=hnNK8Nd43kZoGzrv"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Clube Venâncio Ayres X Santos Academy | Copa TVItapê 2025 – SUB08 | GRP E",
+      "m_evt": true
+    },
+    "9005445279254500": {
+      "i": {
+        "brasao": false,
+        "m": 1753975486491,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/yoHYL2QDYMQ/maxresdefault.jpg?v=688a6cc4",
+        "urlP": "https://www.youtube.com/live/yoHYL2QDYMQ?si=A7ByzzXVfbpCAyWU"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Clube Venâncio X Santos Academy | Copa TVItapê 2025 – SUB10 | GRP E",
+      "m_evt": true
+    },
+    "9005445279279814": {
+      "i": {
+        "brasao": false,
+        "m": 1753975461177,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/K3lOG1zxWaE/maxresdefault.jpg?v=688a4c9d",
+        "urlP": "https://www.youtube.com/live/K3lOG1zxWaE?si=vank0nZxolQ6ak1y"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Morro do Galo X Fúria Jovem | Copa TVItapê 2025 – SUB18 - GRP A",
+      "m_evt": true
+    },
+    "9005445279316410": {
+      "i": {
+        "brasao": false,
+        "m": 1753975424581,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/bcbiAoe_to4/maxresdefault.jpg?v=688a686c",
+        "urlP": "https://www.youtube.com/live/bcbiAoe_to4?si=DheKGQgt-fvXsSs4"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Objetivo X Juventude | Copa TVItapê 2025 – SUB18 | GRP B",
+      "m_evt": true
+    },
+    "9005445279421612": {
+      "i": {
+        "brasao": false,
+        "m": 1753975319379,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/dFBLTs-avbE/maxresdefault.jpg?v=688a4c8e",
+        "urlP": "https://www.youtube.com/live/dFBLTs-avbE?si=TSfsb0kwX23Gu9lD"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | KGB/Tigrinho X XI de Agosto | Copa TVItapê 2025 – SUB12 | GRP A",
+      "m_evt": true
+    },
+    "9005445279490411": {
+      "i": {
+        "brasao": false,
+        "m": 1753975250580,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/eWgMkDp55dg/maxresdefault.jpg?v=688a6854",
+        "urlP": "https://www.youtube.com/live/eWgMkDp55dg?si=1hhTBlRq0ok8ZDqB"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Bom de Bola X Objetivo | Copa TVItapê 2025 – SUB16 | GRP H",
+      "m_evt": true
+    },
+    "9005445279511579": {
+      "i": {
+        "brasao": false,
+        "m": 1753975229412,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/Cq2-L3hKVQY/maxresdefault.jpg?v=688a4c7d",
+        "urlP": "https://www.youtube.com/live/Cq2-L3hKVQY?si=OvKubF-p_FllwQOo"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | KGB/Tigrinho X XI de Agosto  | Copa TVItapê 2025 – SUB10 | GRP A",
+      "m_evt": true
+    },
+    "9005445279532830": {
+      "i": {
+        "brasao": false,
+        "m": 1753975208162,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/O5jm51AD7yE/maxresdefault.jpg?v=688a683d",
+        "urlP": "https://www.youtube.com/live/O5jm51AD7yE?si=ZyxfPrkO70ttusOs"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Bom de Bola X Athenas | Copa TVItapê 2025 – SUB14 | GRP H",
+      "m_evt": true
+    },
+    "9005445279558962": {
+      "i": {
+        "brasao": false,
+        "m": 1753975182029,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/bOVPUUDmlaY/maxresdefault.jpg?v=688a4c60",
+        "urlP": "https://www.youtube.com/live/bOVPUUDmlaY?si=cOeeYPoTIkWxzL7F"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | KGB/Tigrinho X XI de Agosto | Copa TVItapê 2025 – SUB08 I GRP A",
+      "m_evt": true
+    },
+    "9005445279590262": {
+      "i": {
+        "brasao": false,
+        "m": 1753975150730,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/fznJhSKAJXQ/maxresdefault.jpg?v=688a6801",
+        "urlP": "https://www.youtube.com/live/fznJhSKAJXQ?si=dnBM0lPhlOj4p796"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Bom de Bola X Futsal Onze Edir | Copa TVItapê 2025 – SUB12 | GRP H",
+      "m_evt": true
+    },
+    "9005445279638581": {
+      "i": {
+        "brasao": false,
+        "m": 1753975102410,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/G_x8swuFXhI/maxresdefault.jpg?v=688a6736",
+        "urlP": "https://www.youtube.com/live/G_x8swuFXhI?si=DEbjG_g9tNL0QH8U"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | XI de Agosto Branco x Soccer 7 (Vl. Carvalho)  | Copa TVItapê 2025 – SUB12 I GRP K",
+      "m_evt": true
+    },
+    "9005445279682073": {
+      "i": {
+        "brasao": false,
+        "m": 1753975058918,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/I1FfbjIkOz8/maxresdefault.jpg?v=688a5c61",
+        "urlP": "https://www.youtube.com/live/I1FfbjIkOz8?si=PMDgmkgvxenotliI"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Bom de Bola X Futsal Onze | Copa TVItapê 2025 – SUB10 | GRP H",
+      "m_evt": true
+    },
+    "9005445279719144": {
+      "i": {
+        "brasao": false,
+        "m": 1753975021848,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/8arRmZDCkyw/maxresdefault.jpg?v=688a4c0c",
+        "urlP": "https://www.youtube.com/live/8arRmZDCkyw?si=DsTxYKKOc98S22kc"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Ricardo Oliveira X ADEF | Copa TVItapê 2025 – SUB18 | GRP C",
+      "m_evt": true
+    },
+    "9005445279805134": {
+      "i": {
+        "brasao": false,
+        "m": 1753974935857,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/z9Hb9uabs48/maxresdefault.jpg?v=688a5bad",
+        "urlP": "https://www.youtube.com/live/z9Hb9uabs48?si=5r5p5n5aUqYWAfpr"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Onze Futsal X Santos Academy | Copa TVItapê 2025 – SUB10 | GRP E",
+      "m_evt": true
+    },
+    "9005445279892239": {
+      "i": {
+        "brasao": false,
+        "m": 1753974848752,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/RtianuGRFTI/maxresdefault.jpg?v=688a4bfb",
+        "urlP": "https://www.youtube.com/live/RtianuGRFTI?si=0JIjEIZBgLynizqH"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | ADEF X Águias SMA | Copa TVItapê 2025 – Sub-16 | GRP C",
+      "m_evt": true
+    },
+    "9005445279928112": {
+      "i": {
+        "brasao": false,
+        "m": 1753974812879,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/4-elDxABeqc/maxresdefault.jpg?v=688a5a45",
+        "urlP": "https://www.youtube.com/live/4-elDxABeqc?si=cfLsdykruW-7eJhg"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Colégio Santa Maria X Unidos da Bicuda | Copa TVItapê 2025 – SUB14 | GRP F",
+      "m_evt": true
+    },
+    "9005445279975045": {
+      "i": {
+        "brasao": false,
+        "m": 1753974765946,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/exCq2QI59pM/maxresdefault.jpg?v=688a4ace",
+        "urlP": "https://www.youtube.com/live/exCq2QI59pM?si=WwRLN1CFERJGuKEk"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | ADEF X CT D-RAC | Copa TVItapê 2025 – SUB14 I GRP C",
+      "m_evt": true
+    },
+    "9005445280025176": {
+      "i": {
+        "brasao": false,
+        "m": 1753974715815,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/ZqpRxvWl7cU/maxresdefault.jpg?v=688a55b9",
+        "urlP": "https://www.youtube.com/live/ZqpRxvWl7cU?si=dznlBL3QNc0R69N2"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Villagio Futsal X Bola de Ouro | Copa TVItapê 2025 – SUB14 | GRP J",
+      "m_evt": true
+    },
+    "9005445280065074": {
+      "i": {
+        "brasao": false,
+        "m": 1753974675917,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/I0ISBPygzN4/maxresdefault.jpg?v=688a4abf",
+        "urlP": "https://www.youtube.com/live/I0ISBPygzN4?si=z_05DgsUPMQbBzb6"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | ADEF X CT D-RAC | Copa TVItapê 2025 – SUB12 I GRP C",
+      "m_evt": true
+    },
+    "9005445280163374": {
+      "i": {
+        "brasao": false,
+        "m": 1753974577617,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/mUHc2U03Aqw/maxresdefault.jpg?v=688a5270",
+        "urlP": "https://www.youtube.com/live/mUHc2U03Aqw?si=qO91Qg7NjOjVb2KA"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | Capela do Alto X Fortes Guerreiros | Copa TVItapê 2025 – SUB18 | GRP D",
+      "m_evt": true
+    },
+    "9005445280293972": {
+      "i": {
+        "brasao": false,
+        "m": 1753974447019,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/z6A3qwGKRTw/maxresdefault.jpg?v=688a4ab0",
+        "urlP": "https://www.youtube.com/live/z6A3qwGKRTw?si=goDobNDP_vhlfz4v"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | ADEF X CT D-RAC | Copa TVItapê 2025 – Sub10 l GRP C",
+      "m_evt": true
+    },
+    "9005445280328797": {
+      "i": {
+        "brasao": false,
+        "m": 1753974412194,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/rd2ilk_xZ78/maxresdefault.jpg?v=688a4aa3",
+        "urlP": "https://www.youtube.com/live/rd2ilk_xZ78?si=ZMKlzPJDAxqXhJ00"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | ADEF X CT D-RAC | Copa TVItapê 2025 – Sub-08 | GRP C",
+      "m_evt": true
+    },
+    "9005445280364002": {
+      "i": {
+        "brasao": false,
+        "m": 1753974376989,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/vScfGl58udw/maxresdefault.jpg?v=688a4a4c",
+        "urlP": "https://www.youtube.com/live/vScfGl58udw?si=9maN_j4wL3qE--NA"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | FC São Miguel Arcanjo x Alambari | Copa TVItapê 2025 - Sub16 I GRP B",
+      "m_evt": true
+    },
+    "9005445280388182": {
+      "i": {
+        "brasao": false,
+        "m": 1753974352809,
+        "p": false,
+        "uid": "OQMl7euI6kTjPu9TdH6c3Njm2Hw1",
+        "url": "https://i.ytimg.com/vi/kN8I6OehU88/maxresdefault.jpg?v=688a4a36",
+        "urlP": "https://www.youtube.com/live/kN8I6OehU88?si=YvysBXecKv0C6IF_"
+      },
+      "ic": "news",
+      "leg": "AO VIVO | FC São Miguel Arcanjo x Alambari | Copa TVItapê 2025 – SUB08 | GRP B",
+      "m_evt": true
+    }
+  },
+  "msg": {
+    "9005439911848574": {
+      "last": 9005439911848574,
+      "m": 1759342892417,
+      "m_evt": true,
+      "msg": ".",
+      "uid": "BuTf8E0dbcepmQXiU0755ilpRpA3"
+    }
+  },
+  "places": {
+    "7160574": {
+      "address": "Rua Padre Albuquerque, 1150 - Centro - Itapetininga",
+      "title": "Ginásio Orlando Scotto - Arena CASI "
+    },
+    "8883413": {
+      "address": "",
+      "title": "Estação Cidadania"
+    },
+    "8980847": {
+      "address": "Rua Jacira Aires Holtz, 230 - Vl. Barth - Itapetininga",
+      "loc": {
+        "lat": -23.59448252464838,
+        "lon": -48.0525154620409
+      },
+      "title": "Ginásio Ayrton Senna da Silva"
+    }
+  },
+  "share_embedded": {
+    "results": {
+      "results_1": {
+        "lang": {
+          "lang": "pt"
+        }
+      },
+      "results_2": {
+        "lang": {
+          "lang": "pt"
+        }
+      },
+      "results_3": {
+        "lang": {
+          "lang": "pt"
+        }
+      },
+      "results_4": {
+        "lang": {
+          "lang": "pt"
+        }
+      },
+      "results_5": {
+        "lang": {
+          "lang": "pt"
+        }
+      }
+    }
+  }
+}

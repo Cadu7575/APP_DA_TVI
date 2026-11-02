@@ -1,0 +1,58 @@
+name: tvi_news
+description: "TVI News - Portal de Notícias de Itapetininga e Região"
+publish_to: 'none'
+
+version: 1.0.2+3
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.0
+  cached_network_image: ^3.4.1
+  html: ^0.15.4
+  intl: ^0.19.0
+  carousel_slider: ^5.0.0
+  shimmer: ^3.0.0
+  google_fonts: ^6.2.1
+  url_launcher: ^6.3.0
+  flutter_widget_from_html_core: ^0.10.1
+  xml: ^6.5.0
+  youtube_player_flutter: ^9.1.1
+  # Firebase - Notificações Push
+  firebase_core: ^3.13.0
+  firebase_messaging: ^15.2.4
+  # Firebase - Campeonatos
+  firebase_auth: ^5.5.0
+  cloud_firestore: ^5.6.0
+  # Roteamento para deep links das notificações
+  go_router: ^14.8.1
+  # Utilitários adicionais
+  image_picker: ^1.1.2
+  uuid: ^4.5.1
+  share_plus: ^13.3.1
+  pdf: ^3.12.0
+  printing: ^5.14.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.jpg"
+  min_sdk_android: 21 # android min sdk
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+

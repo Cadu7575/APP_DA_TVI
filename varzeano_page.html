@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Organize campeonatos, gere tabelas, acompanhe resultados e compartilhe cada rodada com o Copa Fácil."
+    />
+    <link rel="canonical" href="https://copafacil.com/" />
+    <link rel="alternate" hreflang="pt-BR" href="https://copafacil.com/" />
+    <link rel="alternate" hreflang="es" href="https://copafacil.com/es/" />
+    <link rel="alternate" hreflang="en" href="https://copafacil.com/en/" />
+    <link rel="alternate" hreflang="fr" href="https://copafacil.com/fr/" />
+    <link rel="alternate" hreflang="it" href="https://copafacil.com/it/" />
+    <link rel="alternate" hreflang="x-default" href="https://copafacil.com/" />
+    <link rel="icon" href="https://copafacil.com/favicon.ico?m=3" sizes="32x32">
+<link rel="icon" href="https://copafacil.com/genfavicon-32.png?m=3" sizes="32x32">
+<link rel="icon" href="https://copafacil.com/genfavicon-16.png?m=3" sizes="16x16">
+<link rel="icon" href="https://copafacil.com/favicon-dark.ico" sizes="32x32" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="https://copafacil.com/genfavicon-dark-32.png" sizes="32x32" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="https://copafacil.com/genfavicon-dark-16.png" sizes="16x16" media="(prefers-color-scheme: dark)">
+<link rel="apple-touch-icon" href="https://copafacil.com/apple-touch-icon-57x57.png" sizes="57x57">
+<link rel="apple-touch-icon" href="https://copafacil.com/apple-touch-icon-114x114.png" sizes="114x114">
+<link rel="apple-touch-icon" href="https://copafacil.com/apple-touch-icon-120x120.png" sizes="120x120">
+<link rel="apple-touch-icon" href="https://copafacil.com/apple-touch-icon-180x180.png" sizes="180x180">
+    <meta name="theme-color" content="#14275a" />
+    <title>Copa Fácil — Seu campeonato, organizado</title>
+    <link rel="preconnect" href="https://copafacil.b-cdn.net" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://copafacil.b-cdn.net/novo-site/styles.css?v=11" />
+  </head>
+  <body>
+    <header class="site-header" id="inicio">
+      <div class="container nav-wrap">
+        <a class="brand" href="#inicio" aria-label="Copa Fácil, página inicial">
+          <img src="https://copafacil.b-cdn.net/novo-site/assets/logo1.webp" alt="Copa Fácil" width="320" height="72" decoding="async" />
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+          <span class="sr-only">Abrir menu</span>
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+          <a href="#recursos">Recursos</a>
+          <a href="#experiencia">Como funciona</a>
+          <a href="#planos">Planos</a>
+          <a href="#ajuda">Ajuda</a>
+          <details class="language-selector">
+            <summary aria-label="Selecionar idioma">
+              <img src="https://copafacil.b-cdn.net/novo-site/assets/flag-br.svg" alt="" width="24" height="18" />
+              <span>PT</span>
+              <svg class="language-chevron" viewBox="0 0 12 8" aria-hidden="true"><path d="m1 1.5 5 5 5-5" /></svg>
+            </summary>
+            <div class="language-options" aria-label="Idiomas disponíveis">
+              <a class="is-active" href="/" hreflang="pt-BR" aria-current="page"><img src="https://copafacil.b-cdn.net/novo-site/assets/flag-br.svg" alt="" width="24" height="18" /><span>Português</span></a>
+              <a href="/es/" hreflang="es" lang="es"><img src="https://copafacil.b-cdn.net/novo-site/assets/flag-es.svg" alt="" width="24" height="18" /><span>Español</span></a>
+              <a href="/en/" hreflang="en" lang="en"><img src="https://copafacil.b-cdn.net/novo-site/assets/flag-en.svg" alt="" width="24" height="18" /><span>English</span></a>
+              <a href="/fr/" hreflang="fr" lang="fr"><img src="https://copafacil.b-cdn.net/novo-site/assets/flag-fr.svg" alt="" width="24" height="18" /><span>Français</span></a>
+              <a href="/it/" hreflang="it" lang="it"><img src="https://copafacil.b-cdn.net/novo-site/assets/flag-it.svg" alt="" width="24" height="18" /><span>Italiano</span></a>
+            </div>
+          </details>
+          <a class="nav-login" href="/user">Entrar</a>
+          <a class="button button-small" href="/user">Criar campeonato grátis</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-pad">
+        <div class="hero-orb hero-orb-one"></div>
+        <div class="hero-orb hero-orb-two"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <div class="eyebrow"><span></span> Seu campeonato começa aqui</div>
+            <h1>O JEITO <em>MAIS FÁCIL</em> DE ORGANIZAR SEU CAMPEONATO</h1>
+            <p class="hero-lead">
+              Sorteio de grupos, tabela automática, classificação e artilharia atualizadas a cada jogo. Tudo no app ou na web — sem planilhas e sem confusão no grupo.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-large" href="/user">Criar campeonato grátis <span aria-hidden="true">→</span></a>
+              <span class="hero-note">Sem cartão de crédito<br />Leva menos de 5 minutos</span>
+            </div>
+            <p class="platform-title">Também disponível para celular</p>
+            <div class="platform-row" aria-label="Links para baixar o aplicativo Copa Fácil">
+              <a
+                class="download-badge download-badge-google"
+                href="https://play.google.com/store/apps/details?id=com.copafacil&amp;hl=pt_BR"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Baixar o Copa Fácil no Google Play"
+              >
+                <img src="https://copafacil.b-cdn.net/novo-site/assets/badges/pt_google.webp" alt="Disponível no Google Play" width="324" height="99" decoding="async" />
+              </a>
+              <a
+                class="download-badge download-badge-apple"
+                href="https://apps.apple.com/br/app/copa-f%C3%A1cil/id1444543396"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Baixar o Copa Fácil na App Store"
+              >
+                <img src="https://copafacil.b-cdn.net/novo-site/assets/badges/pt_apple.webp" alt="Baixar na App Store" width="166" height="55" decoding="async" />
+              </a>
+              <span>App ou Web.<br />Você escolhe.</span>
+            </div>
+          </div>
+
+          <div class="product-stage reveal">
+            <img class="hero-mockup" src="https://copafacil.b-cdn.net/novo-site/assets/pt/mockup.webp" alt="Prévia do sistema Copa Fácil em português" width="1536" height="1024" decoding="async" fetchpriority="high" />
+            <div class="score-float">
+              <span class="live-dot"></span>
+              <div><small>AO VIVO · 2º TEMPO</small><strong>ALV <b>2</b> — <b>1</b> UNI</strong></div>
+            </div>
+            <div class="web-window">
+              <div class="window-bar"><i></i><i></i><i></i><span>copafacil.com/copa-do-bairro</span></div>
+              <div class="dashboard-shell">
+                <aside>
+                  <div class="mini-brand"><span>CF</span></div>
+                  <span class="aside-dot active"></span><span class="aside-dot"></span><span class="aside-dot"></span><span class="aside-dot"></span>
+                </aside>
+                <div class="dashboard-content">
+                  <div class="dash-title"><div><small>COPA DO BAIRRO · 2026</small><strong>Visão geral</strong></div><span>4ª rodada</span></div>
+                  <div class="dash-cards"><div><small>Equipes</small><b>16</b></div><div><small>Jogos</small><b>32</b></div><div><small>Gols</small><b>74</b></div></div>
+                  <div class="standings-card">
+                    <div class="card-heading"><b>Classificação</b><small>GRUPO A</small></div>
+                    <div class="table-head"><span>TIME</span><span>P</span><span>J</span><span>SG</span></div>
+                    <div class="table-row"><span><i class="team-color blue"></i>Alvorada FC</span><b>10</b><span>4</span><span>+6</span></div>
+                    <div class="table-row"><span><i class="team-color yellow"></i>União Norte</span><b>8</b><span>4</span><span>+3</span></div>
+                    <div class="table-row"><span><i class="team-color green"></i>Estrela Sul</span><b>6</b><span>4</span><span>+1</span></div>
+                    <div class="table-row"><span><i class="team-color red"></i>Real Oeste</span><b>3</b><span>4</span><span>-2</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="phone-frame" aria-hidden="true">
+              <div class="phone-top"></div>
+              <div class="phone-screen">
+                <div class="phone-header"><span>‹</span><div><small>COPA DO BAIRRO</small><b>Partida</b></div><span>•••</span></div>
+                <div class="match-date">HOJE · 20:30</div>
+                <div class="teams"><div><i class="crest crest-blue">A</i><b>Alvorada</b></div><strong>2 <small>—</small> 1</strong><div><i class="crest crest-yellow">U</i><b>União</b></div></div>
+                <div class="match-status"><span></span> Em andamento</div>
+                <div class="event-list"><div><b>⚽</b><span>Marcos Silva<small>Alvorada · 64'</small></span></div><div><b>🟨</b><span>Paulo Vitor<small>União · 58'</small></span></div><div><b>⚽</b><span>Lucas Mendes<small>União · 42'</small></span></div></div>
+              </div>
+            </div>
+            <div class="top-scorer-float"><span>9</span><div><small>ARTILHEIRO</small><strong>R. Santos · 8 gols</strong></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="sports-showcase" aria-label="Modalidades disponíveis">
+        <div class="sports-showcase-glow" aria-hidden="true"></div>
+        <div class="container sports-showcase-inner">
+          <div class="sports-scenes">
+            <article class="sport-scene is-active" data-sport-scene data-duration="3500">
+              <span class="sport-number">01</span>
+              <div class="sport-visual sport-visual-football" aria-hidden="true">
+                <span class="motion-line motion-line-one"></span><span class="motion-line motion-line-two"></span>
+                <svg class="sport-ball" viewBox="0 0 100 100" role="presentation">
+                  <circle cx="50" cy="50" r="39"></circle>
+                  <path d="m50 33 13 9-5 15H42l-5-15 13-9Zm-13 9-15-4m20 19-10 14m26-14 10 14m-5-29 15-4M32 71l1 15m35-15-1 15M50 33V12"></path>
+                </svg>
+              </div>
+              <div class="sport-scene-copy"><small>FUTEBOL</small><strong>Da escalação ao apito final.</strong></div>
+            </article>
+
+            <article class="sport-scene" data-sport-scene data-duration="3500">
+              <span class="sport-number">02</span>
+              <div class="sport-visual sport-visual-basketball" aria-hidden="true">
+                <span class="court-shadow"></span>
+                <svg class="sport-ball" viewBox="0 0 100 100" role="presentation">
+                  <circle cx="50" cy="50" r="39"></circle>
+                  <path d="M11 50h78M50 11c15 12 15 66 0 78M50 11c-15 12-15 66 0 78M21 24c20 12 38 12 58 0M21 76c20-12 38-12 58 0"></path>
+                </svg>
+              </div>
+              <div class="sport-scene-copy"><small>BASQUETE</small><strong>Cada cesta atualiza a competição.</strong></div>
+            </article>
+
+            <article class="sport-scene" data-sport-scene data-duration="3500">
+              <span class="sport-number">03</span>
+              <div class="sport-visual sport-visual-volleyball" aria-hidden="true">
+                <span class="volley-net"></span>
+                <svg class="sport-ball" viewBox="0 0 100 100" role="presentation">
+                  <circle cx="50" cy="50" r="39"></circle>
+                  <path d="M50 11c7 17 6 31-4 43M18 27c19-1 32 6 41 19M11 54c17-8 32-6 44 5M34 86c1-18 9-31 23-39M73 81c-1-19-7-32-20-41M88 43C72 33 58 31 44 37"></path>
+                </svg>
+              </div>
+              <div class="sport-scene-copy"><small>VÔLEI</small><strong>Do primeiro saque ao match point.</strong></div>
+            </article>
+
+            <article class="sport-scene" data-sport-scene data-duration="3500">
+              <span class="sport-number">04</span>
+              <div class="sport-visual sport-visual-esports" aria-hidden="true">
+                <span class="pixel pixel-one"></span><span class="pixel pixel-two"></span><span class="pixel pixel-three"></span>
+                <svg class="game-controller" viewBox="0 0 120 82" role="presentation">
+                  <path d="M35 18h50c14 0 21 12 24 26l4 19c2 10-9 16-16 9L84 60H36L23 72c-7 7-18 1-16-9l4-19c3-14 10-26 24-26Z"></path>
+                  <path d="M28 39v16M20 47h16"></path>
+                  <circle cx="87" cy="40" r="3"></circle><circle cx="97" cy="50" r="3"></circle>
+                </svg>
+              </div>
+              <div class="sport-scene-copy"><small>E-SPORTS</small><strong>Organização também dentro do game.</strong></div>
+            </article>
+
+            <article class="sport-scene sport-scene-finale" data-sport-scene data-duration="4200">
+              <span class="sport-number">+</span>
+              <div class="sports-final-mark" aria-hidden="true"><img src="https://copafacil.b-cdn.net/novo-site/assets/foreground.webp" alt="" width="256" height="260" loading="lazy" decoding="async" /></div>
+              <div class="sport-scene-copy">
+                <small>UMA PLATAFORMA. MUITAS PAIXÕES.</small>
+                <strong>O Copa Fácil é feito para várias modalidades.</strong>
+              </div>
+            </article>
+          </div>
+
+          <div class="sports-progress" aria-hidden="true">
+            <span class="is-active"></span><span></span><span></span><span></span><span></span>
+          </div>
+          <p class="sr-only">Modalidades em destaque: futebol, basquete, vôlei e e-sports. O Copa Fácil atende várias outras modalidades esportivas.</p>
+        </div>
+      </section>
+
+      <section class="features section-pad" id="recursos">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div><span class="kicker">TUDO EM UM SÓ LUGAR</span><h2>Toda a competição em um só lugar.<br />Menos trabalho, mais diversão.</h2></div>
+            <p>Centralize participantes, partidas, resultados e classificações em uma experiência simples do início ao fim.</p>
+          </div>
+          <div class="features-grid">
+            <article class="feature-card feature-card-wide reveal"><span class="feature-number">01</span><div class="feature-card-content"><div><h3>Gere partidas automaticamente</h3><p>Adicione as equipes, escolha o formato e deixe o Copa Fácil organizar tudo: todos contra todos, grupos ou eliminatórias.</p></div></div><div class="feature-video"><video autoplay muted loop playsinline aria-label="Demonstração da geração automática de partidas"><source src="https://copafacil.b-cdn.net/novo-site/assets/pt/video_tabela.WEBM" type="video/webm" /><source src="https://copafacil.b-cdn.net/novo-site/assets/pt/video_tabela.mp4" type="video/mp4" />Seu navegador não oferece suporte a vídeo.</video></div></article>
+            <article class="feature-card feature-card-ranking reveal">
+              <span class="feature-number">02</span>
+              <h3>Classificação ao vivo</h3>
+              <p>Lançou o resultado, a tabela se atualiza sozinha. Critérios de desempate configuráveis.</p>
+              <div class="ranking-demo" aria-label="Exemplo animado de classificação">
+                <div class="ranking-demo-head"><span>Equipe</span><span>PTS</span><span>J</span><span>SG</span></div>
+                <div class="ranking-demo-list">
+                  <div class="ranking-positions" aria-hidden="true"><span>1</span><span>2</span><span>3</span><span>4</span></div>
+                  <div class="ranking-team-row ranking-team-blue"><span class="ranking-team"><i class="ranking-logo ranking-logo-blue">A</i><b>Alvorada</b></span><strong>10</strong><span>4</span><span>+6</span></div>
+                  <div class="ranking-team-row ranking-team-green"><span class="ranking-team"><i class="ranking-logo ranking-logo-green">U</i><b>União</b></span><strong>11</strong><span>4</span><span>+5</span></div>
+                  <div class="ranking-team-row ranking-team-yellow"><span class="ranking-team"><i class="ranking-logo ranking-logo-yellow">E</i><b>Estrela</b></span><strong>10</strong><span>4</span><span>+3</span></div>
+                  <div class="ranking-team-row ranking-team-red"><span class="ranking-team"><i class="ranking-logo ranking-logo-red">R</i><b>Real Oeste</b></span><strong>4</strong><span>4</span><span>-2</span></div>
+                </div>
+              </div>
+            </article>
+            <article class="feature-card feature-card-stats reveal">
+              <span class="feature-number">03</span>
+              <h3>Estatísticas dos jogadores</h3>
+              <p>Artilharia, cartões, suspensão e rankings personalizados, atualizados a cada partida</p>
+              <div class="players-demo" aria-label="Exemplo animado de cartões por jogador">
+                <div class="players-demo-head"><span>Jogador</span><span><i class="card-icon card-yellow" aria-label="Cartões amarelos"></i></span><span><i class="card-icon card-red" aria-label="Cartões vermelhos"></i></span></div>
+                <div class="players-demo-list">
+                  <div class="player-row player-row-suspended"><span class="player-name"><i class="player-photo player-photo-one" aria-hidden="true"></i><b>Gustavo M.</b></span><strong>2</strong><strong>1</strong></div>
+                  <div class="player-row"><span class="player-name"><i class="player-photo player-photo-two" aria-hidden="true"></i><b>Pedro A.</b></span><strong>1</strong><strong>0</strong></div>
+                  <div class="player-row"><span class="player-name"><i class="player-photo player-photo-three" aria-hidden="true"></i><b>Lucas R.</b></span><strong>3</strong><strong>0</strong></div>
+                  <div class="player-row"><span class="player-name"><i class="player-photo player-photo-four" aria-hidden="true"></i><b>Caio S.</b></span><strong>1</strong><strong>0</strong></div>
+                </div>
+              </div>
+            </article>
+            <article class="feature-card feature-card-reports reveal">
+              <span class="feature-number">04</span>
+              <h3>Súmulas e relatórios</h3>
+              <p>Documentos de jogos, jogadores e equipes sempre prontos para consultar ou imprimir.</p>
+              <div class="reports-demo" aria-label="Exemplo animado de geração de súmula">
+                <div class="reports-matches">
+                  <small>Partidas</small>
+                  <div class="report-match report-match-selected"><span><i class="match-dot match-dot-blue"></i>ALV</span><b>2 × 1</b><span>UNI<i class="match-dot match-dot-green"></i></span></div>
+                  <div class="report-match"><span><i class="match-dot match-dot-yellow"></i>EST</span><b>0 × 0</b><span>REA<i class="match-dot match-dot-red"></i></span></div>
+                  <div class="report-match"><span><i class="match-dot match-dot-violet"></i>VIL</span><b>3 × 2</b><span>NOR<i class="match-dot match-dot-amber"></i></span></div>
+                </div>
+                <div class="report-paper">
+                  <span class="paper-fold"></span>
+                  <small>SÚMULA</small>
+                  <strong>ALV × UNI</strong>
+                  <div class="paper-line paper-line-one"></div>
+                  <div class="paper-line paper-line-two"></div>
+                  <div class="paper-line paper-line-three"></div>
+                  <div class="paper-score"><span></span><b>2—1</b><span></span></div>
+                  <div class="paper-signature"></div>
+                  <i class="paper-check">✓</i>
+                </div>
+              </div>
+            </article>
+            <article class="feature-card feature-card-media reveal">
+              <span class="feature-number">05</span>
+              <h3>Fotos, vídeos e notícias</h3>
+              <p>Publique os melhores momentos e mantenha todos por dentro de cada rodada.</p>
+              <div class="media-feed-demo" aria-label="Exemplo animado de feed de mídias">
+                <div class="media-feed-head"><span><i></i> Feed do campeonato</span><small>AO VIVO</small></div>
+                <div class="media-feed-window">
+                  <div class="media-feed-track">
+                    <article class="media-feed-item"><i class="media-thumb media-thumb-video"><span>▶</span></i><div><b>Gol da rodada</b><small>Vídeo · agora</small></div><em>•••</em></article>
+                    <article class="media-feed-item"><i class="media-thumb media-thumb-photo"><span>▧</span></i><div><b>Galeria da final</b><small>12 fotos · há 8 min</small></div><em>•••</em></article>
+                    <article class="media-feed-item"><i class="media-thumb media-thumb-news"><span>N</span></i><div><b>Quartas definidas</b><small>Notícia · há 20 min</small></div><em>•••</em></article>
+                    <article class="media-feed-item"><i class="media-thumb media-thumb-highlight"><span>▶</span></i><div><b>Melhores momentos</b><small>Vídeo · há 35 min</small></div><em>•••</em></article>
+                    <article class="media-feed-item"><i class="media-thumb media-thumb-crowd"><span>▧</span></i><div><b>Festa da torcida</b><small>8 fotos · há 1 h</small></div><em>•••</em></article>
+                    <article class="media-feed-item"><i class="media-thumb media-thumb-interview"><span>▶</span></i><div><b>Pós-jogo</b><small>Entrevista · há 2 h</small></div><em>•••</em></article>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="feature-card feature-card-social reveal">
+              <span class="feature-number">06</span>
+              <h3>Pronto para as redes</h3>
+              <p>Gere artes de resultados e rankings para Instagram e WhatsApp com poucos cliques.</p>
+              <div class="social-ready-demo" aria-label="Exemplo animado de arte sendo compartilhada nas redes sociais">
+                <div class="social-post-preview">
+                  <small>RESULTADO FINAL</small>
+                  <strong><span>ALV</span><b>2—1</b><span>UNI</span></strong>
+                  <em>COPA DO BAIRRO</em>
+                  <i class="social-post-shine"></i>
+                </div>
+                <div class="social-share-flow">
+                  <small>Compartilhar</small>
+                  <span class="social-share-line"></span>
+                  <i class="social-flying-post">2—1</i>
+                  <div class="social-destinations"><b class="social-instagram">IG</b><b class="social-whatsapp">WA</b></div>
+                  <em>Arte pronta</em>
+                </div>
+              </div>
+            </article>
+            <article class="feature-card feature-card-organizer reveal">
+              <span class="feature-number">07</span>
+              <h3>Página do organizador</h3>
+              <p>Página web pública para o organizador compartilhar todos os seus campeonatos</p>
+              <div class="organizer-page-demo" aria-label="Exemplo de página pública de um organizador">
+                <div class="organizer-browser-bar"><span><i></i><i></i><i></i></span><b>copafacil.com/joao</b><em>↗</em></div>
+                <div class="organizer-profile">
+                  <i class="organizer-avatar">JO</i>
+                  <div><strong>João Oliveira</strong><small>Organizador · 4 campeonatos</small></div>
+                  <span>Compartilhar</span>
+                </div>
+                <div class="organizer-championships">
+                  <article><i class="organizer-cup cup-green">🏆</i><div><b>Copa do Bairro</b><small>16 equipes · Em andamento</small></div></article>
+                  <article><i class="organizer-cup cup-blue">⚽</i><div><b>Liga de Verão</b><small>8 equipes · Inscrições abertas</small></div></article>
+                </div>
+              </div>
+            </article>
+            <article class="feature-card feature-card-sponsors reveal">
+              <span class="feature-number">08</span>
+              <h3>Patrocinadores em destaque</h3>
+              <p>Dê visibilidade às marcas parceiras com banners exibidos em todos os seus campeonatos.</p>
+              <div class="sponsors-demo" aria-label="Exemplo animado de banners de patrocinadores">
+                <div class="sponsor-banner-window">
+                  <div class="sponsor-banner-track">
+                    <article class="sponsor-banner sponsor-banner-nexo"><i>NX</i><div><small>OFERECIMENTO</small><b>NEXO SPORTS</b></div><span>Parceiro oficial</span></article>
+                    <article class="sponsor-banner sponsor-banner-viva"><i>V+</i><div><small>APOIO</small><b>VIVA ENERGIA</b></div><span>Movendo campeões</span></article>
+                  </div>
+                </div>
+                <div class="sponsor-page-preview" aria-hidden="true"><i class="sponsor-championship-logo"></i><div><span class="sponsor-page-title"></span><span class="sponsor-page-subtitle"></span></div><em></em></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience section-pad" id="experiencia">
+        <div class="container">
+          <div class="center-heading reveal"><span class="kicker kicker-light">POR DENTRO DO COPA FÁCIL</span><h2>Seu campeonato fica assim.</h2><p>Informação clara para quem organiza, joga e torce.</p></div>
+          <div class="screens-grid">
+            <button class="screen-card screen-large reveal" type="button" data-screen="Tabela e classificação" data-expanded-image="https://copafacil.b-cdn.net/novo-site/assets/pt/tabela_classificacao_2.webp" data-expanded-alt="Visão ampliada da tabela de classificação e dos jogos do campeonato" aria-label="Ampliar tela de tabela e classificação">
+              <span class="screen-label">TABELA &amp; CLASSIFICA��ÃO</span>
+              <div class="screen-image-preview">
+                <img src="https://copafacil.b-cdn.net/novo-site/assets/pt/tabela_classificacao.webp" alt="Tabela de classificação do campeonato" width="599" height="658" loading="lazy" decoding="async" />
+              </div>
+              <span class="expand-icon">↗</span>
+            </button>
+            <button class="screen-card reveal" type="button" data-screen="Partida" data-expanded-image="https://copafacil.b-cdn.net/novo-site/assets/pt/partida_2.webp" data-expanded-alt="Visão ampliada dos detalhes da partida" aria-label="Ampliar tela de partida">
+              <span class="screen-label">PARTIDA</span>
+              <div class="screen-image-preview">
+                <img src="https://copafacil.b-cdn.net/novo-site/assets/pt/partida_1.webp" alt="Detalhes de uma partida do campeonato" width="496" height="392" loading="lazy" decoding="async" />
+              </div>
+              <span class="expand-icon">↗</span>
+            </button>
+            <button class="screen-card reveal" type="button" data-screen="Ranking de Jogadores" data-expanded-image="https://copafacil.b-cdn.net/novo-site/assets/pt/artilharia_2.webp" data-expanded-alt="Visão ampliada do ranking de jogadores" aria-label="Ampliar tela de ranking de jogadores">
+              <span class="screen-label">RANKING DE JOGADORES</span>
+              <div class="screen-image-preview">
+                <img src="https://copafacil.b-cdn.net/novo-site/assets/pt/artilharia_1.webp" alt="Ranking de jogadores do campeonato" width="492" height="424" loading="lazy" decoding="async" />
+              </div>
+              <span class="expand-icon">↗</span>
+            </button>
+            <button class="screen-card screen-wide reveal" type="button" data-screen="Fotos, Vídeos e Notícias" data-expanded-image="https://copafacil.b-cdn.net/novo-site/assets/pt/midias_2.webp" data-expanded-alt="Visão ampliada da página de fotos, vídeos e notícias do campeonato" aria-label="Ampliar tela de fotos, vídeos e notícias">
+              <span class="screen-label">FOTOS, VÍDEOS E NOTÍCIAS</span>
+              <div class="screen-image-preview">
+                <img src="https://copafacil.b-cdn.net/novo-site/assets/pt/midias.webp" alt="Página de fotos, vídeos e notícias do campeonato" width="900" height="439" loading="lazy" decoding="async" />
+              </div>
+              <span class="expand-icon">↗</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="audiences section-pad" id="publicos">
+        <div class="container">
+          <div class="center-heading reveal"><span class="kicker">FEITO PARA TODO MUNDO</span><h2>Você organiza ou acompanha?</h2></div>
+          <div class="audience-grid">
+            <article class="audience-card organizer reveal">
+              <div class="audience-tag">PARA ORGANIZADORES</div>
+              <div class="audience-icon audience-icon-organizer" aria-hidden="true">
+                <svg viewBox="0 0 48 48">
+                  <path class="icon-board" d="M12 9.5h24a3 3 0 0 1 3 3v23a3 3 0 0 1-3 3H12a3 3 0 0 1-3-3v-23a3 3 0 0 1 3-3Z" />
+                  <path d="M17 16h14M17 24h7M17 32h9" />
+                  <circle cx="33.5" cy="24" r="2.5" />
+                  <path d="m31.5 32 1.7 1.7 3.8-4.2" />
+                </svg>
+                <span class="audience-icon-badge">✓</span>
+              </div>
+              <h3>Seu campeonato,<br />do seu jeito.</h3>
+              <p>Monte a tabela, lance resultados e deixe o Copa Fácil cuidar de todo o resto.</p>
+              <ul><li>Cadastro rápido de equipes</li><li>Tabela e confrontos automáticos</li><li>Gestão completa em qualquer dispositivo</li></ul>
+              <a href="/user" class="button button-large">Criar campeonato <span>→</span></a>
+            </article>
+            <article class="audience-card fans reveal">
+              <div class="audience-tag">PARA JOGADORES E TORCEDORES</div>
+              <div class="audience-icon audience-icon-fans" aria-hidden="true">
+                <svg viewBox="0 0 48 48">
+                  <circle cx="21" cy="21" r="11" />
+                  <path d="m29.5 29.5 9 9" />
+                  <path class="icon-trophy" d="M17 16h8v4.5a4 4 0 0 1-8 0V16Zm0 1.5h-3v1a4 4 0 0 0 4 4m7-5h3v1a4 4 0 0 1-4 4M21 24.5V28m-3 0h6" />
+                </svg>
+                <span class="audience-icon-badge">★</span>
+              </div>
+              <h3>O campeonato<br />na palma da mão.</h3>
+              <p>Encontre campeonatos e organizadores para acompanhar jogos, resultados, notícias e classificação.</p>
+              <form class="championship-search" id="championship-search" role="search">
+                <label class="sr-only" for="championship-name">Nome do campeonato ou organizador</label>
+                <input id="championship-name" name="championship-name" type="search" placeholder="Campeonato ou organizador" autocomplete="off" required />
+                <button type="submit" aria-label="Buscar campeonatos e organizadores">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.15a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" /></svg>
+                </button>
+              </form>
+              <div class="search-type-filter" role="group" aria-label="Filtrar resultados por tipo">
+                <button class="active" type="button" data-search-type="all" aria-pressed="true">Todos</button>
+                <button type="button" data-search-type="championship" aria-pressed="false">Campeonatos</button>
+                <button type="button" data-search-type="organizer" aria-pressed="false">Organizadores</button>
+              </div>
+              <p class="search-feedback" role="status" aria-live="polite"></p>
+              <div class="search-results" id="search-results" aria-live="polite"></div>
+              <button class="search-more" id="search-more" type="button" hidden>Mostrar mais</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing section-pad" id="planos">
+        <div class="container">
+          <div class="center-heading reveal"><span class="kicker">PLANOS DE ASSINATURA</span><h2>Comece grátis. Cresça no seu ritmo.</h2><p>Crie campeonatos, cadastre equipes e lance resultados gratuitamente. Assine quando precisar de mais capacidade.</p></div>
+          <div class="period-switcher reveal" role="group" aria-label="Período de cobrança">
+            <button class="active" type="button" data-period="monthly">Mensal</button>
+            <button type="button" data-period="quarterly">Trimestral</button>
+            <button type="button" data-period="semiannual">Semestral</button>
+            <button type="button" data-period="annual">Anual <span>-30%</span></button>
+          </div>
+          <div class="pricing-grid">
+            <article class="price-card reveal">
+              <div class="price-top"><span class="plan-icon">◇</span><div><small>FLEXÍVEL</small><h3>Personalizado</h3></div></div>
+              <p>Escolha a capacidade ideal para os seus campeonatos.</p>
+              <div class="capacity-selector" role="group" aria-label="Capacidade do plano personalizado">
+                <button class="active" type="button" data-tier="300"><strong>300</strong><span>jogadores</span><small>3 patrocinadores</small></button>
+                <button type="button" data-tier="600"><strong>600</strong><span>jogadores</span><small>6 patrocinadores</small></button>
+                <button type="button" data-tier="900"><strong>900</strong><span>jogadores</span><small>12 patrocinadores</small></button>
+              </div>
+              <p class="capacity-copy" id="capacity-copy">Adicione até 300 jogadores e 3 patrocinadores por campeonato.</p>
+              <div class="price-line"><span class="currency">R$</span><strong id="custom-price">25</strong><span class="price-period" id="custom-period">/mês</span></div>
+              <div class="billing-detail" id="custom-detail">Cobrado mensalmente</div>
+              <a href="/user_payment" class="button button-outline button-full subscribe-link">Assinar Plano Personalizado</a>
+              <ul class="benefit-list"><li>Sem propagandas no site e app</li><li>Artes para redes sociais</li><li>Link personalizado do campeonato</li><li>Vídeos, anexos e súmulas</li><li>Relatórios para impressão</li></ul>
+            </article>
+            <article class="price-card featured reveal">
+              <div class="popular-badge">MAIS COMPLETO</div>
+              <div class="price-top"><span class="plan-icon">✦</span><div><small>SEM LIMITES</small><h3>Profissional</h3></div></div>
+              <p>Capacidade ilimitada e integrações para ligas profissionais.</p>
+              <div class="unlimited-row"><span>∞</span><div><b>Jogadores ilimitados</b><small>Patrocinadores ilimitados</small></div></div>
+              <div class="price-line"><span class="currency">R$</span><strong id="pro-price">55</strong><span class="price-period" id="pro-period">/mês</span></div>
+              <div class="billing-detail" id="pro-detail">Cobrado mensalmente</div>
+              <a href="/user_payment" class="button button-full subscribe-link">Assinar Profissional</a>
+              <ul class="benefit-list"><li><b>Tudo do Plano Personalizado</b></li><li>Acesso à API JSON</li><li>Incorporação em outros sites</li><li>Importação de planilhas</li></ul>
+            </article>
+          </div>
+          <div class="pricing-notes reveal"><span>✓ Uma assinatura vale para todos os campeonatos</span><span>✓ Cancele quando quiser</span><span>✓ Seus dados ficam sempre salvos</span></div>
+        </div>
+      </section>
+
+      <section class="social-proof section-pad">
+        <div class="container">
+          <div class="proof-top reveal">
+            <div><span class="kicker kicker-light">QUEM ORGANIZA, RECOMENDA</span><h2>Menos trabalho.<br />Mais campeonato.</h2></div>
+            <div class="store-proof" aria-label="Avaliações do Copa Fácil nas lojas de aplicativos">
+              <div class="store-ratings">
+                <div class="store-rating"><strong>4,9</strong><span><b aria-hidden="true">★★★★★</b><small>Google Play</small></span></div>
+                <div class="store-rating"><strong>4,8</strong><span><b aria-hidden="true">★★★★★</b><small>App Store</small></span></div>
+              </div>
+              <p class="download-count">Mais de 5 milhões de downloads</p>
+            </div>
+          </div>
+          <div class="testimonials">
+            <article class="testimonial reveal"><div class="quote">“</div><p>Antes eu organizava tudo em planilhas e grupos de WhatsApp. Com o Copa Fácil ficou muito mais simples montar os jogos e atualizar os resultados.</p><footer><img class="avatar" src="https://copafacil.b-cdn.net/novo-site/assets/avatar-carlos.jpg" alt="" width="34" height="34" loading="lazy" decoding="async" /><span><b>Carlos M.</b><small>Organizador de futebol amador</small></span></footer></article>
+            <article class="testimonial reveal"><div class="quote">“</div><p>Muito simples e rápido! Deixou nosso campeonato com uma aparência muito mais profissional.</p><footer><img class="avatar" src="https://copafacil.b-cdn.net/novo-site/assets/avatar-bruno.jpg" alt="" width="34" height="34" loading="lazy" decoding="async" /><span><b>Bruno A.</b><small>Diretor de liga</small></span></footer></article>
+            <article class="testimonial reveal"><div class="quote">“</div><p>A opção de criar e compartilhar imagens nas redes sociais ajudou muito na divulgação do nosso campeonato.</p><footer><img class="avatar" src="https://copafacil.b-cdn.net/novo-site/assets/avatar-felipe.jpg" alt="" width="34" height="34" loading="lazy" decoding="async" /><span><b>Felipe R.</b><small>Organizador de campeonato</small></span></footer></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="help section-pad" id="ajuda">
+        <div class="container help-grid">
+          <div class="help-copy reveal"><span class="kicker">VOCÊ NÃO JOGA SOZINHO</span><h2>Precisou? A gente ajuda.</h2><p>Tire dúvidas com o nosso time ou aprenda no seu ritmo com guias rápidos e objetivos.</p><div class="help-actions"><a href="https://api.whatsapp.com/send/?phone=5582991027052&amp;text&amp;app_absent=0" class="button contact-button whatsapp-link" target="_blank" rel="noopener noreferrer"><span class="contact-icon"><svg class="whatsapp-symbol" viewBox="35 35 80 80" aria-hidden="true"><path d="m102.81 49.19a37.7 37.7 0 0 0-60.4 43.62l-4 19.42a1.42 1.42 0 0 0 .23 1.13 1.45 1.45 0 0 0 1.54.6l19-4.51a37.7 37.7 0 0 0 43.6-60.26zm-5.94 47.37a29.56 29.56 0 0 1-34 5.57l-2.66-1.32-11.67 2.76v-.15l2.46-11.77-1.3-2.56a29.5 29.5 0 0 1 5.43-34.27 29.53 29.53 0 0 1 41.74 0l.13.18a29.52 29.52 0 0 1-.15 41.58Z"/><path d="M95.84 88c-1.43 2.25-3.7 5-6.53 5.69-5 1.2-12.61 0-22.14-8.81l-.12-.11c-8.29-7.74-10.49-14.19-10-19.3.29-2.91 2.71-5.53 4.75-7.25a2.72 2.72 0 0 1 4.25 1l3.07 6.94a2.7 2.7 0 0 1-.33 2.76l-1.56 2a2.65 2.65 0 0 0-.21 2.95 29 29 0 0 0 5.27 5.86 31.17 31.17 0 0 0 7.3 5.23 2.65 2.65 0 0 0 2.89-.61l1.79-1.82a2.71 2.71 0 0 1 2.73-.76l7.3 2.09A2.74 2.74 0 0 1 95.84 88Z"/></svg></span><span class="contact-copy"><strong>WhatsApp</strong><small>Resposta mais rápida</small></span></a><a href="mailto:suporte@copafacil.com" class="button contact-button email-link"><span class="contact-icon"><svg class="email-symbol" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4 7 8 6 8-6"/></svg></span><span class="contact-copy"><strong>Enviar e-mail</strong><small>suporte@copafacil.com</small></span></a></div></div>
+          <div class="tutorials reveal">
+            <a href="https://youtu.be/VlyUqJvBIRE" class="tutorial-card" target="_blank" rel="noopener noreferrer"><span class="video-thumb video-thumb-youtube"><img src="https://i.ytimg.com/vi/VlyUqJvBIRE/hqdefault.jpg" alt="" loading="lazy" /><i aria-hidden="true">▶</i></span><span><b>Tutorial: criar um campeonato — Site Copa Fácil</b><small>Aprenda a criar e configurar um campeonato pelo site, do nome às primeiras definições.</small></span></a>
+            <a href="https://youtu.be/oTQlegKajFE" class="tutorial-card" target="_blank" rel="noopener noreferrer"><span class="video-thumb video-thumb-youtube"><img src="https://i.ytimg.com/vi/oTQlegKajFE/hqdefault.jpg" alt="" loading="lazy" /><i aria-hidden="true">▶</i></span><span><b>Tutorial: adicionar equipes — Site Copa Fácil</b><small>Veja como cadastrar as equipes que participarão da competição e deixar tudo pronto para começar.</small></span></a>
+            <a href="https://youtu.be/XE8fxjYTm6g" class="tutorial-card" target="_blank" rel="noopener noreferrer"><span class="video-thumb video-thumb-youtube"><img src="https://i.ytimg.com/vi/XE8fxjYTm6g/hqdefault.jpg" alt="" loading="lazy" /><i aria-hidden="true">▶</i></span><span><b>Editar resultado de uma partida — Site</b><small>Saiba como lançar ou corrigir um placar e manter a classificação do campeonato atualizada.</small></span></a>
+            <a href="https://youtu.be/A9xTjYOjaZ8" class="tutorial-card" target="_blank" rel="noopener noreferrer"><span class="video-thumb video-thumb-youtube"><img src="https://i.ytimg.com/vi/A9xTjYOjaZ8/hqdefault.jpg" alt="" loading="lazy" /><i aria-hidden="true">▶</i></span><span><b>Tutorial: moderadores — Aplicativo Copa Fácil</b><small>Aprenda a adicionar moderadores pelo aplicativo e dividir a administração do campeonato com sua equipe.</small></span></a>
+            <a href="https://youtu.be/3FGKxq2S5Vs" class="tutorial-card" target="_blank" rel="noopener noreferrer"><span class="video-thumb video-thumb-youtube"><img src="https://i.ytimg.com/vi/3FGKxq2S5Vs/hqdefault.jpg" alt="" loading="lazy" /><i aria-hidden="true">▶</i></span><span><b>Copa Fácil: escolha o plano ideal para seu campeonato</b><small>Compare as opções disponíveis e encontre o plano adequado ao tamanho e às necessidades da sua competição.</small></span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta">
+        <div class="container final-cta-inner reveal"><div><span class="kicker kicker-light">PRONTO PARA O APITO INICIAL?</span><h2>Seu próximo campeonato começa agora.</h2></div><a href="/user" class="button button-light button-large">Criar campeonato grátis <span>→</span></a></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div><a class="brand brand-footer" href="#inicio" aria-label="Copa Fácil, voltar ao início"><img class="footer-brand-mark" src="https://copafacil.b-cdn.net/novo-site/assets/foreground.webp" alt="" width="256" height="260" loading="lazy" decoding="async" /><span>Copa <strong>Fácil</strong></span></a><p>Campeonatos bem organizados,<br />dentro e fora da quadra.</p></div>
+        <div><h3>Produto</h3><a href="#recursos">Recursos</a><a href="#planos">Planos</a><a href="#experiencia">Como funciona</a></div>
+        <div><h3>Suporte</h3><a href="#ajuda">Central de ajuda</a><a href="mailto:suporte@copafacil.com">Fale com a gente</a><a target="_blank" href="https://www.youtube.com/watch?v=RGqSSra5xwY&list=PLdBNWLTLhMbc">Tutoriais</a></div>
+        <div><h3>Baixe o app</h3><div class="store-buttons"><a href="https://apps.apple.com/br/app/copa-f%C3%A1cil/id1444543396" target="_blank" rel="noopener noreferrer" aria-label="Baixar o Copa Fácil na App Store"><img src="https://copafacil.b-cdn.net/novo-site/assets/badges/pt_apple.webp" alt="Baixar na App Store" width="166" height="55" loading="lazy" decoding="async" /></a><a href="https://play.google.com/store/apps/details?id=com.copafacil&amp;hl=pt_BR" target="_blank" rel="noopener noreferrer" aria-label="Baixar o Copa Fácil no Google Play"><img src="https://copafacil.b-cdn.net/novo-site/assets/badges/pt_google.webp" alt="Disponível no Google Play" width="324" height="99" loading="lazy" decoding="async" /></a></div></div>
+      </div>
+      <div class="container footer-bottom"><span>© 2026 Copa Fácil. Todos os direitos reservados.<br />JOSE AUGUSTO N COSTA LTDA — CNPJ 34.843.209/0001-39</span><div><a href="https://copafacil.com/privacy/privacy_copa_facil_pt.html">Privacidade</a><a href="https://copafacil.com/privacy/terms_copafacil.html">Termos de uso</a></div></div>
+    </footer>
+
+    <dialog class="screen-modal" id="screen-modal">
+      <button class="modal-close" type="button" aria-label="Fechar visualização">×</button>
+      <div class="modal-content"></div>
+      <p class="modal-title"></p>
+    </dialog>
+
+    <div class="toast" role="status" aria-live="polite"></div>
+    <script src="https://copafacil.b-cdn.net/novo-site/script.js?v=14"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "tvi-copafacil-migration",
+  "version": "1.0.0",
+  "description": "Script de migração CopáFácil → TVI News Firebase",
+  "main": "migrate_copafacil.js",
+  "scripts": {
+    "migrate": "node migrate_copafacil.js"
+  },
+  "dependencies": {
+    "firebase": "^10.14.0",
+    "firebase-admin": "^12.7.0"
+  }
+}

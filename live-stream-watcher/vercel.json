@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/watch-stream",
+      "dest": "/api/watch-stream.js"
+    },
+    {
+      "src": "/api/watch-news",
+      "dest": "/api/watch-news.js"
+    }
+  ]
+}

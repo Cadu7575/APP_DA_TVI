@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  ╔══════════════════════════════════════════════════════════════╗
+  ║  ARQUIVO PLACEHOLDER — NÃO É O ARQUIVO REAL DO FIREBASE     ║
+  ╠══════════════════════════════════════════════════════════════╣
+  ║  COMO GERAR O GoogleService-Info.plist REAL:                 ║
+  ║                                                              ║
+  ║  1. Acesse https://console.firebase.google.com               ║
+  ║  2. Selecione o projeto criado para o Android                ║
+  ║  3. Clique em "Adicionar app" → iOS                          ║
+  ║  4. Bundle ID: com.tvi.tviNews (verifique em ios/Runner/)    ║
+  ║  5. Baixe o GoogleService-Info.plist gerado                  ║
+  ║  6. Substitua ESTE ARQUIVO pelo baixado em:                  ║
+  ║     ios/Runner/GoogleService-Info.plist                      ║
+  ║  7. No Xcode: arraste o plist para dentro do Runner/         ║
+  ║  8. Rode: flutter run                                        ║
+  ║                                                              ║
+  ║  ⚠️  NÃO commite o arquivo real no Git!                      ║
+  ║     Adicione ao .gitignore:                                  ║
+  ║     ios/Runner/GoogleService-Info.plist                      ║
+  ╚══════════════════════════════════════════════════════════════╝
+-->
+<plist version="1.0">
+<dict>
+  <key>PLACEHOLDER</key>
+  <string>Substitua este arquivo pelo GoogleService-Info.plist real do Firebase Console</string>
+</dict>
+</plist>
