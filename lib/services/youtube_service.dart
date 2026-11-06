@@ -230,10 +230,11 @@ class YoutubeService {
             if (parsedVideos.isNotEmpty) {
               // Se o scraping encontrou vídeos mas nenhum ao vivo,
               // e o Firestore diz que há live ativa, injeta no topo
-              if (liveAtivaFirestore != null &&
+              final liveFirestore = liveAtivaFirestore;
+              if (liveFirestore != null &&
                   !parsedVideos.any((v) => v.isLive) &&
-                  !parsedVideos.any((v) => v.id == liveAtivaFirestore!.id)) {
-                parsedVideos.insert(0, liveAtivaFirestore!);
+                  !parsedVideos.any((v) => v.id == liveFirestore.id)) {
+                parsedVideos.insert(0, liveFirestore);
               }
               _cachedVideos = parsedVideos;
               _cacheTime = DateTime.now();
@@ -249,10 +250,11 @@ class YoutubeService {
     final fallback = await _fetchRssVideos();
 
     // Se o RSS retornou vídeos e tem live ativa no Firestore, injeta no topo
-    if (liveAtivaFirestore != null &&
+    final liveFirestore = liveAtivaFirestore;
+    if (liveFirestore != null &&
         !fallback.any((v) => v.isLive) &&
-        !fallback.any((v) => v.id == liveAtivaFirestore!.id)) {
-      fallback.insert(0, liveAtivaFirestore!);
+        !fallback.any((v) => v.id == liveFirestore.id)) {
+      fallback.insert(0, liveFirestore);
     }
 
     _cachedVideos = fallback;

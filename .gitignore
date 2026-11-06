@@ -55,3 +55,4 @@ check_*.js
 get_recent_lives.js
 *.aab
 *.apk
+_backup_migracao/

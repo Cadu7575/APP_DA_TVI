@@ -29,7 +29,6 @@ class _CampeonatosScreenState extends State<CampeonatosScreen> {
   final _buscaCtrl = TextEditingController();
 
   // ── Auth state ─────────────────────────────────────────────────────────────
-  bool _usuarioLogado = false;
   bool _isAdmin = false;
 
   @override
@@ -48,7 +47,6 @@ class _CampeonatosScreenState extends State<CampeonatosScreen> {
     final u = await AuthService.instance.usuarioAtual;
     if (mounted) {
       setState(() {
-        _usuarioLogado = u != null;
         _isAdmin = u?.role == RoleUsuario.admin;
       });
     }

@@ -48,12 +48,7 @@ class CampeonatoService {
           .map((doc) => Campeonato.fromFirestore(doc))
           .toList();
       // Ordena em memória por criadoEm (mais recente primeiro)
-      lista.sort((a, b) {
-        if (a.criadoEm != null && b.criadoEm != null) {
-          return b.criadoEm!.compareTo(a.criadoEm!);
-        }
-        return a.nome.compareTo(b.nome);
-      });
+      lista.sort((a, b) => b.criadoEm.compareTo(a.criadoEm));
       return lista;
     });
   }
