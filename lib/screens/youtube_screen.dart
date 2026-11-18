@@ -5,6 +5,7 @@ import 'package:url_launcher/url_launcher.dart';
 import 'package:go_router/go_router.dart';
 import '../services/youtube_service.dart';
 import '../widgets/app_theme.dart';
+import '../widgets/tv_ao_vivo_widget.dart';
 import 'video_player_screen.dart';
 
 
@@ -379,94 +380,98 @@ class _YoutubeScreenState extends State<YoutubeScreen>
       onRefresh: _loadVideos,
       color: AppTheme.accentOrange,
       backgroundColor: AppTheme.cardColor,
-      child: videos.isEmpty
-          ? _buildLiveOfflineState()
-          : ListView.builder(
-              padding: const EdgeInsets.symmetric(vertical: 12),
-              itemCount: videos.length,
-              itemBuilder: (context, index) => _buildVideoCard(videos[index], isLive: true),
-            ),
-    );
-  }
+      child: ListView(
+        physics: const AlwaysScrollableScrollPhysics(),
+        children: [
+          // ── 1) Player TVitapê (sempre visível) ──────────────
+          const TvAoVivoScreen(),
 
-  Widget _buildLiveOfflineState() {
-    return ListView(
-      physics: const AlwaysScrollableScrollPhysics(),
-      children: [
-        SizedBox(
-          height: MediaQuery.of(context).size.height * 0.55,
-          child: Center(
-            child: Padding(
-              padding: const EdgeInsets.all(32),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
+          // ── 2) Seção YouTube Ao Vivo (se houver) ────────────
+          if (videos.isNotEmpty) ...[
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
+              child: Row(
                 children: [
-                  FadeTransition(
-                    opacity: _liveBlinkAnimation,
-                    child: Container(
-                      padding: const EdgeInsets.all(20),
-                      decoration: BoxDecoration(
-                        color: AppTheme.bgSecondary,
-                        shape: BoxShape.circle,
-                        boxShadow: [
-                          BoxShadow(
-                            color: AppTheme.accentOrange.withValues(alpha: 0.15),
-                            blurRadius: 20,
-                            spreadRadius: 4,
-                          ),
-                        ],
-                      ),
-                      child: const Icon(
-                        Icons.portable_wifi_off_rounded,
-                        color: AppTheme.accentOrange,
-                        size: 48,
-                      ),
+                  Container(
+                    width: 3,
+                    height: 18,
+                    decoration: BoxDecoration(
+                      color: AppTheme.accentOrange,
+                      borderRadius: BorderRadius.circular(2),
                     ),
                   ),
-                  const SizedBox(height: 24),
+                  const SizedBox(width: 8),
                   Text(
-                    'Canal Offline',
+                    'Também ao vivo no YouTube',
                     style: GoogleFonts.poppins(
                       color: Colors.white,
-                      fontSize: 18,
+                      fontSize: 14,
                       fontWeight: FontWeight.w700,
                     ),
                   ),
-                  const SizedBox(height: 8),
-                  Text(
-                    'Não há nenhuma transmissão ao vivo no momento. Acompanhe nossas redes ou assista às gravações.',
-                    style: GoogleFonts.poppins(
-                      color: AppTheme.textSecondary,
-                      fontSize: 13,
-                      height: 1.5,
-                    ),
-                    textAlign: TextAlign.center,
-                  ),
-                  const SizedBox(height: 28),
-                  ElevatedButton.icon(
-                    onPressed: () {
-                      _tabController.animateTo(2); // Muda para a aba de Gravações!
-                    },
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: AppTheme.accentOrange,
-                      foregroundColor: Colors.white,
+                  const SizedBox(width: 8),
+                  FadeTransition(
+                    opacity: _liveBlinkAnimation,
+                    child: Container(
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 24, vertical: 14),
-                      shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10)),
-                    ),
-                    icon: const Icon(Icons.video_library_rounded, size: 18),
-                    label: Text(
-                      'Ver Gravações',
-                      style: GoogleFonts.poppins(fontWeight: FontWeight.w700),
+                          horizontal: 7, vertical: 2),
+                      decoration: BoxDecoration(
+                        color: AppTheme.accentOrange,
+                        borderRadius: BorderRadius.circular(4),
+                      ),
+                      child: Text(
+                        '${videos.length}',
+                        style: GoogleFonts.poppins(
+                          color: Colors.white,
+                          fontSize: 10,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
                     ),
                   ),
                 ],
               ),
             ),
-          ),
-        ),
-      ],
+            ...videos.map((v) => _buildVideoCard(v, isLive: true)),
+          ],
+
+          // ── 3) Offline YouTube (opcional label) ─────────────
+          if (videos.isEmpty)
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+              child: Container(
+                padding: const EdgeInsets.all(14),
+                decoration: BoxDecoration(
+                  color: AppTheme.bgSecondary,
+                  borderRadius: BorderRadius.circular(12),
+                  border: Border.all(
+                    color: AppTheme.shimmerBase,
+                    width: 1,
+                  ),
+                ),
+                child: Row(
+                  children: [
+                    const Icon(Icons.info_outline_rounded,
+                        color: AppTheme.textMuted, size: 20),
+                    const SizedBox(width: 10),
+                    Expanded(
+                      child: Text(
+                        'Nenhuma live no YouTube no momento. Veja as gravações na aba Gravações.',
+                        style: GoogleFonts.poppins(
+                          color: AppTheme.textSecondary,
+                          fontSize: 12,
+                          height: 1.4,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+
+          const SizedBox(height: 20),
+        ],
+      ),
     );
   }
 
@@ -567,17 +572,17 @@ class _YoutubeScreenState extends State<YoutubeScreen>
           borderRadius: BorderRadius.circular(16),
           border: Border.all(
             color: isLive
-                ? AppTheme.accentOrange.withOpacity(0.8)
+                ? AppTheme.accentOrange.withValues(alpha: 0.8)
                 : isUpcoming
-                    ? AppTheme.accentBlue.withOpacity(0.6)
+                    ? AppTheme.accentBlue.withValues(alpha: 0.6)
                     : const Color(0xFF282830),
             width: isLive ? 1.8 : 1.2,
           ),
           boxShadow: [
             BoxShadow(
               color: isLive
-                  ? AppTheme.accentOrange.withOpacity(0.2)
-                  : Colors.black.withOpacity(0.35),
+                  ? AppTheme.accentOrange.withValues(alpha: 0.2)
+                  : Colors.black.withValues(alpha: 0.35),
               blurRadius: isLive ? 18 : 12,
               offset: const Offset(0, 5),
             ),
