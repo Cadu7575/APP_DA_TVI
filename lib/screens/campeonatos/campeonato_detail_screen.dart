@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -19,6 +20,10 @@ import 'package:tvi_news/screens/campeonatos/gerar_jogos_screen.dart';
 import 'package:tvi_news/screens/campeonatos/fotos_campeonato_screen.dart';
 import 'package:tvi_news/screens/campeonatos/configuracoes_campeonato_screen.dart';
 
+// ═══════════════════════════════════════════════════════════════════════════════
+// TELA PRINCIPAL DE DETALHE DO CAMPEONATO — Layout Copa Fácil
+// ═══════════════════════════════════════════════════════════════════════════════
+
 class CampeonatoDetailScreen extends StatefulWidget {
   final String campeonatoId;
 
@@ -34,19 +39,13 @@ class _CampeonatoDetailScreenState extends State<CampeonatoDetailScreen>
   bool _isAdmin = false;
   String _categoriaSelecionada = 'Todas';
 
-  static const List<String> _abas = [
-    'Início',
-    'Classificação',
-    'Jogos',
-    'Artilharia',
-    'Times',
-    'Fotos',
-  ];
+  // 4 abas principais: Início | Categorias | Jogos | Galeria
+  static const int _numTabs = 4;
 
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: _abas.length, vsync: this);
+    _tabController = TabController(length: _numTabs, vsync: this);
     _verificarAdmin();
   }
 
@@ -89,118 +88,39 @@ class _CampeonatoDetailScreenState extends State<CampeonatoDetailScreen>
 
         return Scaffold(
           backgroundColor: AppTheme.bgPrimary,
-          appBar: AppBar(
-            backgroundColor: AppTheme.bgPrimary,
-            elevation: 0,
-            iconTheme: const IconThemeData(color: AppTheme.textPrimary),
-            title: Text(
-              campeonato?.nome ?? 'Campeonato',
-              style: GoogleFonts.poppins(
-                fontSize: 16,
-                fontWeight: FontWeight.w600,
-                color: AppTheme.textPrimary,
-              ),
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
-            ),
-            actions: [
-              if (_isAdmin && campeonato != null) ...[
-                TextButton.icon(
-                  style: TextButton.styleFrom(
-                    foregroundColor: AppTheme.accentOrange,
-                    padding: const EdgeInsets.symmetric(horizontal: 8),
-                  ),
-                  icon: const Icon(Icons.calendar_month, size: 18),
-                  label: Text(
-                    'Gerar Jogos',
-                    style: GoogleFonts.poppins(
-                      fontSize: 12,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => GerarJogosScreen(
-                          campeonatoId: campeonato!.id,
-                          campeonatoNome: campeonato.nome,
-                        ),
-                      ),
-                    );
-                  },
-                ),
-                IconButton(
-                  icon: const Icon(Icons.settings_outlined, color: Colors.white),
-                  tooltip: 'Configurações do Campeonato',
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (_) => ConfiguracoesCampeonatoScreen(
-                          campeonato: campeonato!,
-                        ),
-                      ),
-                    );
-                  },
-                ),
-              ],
-              const SizedBox(width: 8),
-            ],
-            bottom: TabBar(
-              controller: _tabController,
-              isScrollable: true,
-              tabAlignment: TabAlignment.start,
-              labelStyle: GoogleFonts.poppins(
-                fontSize: 13,
-                fontWeight: FontWeight.w600,
-              ),
-              unselectedLabelStyle: GoogleFonts.poppins(fontSize: 13),
-              labelColor: AppTheme.accentOrange,
-              unselectedLabelColor: AppTheme.textSecondary,
-              indicatorColor: AppTheme.accentOrange,
-              indicatorWeight: 3,
-              dividerColor: Colors.transparent,
-              tabs: _abas.map((a) => Tab(text: a)).toList(),
-            ),
-          ),
+          appBar: _buildAppBar(campeonato),
           body: TabBarView(
             controller: _tabController,
             children: [
+              // 0 — Início
               _AbaInicio(
                 campeonato: campeonato,
+                isAdmin: _isAdmin,
                 onSelectCategoria: (cat) {
-                  setState(() {
-                    _categoriaSelecionada = cat;
-                  });
-                  _tabController.animateTo(2); // Muda para aba Jogos
+                  setState(() => _categoriaSelecionada = cat);
+                  _tabController.animateTo(2); // vai para aba Jogos
                 },
               ),
-              _AbaClassificacao(
+              // 1 — Categorias
+              _AbaCategorias(
+                campeonato: campeonato,
+                isAdmin: _isAdmin,
+                onSelectCategoria: (cat) {
+                  setState(() => _categoriaSelecionada = cat);
+                  _tabController.animateTo(2);
+                },
+              ),
+              // 2 — Jogos (com sub-abas: partidas, classificação, artilharia)
+              _AbaJogosCompleta(
                 campeonatoId: widget.campeonatoId,
+                campeonato: campeonato,
+                isAdmin: _isAdmin,
                 categoriaSelecionada: _categoriaSelecionada,
                 categorias: campeonato?.categorias ?? [],
-                onSelectCategoria: (cat) {
-                  setState(() {
-                    _categoriaSelecionada = cat;
-                  });
-                },
+                onSelectCategoria: (cat) =>
+                    setState(() => _categoriaSelecionada = cat),
               ),
-              _AbaJogos(
-                campeonatoId: widget.campeonatoId,
-                categoriaSelecionada: _categoriaSelecionada,
-                categorias: campeonato?.categorias ?? [],
-                onSelectCategoria: (cat) {
-                  setState(() {
-                    _categoriaSelecionada = cat;
-                  });
-                },
-              ),
-              _AbaArtilharia(campeonatoId: widget.campeonatoId),
-              _AbaTimes(
-                campeonatoId: widget.campeonatoId,
-                organizadorId: campeonato?.organizadorId,
-              ),
+              // 3 — Galeria
               _AbaFotos(
                 campeonatoId: widget.campeonatoId,
                 isAdmin: _isAdmin,
@@ -211,46 +131,123 @@ class _CampeonatoDetailScreenState extends State<CampeonatoDetailScreen>
       },
     );
   }
-}
 
-// ── Badge de status ───────────────────────────────────────────────────────────
-
-class _StatusBadge extends StatelessWidget {
-  final String label;
-  final Color color;
-
-  const _StatusBadge({required this.label, required this.color});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-      decoration: BoxDecoration(
-        color: color.withOpacity(0.18),
-        borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: color, width: 1),
-      ),
-      child: Text(
-        label,
+  PreferredSizeWidget _buildAppBar(Campeonato? campeonato) {
+    return AppBar(
+      backgroundColor: AppTheme.bgPrimary,
+      elevation: 0,
+      iconTheme: const IconThemeData(color: AppTheme.textPrimary),
+      title: Text(
+        campeonato?.nome ?? 'Campeonato',
         style: GoogleFonts.poppins(
-          fontSize: 11,
+          fontSize: 16,
           fontWeight: FontWeight.w600,
-          color: color,
+          color: AppTheme.textPrimary,
         ),
+        maxLines: 1,
+        overflow: TextOverflow.ellipsis,
+      ),
+      actions: [
+        IconButton(
+          icon: const Icon(Icons.share_outlined, color: AppTheme.textPrimary),
+          tooltip: 'Compartilhar',
+          onPressed: () {
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(content: Text('Compartilhar em breve')),
+            );
+          },
+        ),
+        if (_isAdmin && campeonato != null) ...[
+          IconButton(
+            icon: const Icon(Icons.calendar_month_outlined,
+                color: AppTheme.accentOrange),
+            tooltip: 'Gerar Jogos',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => GerarJogosScreen(
+                    campeonatoId: campeonato.id,
+                    campeonatoNome: campeonato.nome,
+                  ),
+                ),
+              );
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.settings_outlined, color: Colors.white),
+            tooltip: 'Configurações',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) =>
+                      ConfiguracoesCampeonatoScreen(campeonato: campeonato),
+                ),
+              );
+            },
+          ),
+        ],
+        PopupMenuButton<String>(
+          icon: const Icon(Icons.more_vert, color: AppTheme.textPrimary),
+          color: AppTheme.cardColor,
+          onSelected: (v) {},
+          itemBuilder: (_) => [
+            PopupMenuItem(
+              value: 'info',
+              child: Text('Informações',
+                  style: GoogleFonts.poppins(color: AppTheme.textPrimary)),
+            ),
+          ],
+        ),
+        const SizedBox(width: 4),
+      ],
+      bottom: TabBar(
+        controller: _tabController,
+        isScrollable: false,
+        labelColor: AppTheme.accentOrange,
+        unselectedLabelColor: AppTheme.textSecondary,
+        indicatorColor: AppTheme.accentOrange,
+        indicatorWeight: 2.5,
+        dividerColor: const Color(0xFF2A2A2A),
+        tabs: const [
+          Tab(icon: Icon(Icons.home_outlined, size: 22)),
+          Tab(icon: Icon(Icons.list_outlined, size: 22)),
+          Tab(icon: Icon(Icons.sports_score_outlined, size: 22)),
+          Tab(icon: Icon(Icons.photo_library_outlined, size: 22)),
+        ],
       ),
     );
   }
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
-// ABA INÍCIO
+// ABA INÍCIO — Layout Copa Fácil
 // ═══════════════════════════════════════════════════════════════════════════════
 
-class _AbaInicio extends StatelessWidget {
+class _AbaInicio extends StatefulWidget {
   final Campeonato? campeonato;
+  final bool isAdmin;
   final void Function(String categoria)? onSelectCategoria;
 
-  const _AbaInicio({required this.campeonato, this.onSelectCategoria});
+  const _AbaInicio({
+    required this.campeonato,
+    required this.isAdmin,
+    this.onSelectCategoria,
+  });
+
+  @override
+  State<_AbaInicio> createState() => _AbaInicioState();
+}
+
+class _AbaInicioState extends State<_AbaInicio> {
+  final _msgCtrl = TextEditingController();
+
+  @override
+  void dispose() {
+    _msgCtrl.dispose();
+    super.dispose();
+  }
 
   Color _statusColor(StatusCampeonato status) {
     switch (status) {
@@ -265,175 +262,17 @@ class _AbaInicio extends StatelessWidget {
     }
   }
 
-  Widget _buildBanner(BuildContext context, Campeonato c) {
-    final hasLogo = c.logoUrl != null && c.logoUrl!.trim().isNotEmpty;
-
-    return ClipRRect(
-      borderRadius: BorderRadius.circular(16),
-      child: SizedBox(
-        height: 190,
-        width: double.infinity,
-        child: Stack(
-          fit: StackFit.expand,
-          children: [
-            if (hasLogo)
-              CachedNetworkImage(
-                imageUrl: c.logoUrl!.trim(),
-                fit: BoxFit.cover,
-                placeholder: (context, url) => Container(
-                  color: AppTheme.cardColor,
-                  child: const Center(
-                    child: CircularProgressIndicator(
-                      color: AppTheme.accentOrange,
-                    ),
-                  ),
-                ),
-                errorWidget: (context, url, error) =>
-                    _buildDefaultBannerContent(c),
-              )
-            else
-              _buildDefaultBannerContent(c),
-
-            if (hasLogo)
-              Container(
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    begin: Alignment.topCenter,
-                    end: Alignment.bottomCenter,
-                    colors: [
-                      Colors.black.withOpacity(0.3),
-                      Colors.black.withOpacity(0.8),
-                    ],
-                  ),
-                ),
-              ),
-
-            if (hasLogo)
-              Positioned(
-                bottom: 16,
-                left: 16,
-                right: 16,
-                child: Text(
-                  c.nome,
-                  style: GoogleFonts.poppins(
-                    fontSize: 20,
-                    fontWeight: FontWeight.w700,
-                    color: AppTheme.textPrimary,
-                  ),
-                  maxLines: 2,
-                  overflow: TextOverflow.ellipsis,
-                ),
-              ),
-
-            Positioned(
-              top: 14,
-              right: 14,
-              child: _StatusBadge(
-                label: c.statusLabel,
-                color: _statusColor(c.status),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _buildDefaultBannerContent(Campeonato c) {
-    return Container(
-      decoration: const BoxDecoration(
-        gradient: LinearGradient(
-          begin: Alignment.topCenter,
-          end: Alignment.bottomCenter,
-          colors: [
-            Color(0xFF0D2B14),
-            Color(0xFF0F1E10),
-            Color(0xFF0F0F0F),
-          ],
-        ),
-      ),
-      child: Center(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              const Icon(
-                Icons.emoji_events_rounded,
-                size: 60,
-                color: Color(0xFFFFD700),
-              ),
-              const SizedBox(height: 8),
-              Text(
-                c.nome,
-                style: GoogleFonts.poppins(
-                  fontSize: 18,
-                  fontWeight: FontWeight.w700,
-                  color: AppTheme.textPrimary,
-                ),
-                textAlign: TextAlign.center,
-                maxLines: 2,
-                overflow: TextOverflow.ellipsis,
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
-
-  Widget _buildInfoItem({
-    required IconData icon,
-    required String label,
-    required Widget content,
-  }) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Container(
-            padding: const EdgeInsets.all(8),
-            decoration: BoxDecoration(
-              color: AppTheme.bgSecondary,
-              borderRadius: BorderRadius.circular(8),
-            ),
-            child: Icon(icon, size: 18, color: AppTheme.accentOrange),
-          ),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Text(
-                  label,
-                  style: GoogleFonts.poppins(
-                    fontSize: 11,
-                    fontWeight: FontWeight.w600,
-                    color: AppTheme.textSecondary,
-                    letterSpacing: 0.5,
-                  ),
-                ),
-                const SizedBox(height: 2),
-                content,
-              ],
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
-    if (campeonato == null) {
+    if (widget.campeonato == null) {
       return const Center(
         child: CircularProgressIndicator(color: AppTheme.accentOrange),
       );
     }
 
-    final c = campeonato!;
+    final c = widget.campeonato!;
     final fmt = DateFormat('dd/MM/yyyy');
+    final cor = _statusColor(c.status);
 
     String periodoTexto;
     if (c.dataInicio != null && c.dataFim != null) {
@@ -445,192 +284,697 @@ class _AbaInicio extends StatelessWidget {
       periodoTexto = 'A definir';
     }
 
+    final hasLogo = c.logoUrl != null && c.logoUrl!.trim().isNotEmpty;
+
     return SingleChildScrollView(
-      padding: const EdgeInsets.all(16),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          _buildBanner(context, c),
-          const SizedBox(height: 16),
-          Container(
-            padding: const EdgeInsets.all(16),
-            decoration: BoxDecoration(
-              color: AppTheme.cardColor,
-              borderRadius: BorderRadius.circular(16),
-            ),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                _buildInfoItem(
-                  icon: Icons.calendar_today_outlined,
-                  label: 'PERÍODO',
-                  content: Text(
-                    periodoTexto,
-                    style: GoogleFonts.poppins(
-                      fontSize: 13,
-                      fontWeight: FontWeight.w500,
-                      color: AppTheme.textPrimary,
+          // ── Banner + Logo sobreposto ────────────────────────────────────────
+          Stack(
+            clipBehavior: Clip.none,
+            children: [
+              // Banner de fundo
+              SizedBox(
+                height: 180,
+                width: double.infinity,
+                child: hasLogo
+                    ? CachedNetworkImage(
+                        imageUrl: c.logoUrl!.trim(),
+                        fit: BoxFit.cover,
+                        placeholder: (ctx, url) =>
+                            Container(color: const Color(0xFF0D2B40)),
+                        errorWidget: (ctx, url, err) =>
+                            _buildDefaultBanner(c),
+                      )
+                    : _buildDefaultBanner(c),
+              ),
+              // Gradiente no banner
+              Positioned.fill(
+                child: Container(
+                  decoration: BoxDecoration(
+                    gradient: LinearGradient(
+                      begin: Alignment.topCenter,
+                      end: Alignment.bottomCenter,
+                      colors: [
+                        Colors.black.withValues(alpha: 0.1),
+                        Colors.black.withValues(alpha: 0.65),
+                      ],
                     ),
                   ),
                 ),
-                const Divider(color: Color(0xFF2A2A2A), height: 16),
-                _buildInfoItem(
-                  icon: Icons.info_outline,
-                  label: 'STATUS',
-                  content: Text(
-                    c.statusLabel,
-                    style: GoogleFonts.poppins(
-                      fontSize: 13,
-                      fontWeight: FontWeight.w600,
-                      color: _statusColor(c.status),
-                    ),
+              ),
+              // Badge "✓ Seguindo" no canto superior direito
+              Positioned(
+                top: 12,
+                right: 12,
+                child: Container(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                  decoration: BoxDecoration(
+                    color: Colors.black.withValues(alpha: 0.5),
+                    borderRadius: BorderRadius.circular(20),
+                    border: Border.all(
+                        color: Colors.white.withValues(alpha: 0.3), width: 1),
+                  ),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Icon(Icons.check, color: Colors.white, size: 13),
+                      const SizedBox(width: 4),
+                      Text(
+                        'Seguindo',
+                        style: GoogleFonts.poppins(
+                          fontSize: 11,
+                          fontWeight: FontWeight.w600,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
-                const Divider(color: Color(0xFF2A2A2A), height: 16),
-                _buildInfoItem(
-                  icon: Icons.person_outline,
-                  label: 'ORGANIZADOR',
-                  content: Text(
-                    c.organizadorNome.isNotEmpty
-                        ? c.organizadorNome
-                        : 'Não informado',
-                    style: GoogleFonts.poppins(
-                      fontSize: 13,
-                      fontWeight: FontWeight.w500,
-                      color: AppTheme.textPrimary,
-                    ),
+              ),
+              // Logo circular sobreposto no canto inferior esquerdo do banner
+              Positioned(
+                bottom: -28,
+                left: 16,
+                child: Container(
+                  width: 64,
+                  height: 64,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    border: Border.all(color: AppTheme.bgPrimary, width: 3),
+                    color: AppTheme.bgSecondary,
                   ),
-                ),
-                const Divider(color: Color(0xFF2A2A2A), height: 16),
-                _buildInfoItem(
-                  icon: Icons.sports_soccer_outlined,
-                  label: 'ESPORTE',
-                  content: Text(
-                    '${c.esporteEmoji} ${c.esporteLabel}',
-                    style: GoogleFonts.poppins(
-                      fontSize: 13,
-                      fontWeight: FontWeight.w500,
-                      color: AppTheme.textPrimary,
-                    ),
-                  ),
-                ),
-                const Divider(color: Color(0xFF2A2A2A), height: 16),
-                _buildInfoItem(
-                  icon: Icons.location_on_outlined,
-                  label: 'LOCAL',
-                  content: Text(
-                    c.local != null && c.local!.trim().isNotEmpty
-                        ? c.local!.trim()
-                        : 'A definir',
-                    style: GoogleFonts.poppins(
-                      fontSize: 13,
-                      fontWeight: FontWeight.w500,
-                      color: AppTheme.textPrimary,
-                    ),
-                  ),
-                ),
-                const Divider(color: Color(0xFF2A2A2A), height: 16),
-                _buildInfoItem(
-                  icon: Icons.label_outline,
-                  label: 'CATEGORIAS',
-                  content: c.categorias.isEmpty
-                      ? Text(
-                          'Nenhuma categoria informada',
-                          style: GoogleFonts.poppins(
-                            fontSize: 13,
-                            color: AppTheme.textSecondary,
+                  clipBehavior: Clip.antiAlias,
+                  child: hasLogo
+                      ? CachedNetworkImage(
+                          imageUrl: c.logoUrl!.trim(),
+                          fit: BoxFit.cover,
+                          errorWidget: (ctx, url, err) => Center(
+                            child: Text(
+                              c.nome.isNotEmpty ? c.nome[0].toUpperCase() : '?',
+                              style: GoogleFonts.poppins(
+                                fontSize: 24,
+                                fontWeight: FontWeight.w700,
+                                color: AppTheme.accentOrange,
+                              ),
+                            ),
                           ),
                         )
-                      : Wrap(
-                          spacing: 8,
-                          runSpacing: 8,
-                          children: c.categorias.map((cat) {
-                            return InkWell(
-                              onTap: () {
-                                if (onSelectCategoria != null) {
-                                  onSelectCategoria!(cat);
-                                }
-                              },
-                              borderRadius: BorderRadius.circular(16),
-                              child: Container(
-                                padding: const EdgeInsets.symmetric(
-                                  horizontal: 12,
-                                  vertical: 6,
-                                ),
-                                decoration: BoxDecoration(
-                                  color: AppTheme.bgSecondary,
-                                  borderRadius: BorderRadius.circular(16),
-                                  border: Border.all(
-                                    color: AppTheme.accentOrange,
-                                    width: 1.2,
-                                  ),
-                                ),
-                                child: Row(
-                                  mainAxisSize: MainAxisSize.min,
-                                  children: [
-                                    Text(
-                                      cat,
-                                      style: GoogleFonts.poppins(
-                                        fontSize: 12,
-                                        fontWeight: FontWeight.w600,
-                                        color: AppTheme.textPrimary,
-                                      ),
-                                    ),
-                                    const SizedBox(width: 4),
-                                    const Icon(
-                                      Icons.arrow_forward_ios,
-                                      size: 10,
-                                      color: AppTheme.accentOrange,
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            );
-                          }).toList(),
+                      : Center(
+                          child: Text(
+                            c.nome.isNotEmpty ? c.nome[0].toUpperCase() : '?',
+                            style: GoogleFonts.poppins(
+                              fontSize: 24,
+                              fontWeight: FontWeight.w700,
+                              color: AppTheme.accentOrange,
+                            ),
+                          ),
                         ),
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
-          const SizedBox(height: 20),
-          Text(
-            'ÚLTIMAS NOTÍCIAS',
-            style: GoogleFonts.poppins(
-              fontSize: 14,
-              fontWeight: FontWeight.w700,
-              color: AppTheme.textPrimary,
-              letterSpacing: 0.5,
-            ),
-          ),
-          const SizedBox(height: 10),
-          Container(
-            width: double.infinity,
-            padding: const EdgeInsets.symmetric(vertical: 24, horizontal: 16),
-            decoration: BoxDecoration(
-              color: AppTheme.cardColor,
-              borderRadius: BorderRadius.circular(16),
-            ),
-            child: Column(
+
+          // ── Espaço para o logo que sai do banner ───────────────────────────
+          const SizedBox(height: 36),
+
+          // ── Seguidores / público ───────────────────────────────────────────
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Row(
               children: [
-                const Icon(
-                  Icons.newspaper_outlined,
-                  size: 38,
-                  color: AppTheme.textMuted,
+                Container(
+                  width: 7,
+                  height: 7,
+                  decoration: const BoxDecoration(
+                    color: Colors.green,
+                    shape: BoxShape.circle,
+                  ),
                 ),
-                const SizedBox(height: 8),
+                const SizedBox(width: 6),
                 Text(
-                  'Em breve',
+                  'Público · ${c.maxTimes} vagas',
                   style: GoogleFonts.poppins(
-                    fontSize: 13,
+                    fontSize: 12,
                     color: AppTheme.textSecondary,
                   ),
                 ),
               ],
             ),
           ),
+          const SizedBox(height: 6),
+
+          // ── Título grande ──────────────────────────────────────────────────
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Text(
+              c.nome,
+              style: GoogleFonts.poppins(
+                fontSize: 22,
+                fontWeight: FontWeight.w700,
+                color: AppTheme.textPrimary,
+              ),
+            ),
+          ),
+
+          if (c.descricao.isNotEmpty) ...[
+            const SizedBox(height: 4),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Text(
+                c.descricao,
+                style: GoogleFonts.poppins(
+                  fontSize: 13,
+                  color: AppTheme.accentBlue,
+                ),
+                maxLines: 2,
+                overflow: TextOverflow.ellipsis,
+              ),
+            ),
+          ],
+
+          const SizedBox(height: 16),
+
+          // ── Card de informações ────────────────────────────────────────────
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Container(
+              decoration: BoxDecoration(
+                color: AppTheme.cardColor,
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: Column(
+                children: [
+                  _buildInfoRow(
+                    icon: Icons.calendar_today_outlined,
+                    label: 'PERÍODO',
+                    child: Text(
+                      periodoTexto,
+                      style: GoogleFonts.poppins(
+                        fontSize: 13,
+                        fontWeight: FontWeight.w500,
+                        color: AppTheme.textPrimary,
+                      ),
+                    ),
+                  ),
+                  _buildDivider(),
+                  _buildInfoRow(
+                    icon: Icons.circle,
+                    iconColor: cor,
+                    label: 'STATUS',
+                    child: Text(
+                      c.statusLabel,
+                      style: GoogleFonts.poppins(
+                        fontSize: 13,
+                        fontWeight: FontWeight.w600,
+                        color: cor,
+                      ),
+                    ),
+                  ),
+                  _buildDivider(),
+                  _buildInfoRow(
+                    icon: Icons.person_outline,
+                    label: 'ORGANIZADOR',
+                    child: Row(
+                      children: [
+                        Expanded(
+                          child: Text(
+                            c.organizadorNome.isNotEmpty
+                                ? c.organizadorNome
+                                : 'Não informado',
+                            style: GoogleFonts.poppins(
+                              fontSize: 13,
+                              fontWeight: FontWeight.w500,
+                              color: AppTheme.textPrimary,
+                            ),
+                          ),
+                        ),
+                        const Icon(Icons.open_in_new,
+                            size: 14, color: AppTheme.textMuted),
+                      ],
+                    ),
+                  ),
+                  _buildDivider(),
+                  _buildInfoRow(
+                    icon: Icons.sports_soccer_outlined,
+                    label: 'ESPORTE',
+                    child: Text(
+                      '${c.esporteEmoji} ${c.esporteLabel}',
+                      style: GoogleFonts.poppins(
+                        fontSize: 13,
+                        fontWeight: FontWeight.w500,
+                        color: AppTheme.textPrimary,
+                      ),
+                    ),
+                  ),
+                  if (c.local != null && c.local!.isNotEmpty) ...[
+                    _buildDivider(),
+                    _buildInfoRow(
+                      icon: Icons.location_on_outlined,
+                      label: 'LOCAL',
+                      child: Text(
+                        c.local!.trim(),
+                        style: GoogleFonts.poppins(
+                          fontSize: 13,
+                          fontWeight: FontWeight.w500,
+                          color: AppTheme.textPrimary,
+                        ),
+                      ),
+                    ),
+                  ],
+                ],
+              ),
+            ),
+          ),
+
           const SizedBox(height: 20),
+
+          // ── Categorias ─────────────────────────────────────────────────────
+          if (c.categorias.isNotEmpty) ...[
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 0, 16, 10),
+              child: Text(
+                'CATEGORIAS',
+                style: GoogleFonts.poppins(
+                  fontSize: 12,
+                  fontWeight: FontWeight.w700,
+                  color: AppTheme.textSecondary,
+                  letterSpacing: 0.8,
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Container(
+                decoration: BoxDecoration(
+                  color: AppTheme.cardColor,
+                  borderRadius: BorderRadius.circular(14),
+                ),
+                child: Column(
+                  children: c.categorias.asMap().entries.map((entry) {
+                    final i = entry.key;
+                    final cat = entry.value;
+                    return Column(
+                      children: [
+                        InkWell(
+                          onTap: () {
+                            if (widget.onSelectCategoria != null) {
+                              widget.onSelectCategoria!(cat);
+                            }
+                          },
+                          borderRadius: BorderRadius.circular(14),
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 14, vertical: 12),
+                            child: Row(
+                              children: [
+                                Container(
+                                  width: 32,
+                                  height: 32,
+                                  decoration: const BoxDecoration(
+                                    color: AppTheme.bgSecondary,
+                                    shape: BoxShape.circle,
+                                  ),
+                                  child: Center(
+                                    child: Text(
+                                      cat.isNotEmpty
+                                          ? cat[0].toUpperCase()
+                                          : '?',
+                                      style: GoogleFonts.poppins(
+                                        fontSize: 13,
+                                        fontWeight: FontWeight.w700,
+                                        color: AppTheme.accentOrange,
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                const SizedBox(width: 12),
+                                Expanded(
+                                  child: Text(
+                                    cat.toUpperCase(),
+                                    style: GoogleFonts.poppins(
+                                      fontSize: 13,
+                                      fontWeight: FontWeight.w600,
+                                      color: AppTheme.textPrimary,
+                                    ),
+                                  ),
+                                ),
+                                const Icon(Icons.chevron_right,
+                                    color: AppTheme.textSecondary, size: 18),
+                              ],
+                            ),
+                          ),
+                        ),
+                        if (i < c.categorias.length - 1)
+                          const Divider(
+                              height: 1,
+                              color: Color(0xFF2A2A2A),
+                              indent: 58),
+                      ],
+                    );
+                  }).toList(),
+                ),
+              ),
+            ),
+            const SizedBox(height: 20),
+          ],
+
+          // ── Mensagens ──────────────────────────────────────────────────────
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 0, 16, 10),
+            child: Text(
+              'MENSAGENS',
+              style: GoogleFonts.poppins(
+                fontSize: 12,
+                fontWeight: FontWeight.w700,
+                color: AppTheme.textSecondary,
+                letterSpacing: 0.8,
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 0, 16, 32),
+            child: Container(
+              decoration: BoxDecoration(
+                color: AppTheme.cardColor,
+                borderRadius: BorderRadius.circular(14),
+                border: Border.all(color: const Color(0xFF2A2A2A)),
+              ),
+              child: TextField(
+                controller: _msgCtrl,
+                style: GoogleFonts.poppins(
+                  fontSize: 13,
+                  color: AppTheme.textPrimary,
+                ),
+                decoration: InputDecoration(
+                  hintText: 'Envie uma mensagem...',
+                  hintStyle: GoogleFonts.poppins(
+                    fontSize: 13,
+                    color: AppTheme.textMuted,
+                  ),
+                  border: InputBorder.none,
+                  contentPadding: const EdgeInsets.symmetric(
+                      horizontal: 14, vertical: 12),
+                  suffixIcon: IconButton(
+                    icon: const Icon(Icons.send_outlined,
+                        color: AppTheme.accentOrange, size: 20),
+                    onPressed: () {},
+                  ),
+                ),
+              ),
+            ),
+          ),
         ],
       ),
+    );
+  }
+
+  Widget _buildDefaultBanner(Campeonato c) {
+    return Container(
+      decoration: const BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [Color(0xFF0D2B40), Color(0xFF0F1E10), Color(0xFF0F0F0F)],
+        ),
+      ),
+      child: Center(
+        child: Icon(
+          Icons.emoji_events_rounded,
+          size: 64,
+          color: AppTheme.accentOrange.withValues(alpha: 0.5),
+        ),
+      ),
+    );
+  }
+
+  Widget _buildInfoRow({
+    required IconData icon,
+    Color? iconColor,
+    required String label,
+    required Widget child,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Container(
+            padding: const EdgeInsets.all(7),
+            decoration: BoxDecoration(
+              color: AppTheme.bgSecondary,
+              borderRadius: BorderRadius.circular(8),
+            ),
+            child: Icon(icon,
+                size: 16, color: iconColor ?? AppTheme.accentOrange),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  label,
+                  style: GoogleFonts.poppins(
+                    fontSize: 10,
+                    fontWeight: FontWeight.w700,
+                    color: AppTheme.textSecondary,
+                    letterSpacing: 0.6,
+                  ),
+                ),
+                const SizedBox(height: 2),
+                child,
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildDivider() =>
+      const Divider(height: 1, color: Color(0xFF2A2A2A), indent: 54);
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// ABA CATEGORIAS — Lista clicável estilo Copa Fácil
+// ═══════════════════════════════════════════════════════════════════════════════
+
+class _AbaCategorias extends StatelessWidget {
+  final Campeonato? campeonato;
+  final bool isAdmin;
+  final void Function(String categoria) onSelectCategoria;
+
+  const _AbaCategorias({
+    required this.campeonato,
+    required this.isAdmin,
+    required this.onSelectCategoria,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    if (campeonato == null) {
+      return const Center(
+        child: CircularProgressIndicator(color: AppTheme.accentOrange),
+      );
+    }
+
+    final categorias = campeonato!.categorias;
+
+    if (categorias.isEmpty) {
+      return _EstadoVazio(
+        icon: Icons.list_alt_outlined,
+        mensagem: isAdmin
+            ? 'Nenhuma categoria criada.\nToque em + para adicionar.'
+            : 'Nenhuma categoria registrada ainda.',
+      );
+    }
+
+    return Stack(
+      children: [
+        ListView.separated(
+          padding: const EdgeInsets.fromLTRB(16, 16, 16, 100),
+          itemCount: categorias.length,
+          separatorBuilder: (ctx, i) => const SizedBox(height: 8),
+          itemBuilder: (context, i) {
+            final cat = categorias[i];
+            return GestureDetector(
+              onTap: () => onSelectCategoria(cat),
+              child: Container(
+                padding: const EdgeInsets.symmetric(
+                    horizontal: 14, vertical: 14),
+                decoration: BoxDecoration(
+                  color: AppTheme.cardColor,
+                  borderRadius: BorderRadius.circular(14),
+                ),
+                child: Row(
+                  children: [
+                    Container(
+                      width: 40,
+                      height: 40,
+                      decoration: const BoxDecoration(
+                        color: AppTheme.bgSecondary,
+                        shape: BoxShape.circle,
+                      ),
+                      child: Center(
+                        child: Text(
+                          cat.isNotEmpty ? cat[0].toUpperCase() : '?',
+                          style: GoogleFonts.poppins(
+                            fontSize: 16,
+                            fontWeight: FontWeight.w700,
+                            color: AppTheme.accentOrange,
+                          ),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(width: 14),
+                    Expanded(
+                      child: Text(
+                        cat.toUpperCase(),
+                        style: GoogleFonts.poppins(
+                          fontSize: 14,
+                          fontWeight: FontWeight.w600,
+                          color: AppTheme.textPrimary,
+                        ),
+                      ),
+                    ),
+                    IconButton(
+                      icon: const Icon(Icons.copy_outlined,
+                          color: AppTheme.textSecondary, size: 18),
+                      onPressed: () {
+                        Clipboard.setData(ClipboardData(text: cat));
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text(
+                              'Copiado: $cat',
+                              style: GoogleFonts.poppins(fontSize: 12),
+                            ),
+                            duration: const Duration(seconds: 2),
+                          ),
+                        );
+                      },
+                    ),
+                    const Icon(Icons.chevron_right,
+                        color: AppTheme.textSecondary, size: 20),
+                  ],
+                ),
+              ),
+            );
+          },
+        ),
+        // FAB para admin
+        if (isAdmin)
+          Positioned(
+            bottom: 24,
+            right: 16,
+            child: FloatingActionButton(
+              backgroundColor: AppTheme.accentOrange,
+              onPressed: () {
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(
+                      content: Text('Adicionar categoria em breve')),
+                );
+              },
+              child: const Icon(Icons.add, color: Colors.white),
+            ),
+          ),
+      ],
+    );
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// ABA JOGOS COMPLETA — com sub-tabs: Partidas | Classificação | Artilharia
+// ═══════════════════════════════════════════════════════════════════════════════
+
+class _AbaJogosCompleta extends StatefulWidget {
+  final String campeonatoId;
+  final Campeonato? campeonato;
+  final bool isAdmin;
+  final String categoriaSelecionada;
+  final List<String> categorias;
+  final void Function(String) onSelectCategoria;
+
+  const _AbaJogosCompleta({
+    required this.campeonatoId,
+    required this.campeonato,
+    required this.isAdmin,
+    required this.categoriaSelecionada,
+    required this.categorias,
+    required this.onSelectCategoria,
+  });
+
+  @override
+  State<_AbaJogosCompleta> createState() => _AbaJogosCompletaState();
+}
+
+class _AbaJogosCompletaState extends State<_AbaJogosCompleta>
+    with SingleTickerProviderStateMixin {
+  late final TabController _subTabCtrl;
+
+  @override
+  void initState() {
+    super.initState();
+    _subTabCtrl = TabController(length: 3, vsync: this);
+  }
+
+  @override
+  void dispose() {
+    _subTabCtrl.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        // Sub-tabs
+        Container(
+          color: AppTheme.bgPrimary,
+          child: TabBar(
+            controller: _subTabCtrl,
+            isScrollable: true,
+            tabAlignment: TabAlignment.start,
+            labelStyle: GoogleFonts.poppins(
+                fontSize: 12, fontWeight: FontWeight.w600),
+            unselectedLabelStyle:
+                GoogleFonts.poppins(fontSize: 12),
+            labelColor: AppTheme.accentOrange,
+            unselectedLabelColor: AppTheme.textSecondary,
+            indicatorColor: AppTheme.accentOrange,
+            indicatorWeight: 2,
+            dividerColor: const Color(0xFF2A2A2A),
+            tabs: const [
+              Tab(text: 'Partidas'),
+              Tab(text: 'Classificação'),
+              Tab(text: 'Artilharia'),
+            ],
+          ),
+        ),
+        Expanded(
+          child: TabBarView(
+            controller: _subTabCtrl,
+            children: [
+              _AbaJogos(
+                campeonatoId: widget.campeonatoId,
+                isAdmin: widget.isAdmin,
+                categoriaSelecionada: widget.categoriaSelecionada,
+                categorias: widget.categorias,
+                onSelectCategoria: widget.onSelectCategoria,
+              ),
+              _AbaClassificacao(
+                campeonatoId: widget.campeonatoId,
+                categoriaSelecionada: widget.categoriaSelecionada,
+                categorias: widget.categorias,
+                onSelectCategoria: widget.onSelectCategoria,
+              ),
+              _AbaArtilharia(campeonatoId: widget.campeonatoId),
+            ],
+          ),
+        ),
+      ],
     );
   }
 }
@@ -682,7 +1026,8 @@ class _AbaClassificacao extends StatelessWidget {
             builder: (context, snap) {
               if (snap.connectionState == ConnectionState.waiting) {
                 return const Center(
-                  child: CircularProgressIndicator(color: AppTheme.accentOrange),
+                  child:
+                      CircularProgressIndicator(color: AppTheme.accentOrange),
                 );
               }
 
@@ -715,11 +1060,11 @@ class _AbaClassificacao extends StatelessWidget {
                       runSpacing: 6,
                       children: [
                         _LegendaItem(
-                          cor: Colors.green.withOpacity(0.35),
+                          cor: Colors.green.withValues(alpha: 0.35),
                           label: 'Zona de promoção',
                         ),
                         _LegendaItem(
-                          cor: AppTheme.accentRed.withOpacity(0.25),
+                          cor: AppTheme.accentRed.withValues(alpha: 0.25),
                           label: 'Zona de rebaixamento',
                         ),
                       ],
@@ -758,9 +1103,10 @@ class _AbaClassificacao extends StatelessWidget {
 
                               Color? rowBg;
                               if (isPromocao) {
-                                rowBg = Colors.green.withOpacity(0.12);
+                                rowBg = Colors.green.withValues(alpha: 0.12);
                               } else if (isRebaixamento) {
-                                rowBg = AppTheme.accentRed.withOpacity(0.10);
+                                rowBg =
+                                    AppTheme.accentRed.withValues(alpha: 0.10);
                               }
 
                               return _dataRow(pos, item, rowBg, _avatarColor);
@@ -780,9 +1126,7 @@ class _AbaClassificacao extends StatelessWidget {
   }
 
   TableRow _headerRow() {
-    final labels = [
-      '#', 'Time', 'P', 'J', 'V', 'E', 'D', 'GP', 'GC', 'SG'
-    ];
+    final labels = ['#', 'Time', 'P', 'J', 'V', 'E', 'D', 'GP', 'GC', 'SG'];
     return TableRow(
       decoration: const BoxDecoration(
         color: Color(0xFF252525),
@@ -821,8 +1165,7 @@ class _AbaClassificacao extends StatelessWidget {
             style: GoogleFonts.poppins(
               fontSize: 12,
               fontWeight: bold ? FontWeight.w700 : FontWeight.w400,
-              color:
-                  bold ? AppTheme.textPrimary : AppTheme.textSecondary,
+              color: bold ? AppTheme.textPrimary : AppTheme.textSecondary,
             ),
             textAlign: TextAlign.center,
           ),
@@ -831,8 +1174,7 @@ class _AbaClassificacao extends StatelessWidget {
     return TableRow(
       decoration: BoxDecoration(
         color: bg,
-        border:
-            const Border(bottom: BorderSide(color: Color(0xFF2A2A2A))),
+        border: const Border(bottom: BorderSide(color: Color(0xFF2A2A2A))),
       ),
       children: [
         cell('$pos'),
@@ -904,17 +1246,19 @@ class _LegendaItem extends StatelessWidget {
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
-// ABA JOGOS
+// ABA JOGOS (Partidas)
 // ═══════════════════════════════════════════════════════════════════════════════
 
 class _AbaJogos extends StatelessWidget {
   final String campeonatoId;
+  final bool isAdmin;
   final String categoriaSelecionada;
   final List<String> categorias;
   final void Function(String categoria) onSelectCategoria;
 
   const _AbaJogos({
     required this.campeonatoId,
+    required this.isAdmin,
     required this.categoriaSelecionada,
     required this.categorias,
     required this.onSelectCategoria,
@@ -936,7 +1280,8 @@ class _AbaJogos extends StatelessWidget {
             builder: (context, snap) {
               if (snap.connectionState == ConnectionState.waiting) {
                 return const Center(
-                  child: CircularProgressIndicator(color: AppTheme.accentOrange),
+                  child:
+                      CircularProgressIndicator(color: AppTheme.accentOrange),
                 );
               }
 
@@ -997,10 +1342,11 @@ class _FiltroCategoriasBar extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 16),
         scrollDirection: Axis.horizontal,
         itemCount: listaCompleta.length,
-        separatorBuilder: (_, __) => const SizedBox(width: 8),
+        separatorBuilder: (ctx, i) => const SizedBox(width: 8),
         itemBuilder: (context, i) {
           final cat = listaCompleta[i];
-          final isSelected = cat.toLowerCase() == categoriaSelecionada.toLowerCase();
+          final isSelected =
+              cat.toLowerCase() == categoriaSelecionada.toLowerCase();
 
           return Center(
             child: ChoiceChip(
@@ -1008,7 +1354,8 @@ class _FiltroCategoriasBar extends StatelessWidget {
                 cat,
                 style: GoogleFonts.poppins(
                   fontSize: 12,
-                  fontWeight: isSelected ? FontWeight.w700 : FontWeight.w500,
+                  fontWeight:
+                      isSelected ? FontWeight.w700 : FontWeight.w500,
                   color: isSelected ? Colors.white : AppTheme.textSecondary,
                 ),
               ),
@@ -1017,7 +1364,9 @@ class _FiltroCategoriasBar extends StatelessWidget {
               backgroundColor: AppTheme.cardColor,
               showCheckmark: false,
               side: BorderSide(
-                color: isSelected ? AppTheme.accentOrange : const Color(0xFF2E2E2E),
+                color: isSelected
+                    ? AppTheme.accentOrange
+                    : const Color(0xFF2E2E2E),
               ),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(20),
@@ -1030,6 +1379,10 @@ class _FiltroCategoriasBar extends StatelessWidget {
     );
   }
 }
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// CARD PARTIDA — estilo Copa Fácil
+// ═══════════════════════════════════════════════════════════════════════════════
 
 class _CardPartida extends StatelessWidget {
   final Partida partida;
@@ -1052,7 +1405,7 @@ class _CardPartida extends StatelessWidget {
   Color get _statusColor {
     switch (partida.status) {
       case StatusPartida.encerrada:
-        return Colors.green;
+        return AppTheme.textSecondary;
       case StatusPartida.emAndamento:
         return AppTheme.accentRed;
       case StatusPartida.agendada:
@@ -1095,28 +1448,75 @@ class _CardPartida extends StatelessWidget {
     return partes.join(' • ');
   }
 
+  Widget _buildTeamLogo(String nome, String? logoUrl) {
+    final initial = nome.isNotEmpty ? nome[0].toUpperCase() : '?';
+    return Container(
+      width: 48,
+      height: 48,
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        color: _avatarColor(nome),
+      ),
+      clipBehavior: Clip.antiAlias,
+      child: (logoUrl != null && logoUrl.isNotEmpty)
+          ? CachedNetworkImage(
+              imageUrl: logoUrl,
+              fit: BoxFit.cover,
+              placeholder: (context, url) => Center(
+                child: SizedBox(
+                  width: 16,
+                  height: 16,
+                  child: CircularProgressIndicator(
+                    strokeWidth: 2,
+                    color: Colors.white.withValues(alpha: 0.5),
+                  ),
+                ),
+              ),
+              errorWidget: (context, url, error) => Center(
+                child: Text(
+                  initial,
+                  style: GoogleFonts.poppins(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w700,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            )
+          : Center(
+              child: Text(
+                initial,
+                style: GoogleFonts.poppins(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w700,
+                  color: Colors.white,
+                ),
+              ),
+            ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
-    final initialA = partida.timeANome.isNotEmpty
-        ? partida.timeANome[0].toUpperCase()
-        : '?';
-    final initialB = partida.timeBNome.isNotEmpty
-        ? partida.timeBNome[0].toUpperCase()
-        : '?';
-
-    final categoriaTexto = partida.categoria != null && partida.categoria!.isNotEmpty
-        ? partida.categoria!
-        : '';
-    final grupoTexto = partida.grupoId != null && partida.grupoId!.isNotEmpty
-        ? 'Grupo ${partida.grupoId}'
-        : '';
-    final rodadaNum = partida.rodada > 0 ? 'Rodada ${partida.rodada}' : '';
-    final partes = [categoriaTexto, grupoTexto, rodadaNum].where((s) => s.isNotEmpty).toList();
+    final categoriaTexto =
+        partida.categoria != null && partida.categoria!.isNotEmpty
+            ? partida.categoria!
+            : '';
+    final grupoTexto =
+        partida.grupoId != null && partida.grupoId!.isNotEmpty
+            ? 'Grupo ${partida.grupoId}'
+            : '';
+    final rodadaNum =
+        partida.rodada > 0 ? 'Rodada ${partida.rodada}' : '';
+    final partes = [categoriaTexto, grupoTexto, rodadaNum]
+        .where((s) => s.isNotEmpty)
+        .toList();
     final rodadaTexto = partes.isNotEmpty ? partes.join(' • ') : 'Jogo';
 
-    final placarTexto = (partida.placarA != null && partida.placarB != null)
-        ? '${partida.placarA} : ${partida.placarB}'
-        : '- : -';
+    final placarTexto =
+        (partida.placarA != null && partida.placarB != null)
+            ? '${partida.placarA} : ${partida.placarB}'
+            : '- : -';
 
     return GestureDetector(
       onTap: () {
@@ -1131,198 +1531,139 @@ class _CardPartida extends StatelessWidget {
       },
       child: Container(
         margin: const EdgeInsets.only(bottom: 12),
-        padding: const EdgeInsets.all(14),
         decoration: BoxDecoration(
           color: AppTheme.cardColor,
           borderRadius: BorderRadius.circular(14),
           border: partida.emAndamento
               ? Border.all(
-                  color: AppTheme.accentRed.withOpacity(0.6),
+                  color: AppTheme.accentRed.withValues(alpha: 0.6),
                   width: 1.5,
                 )
               : null,
         ),
         child: Column(
           children: [
-            Text(
-              rodadaTexto,
-              style: GoogleFonts.poppins(
-                fontSize: 11,
-                fontWeight: FontWeight.w500,
-                color: AppTheme.textSecondary,
-              ),
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: 4),
+            // Header da rodada
             Container(
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 3),
-              decoration: BoxDecoration(
-                color: _statusColor.withOpacity(0.15),
-                borderRadius: BorderRadius.circular(12),
-                border: Border.all(color: _statusColor, width: 1),
-              ),
-              child: Text(
-                _statusLabel,
-                style: GoogleFonts.poppins(
-                  fontSize: 10,
-                  fontWeight: FontWeight.w700,
-                  color: _statusColor,
-                  letterSpacing: 0.5,
+              padding:
+                  const EdgeInsets.symmetric(horizontal: 14, vertical: 8),
+              decoration: const BoxDecoration(
+                color: Color(0xFF252525),
+                borderRadius: BorderRadius.only(
+                  topLeft: Radius.circular(14),
+                  topRight: Radius.circular(14),
                 ),
               ),
-            ),
-            const SizedBox(height: 12),
-            Row(
-              children: [
-                Expanded(
-                  child: Column(
-                    children: [
-                      Container(
-                        width: 44,
-                        height: 44,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          color: _avatarColor(partida.timeANome),
-                        ),
-                        clipBehavior: Clip.antiAlias,
-                        child: (partida.timeALogo != null && partida.timeALogo!.isNotEmpty)
-                            ? CachedNetworkImage(
-                                imageUrl: partida.timeALogo!,
-                                fit: BoxFit.cover,
-                                placeholder: (context, url) => Center(
-                                  child: SizedBox(
-                                    width: 16,
-                                    height: 16,
-                                    child: CircularProgressIndicator(
-                                      strokeWidth: 2,
-                                      color: Colors.white.withValues(alpha: 0.5),
-                                    ),
-                                  ),
-                                ),
-                                errorWidget: (context, url, error) => Center(
-                                  child: Text(
-                                    initialA,
-                                    style: GoogleFonts.poppins(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.w700,
-                                      color: Colors.white,
-                                    ),
-                                  ),
-                                ),
-                              )
-                            : Center(
-                                child: Text(
-                                  initialA,
-                                  style: GoogleFonts.poppins(
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.w700,
-                                    color: Colors.white,
-                                  ),
-                                ),
-                              ),
-                      ),
-                      const SizedBox(height: 6),
-                      Text(
-                        partida.timeANome,
-                        style: GoogleFonts.poppins(
-                          fontSize: 12,
-                          fontWeight: FontWeight.w600,
-                          color: AppTheme.textPrimary,
-                        ),
-                        textAlign: TextAlign.center,
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    ],
-                  ),
-                ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 12),
-                  child: Text(
-                    placarTexto,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    rodadaTexto.toUpperCase(),
                     style: GoogleFonts.poppins(
-                      fontSize: 24,
-                      fontWeight: FontWeight.w800,
-                      color: partida.emAndamento
-                          ? AppTheme.accentRed
-                          : AppTheme.textPrimary,
+                      fontSize: 10,
+                      fontWeight: FontWeight.w700,
+                      color: AppTheme.textSecondary,
+                      letterSpacing: 0.5,
                     ),
                   ),
-                ),
-                Expanded(
-                  child: Column(
-                    children: [
-                      Container(
-                        width: 44,
-                        height: 44,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          color: _avatarColor(partida.timeBNome),
-                        ),
-                        clipBehavior: Clip.antiAlias,
-                        child: (partida.timeBLogo != null && partida.timeBLogo!.isNotEmpty)
-                            ? CachedNetworkImage(
-                                imageUrl: partida.timeBLogo!,
-                                fit: BoxFit.cover,
-                                placeholder: (context, url) => Center(
-                                  child: SizedBox(
-                                    width: 16,
-                                    height: 16,
-                                    child: CircularProgressIndicator(
-                                      strokeWidth: 2,
-                                      color: Colors.white.withValues(alpha: 0.5),
-                                    ),
-                                  ),
-                                ),
-                                errorWidget: (context, url, error) => Center(
-                                  child: Text(
-                                    initialB,
-                                    style: GoogleFonts.poppins(
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.w700,
-                                      color: Colors.white,
-                                    ),
-                                  ),
-                                ),
-                              )
-                            : Center(
-                                child: Text(
-                                  initialB,
-                                  style: GoogleFonts.poppins(
-                                    fontSize: 16,
-                                    fontWeight: FontWeight.w700,
-                                    color: Colors.white,
-                                  ),
-                                ),
-                              ),
+                  Container(
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 8, vertical: 2),
+                    decoration: BoxDecoration(
+                      color: _statusColor.withValues(alpha: 0.15),
+                      borderRadius: BorderRadius.circular(10),
+                      border: Border.all(color: _statusColor, width: 1),
+                    ),
+                    child: Text(
+                      _statusLabel,
+                      style: GoogleFonts.poppins(
+                        fontSize: 9,
+                        fontWeight: FontWeight.w700,
+                        color: _statusColor,
+                        letterSpacing: 0.5,
                       ),
-                      const SizedBox(height: 6),
-                      Text(
-                        partida.timeBNome,
-                        style: GoogleFonts.poppins(
-                          fontSize: 12,
-                          fontWeight: FontWeight.w600,
-                          color: AppTheme.textPrimary,
-                        ),
-                        textAlign: TextAlign.center,
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                    ],
+                    ),
                   ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 12),
-            Text(
-              _formatarDataLocal(),
-              style: GoogleFonts.poppins(
-                fontSize: 11,
-                color: AppTheme.textSecondary,
+                ],
               ),
-              textAlign: TextAlign.center,
-              maxLines: 1,
-              overflow: TextOverflow.ellipsis,
+            ),
+            // Corpo: times e placar
+            Padding(
+              padding: const EdgeInsets.fromLTRB(14, 14, 14, 10),
+              child: Row(
+                children: [
+                  // Time A
+                  Expanded(
+                    child: Column(
+                      children: [
+                        _buildTeamLogo(
+                            partida.timeANome, partida.timeALogo),
+                        const SizedBox(height: 6),
+                        Text(
+                          partida.timeANome,
+                          style: GoogleFonts.poppins(
+                            fontSize: 12,
+                            fontWeight: FontWeight.w600,
+                            color: AppTheme.textPrimary,
+                          ),
+                          textAlign: TextAlign.center,
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                  // Placar central
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 10),
+                    child: Text(
+                      placarTexto,
+                      style: GoogleFonts.poppins(
+                        fontSize: 26,
+                        fontWeight: FontWeight.w800,
+                        color: partida.emAndamento
+                            ? AppTheme.accentRed
+                            : AppTheme.textPrimary,
+                      ),
+                    ),
+                  ),
+                  // Time B
+                  Expanded(
+                    child: Column(
+                      children: [
+                        _buildTeamLogo(
+                            partida.timeBNome, partida.timeBLogo),
+                        const SizedBox(height: 6),
+                        Text(
+                          partida.timeBNome,
+                          style: GoogleFonts.poppins(
+                            fontSize: 12,
+                            fontWeight: FontWeight.w600,
+                            color: AppTheme.textPrimary,
+                          ),
+                          textAlign: TextAlign.center,
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            // Local e data
+            Padding(
+              padding: const EdgeInsets.fromLTRB(14, 0, 14, 12),
+              child: Text(
+                _formatarDataLocal(),
+                style: GoogleFonts.poppins(
+                  fontSize: 10,
+                  color: AppTheme.textSecondary,
+                ),
+                textAlign: TextAlign.center,
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+              ),
             ),
           ],
         ),
@@ -1377,7 +1718,7 @@ class _AbaArtilharia extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
                 border: isTop3
                     ? Border.all(
-                        color: AppTheme.accentOrange.withOpacity(0.3),
+                        color: AppTheme.accentOrange.withValues(alpha: 0.3),
                       )
                     : null,
               ),
@@ -1460,183 +1801,10 @@ class _AbaArtilharia extends StatelessWidget {
   }
 }
 
-// ═══════════════════════════════════════════════════════════════════════════════
-// ABA TIMES
-// ═══════════════════════════════════════════════════════════════════════════════
-
-class _AbaTimes extends StatelessWidget {
-  final String campeonatoId;
-  final String? organizadorId;
-
-  const _AbaTimes({required this.campeonatoId, this.organizadorId});
-
-  bool get _isOrganizador {
-    final uid = FirebaseAuth.instance.currentUser?.uid;
-    return uid != null && uid == organizadorId;
-  }
-
-  Color _avatarColor(String nome) {
-    const palette = [
-      Color(0xFF1E63C8),
-      Color(0xFFFF6B00),
-      Color(0xFF6B2CB3),
-      Color(0xFF009688),
-      Color(0xFFE91E63),
-      Color(0xFF607D8B),
-    ];
-    if (nome.isEmpty) return palette[0];
-    return palette[nome.codeUnitAt(0) % palette.length];
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return StreamBuilder<List<Time>>(
-      stream: TimesService.instance.getTimes(campeonatoId),
-      builder: (context, snap) {
-        if (snap.connectionState == ConnectionState.waiting) {
-          return const Center(
-            child: CircularProgressIndicator(color: AppTheme.accentOrange),
-          );
-        }
-
-        final times = snap.data ?? [];
-
-        return Stack(
-          children: [
-            times.isEmpty
-                ? const _EstadoVazio(
-                    icon: Icons.groups_outlined,
-                    mensagem: 'Nenhum time inscrito ainda',
-                  )
-                : GridView.builder(
-                    padding:
-                        const EdgeInsets.fromLTRB(16, 16, 16, 80),
-                    gridDelegate:
-                        const SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount: 2,
-                      crossAxisSpacing: 12,
-                      mainAxisSpacing: 12,
-                      childAspectRatio: 1.1,
-                    ),
-                    itemCount: times.length,
-                    itemBuilder: (context, i) {
-                      final time = times[i];
-                      final initial = time.nome.isNotEmpty
-                          ? time.nome[0].toUpperCase()
-                          : '?';
-
-                      return Container(
-                        padding: const EdgeInsets.all(16),
-                        decoration: BoxDecoration(
-                          color: AppTheme.cardColor,
-                          borderRadius: BorderRadius.circular(14),
-                        ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            Container(
-                              width: 56,
-                              height: 56,
-                              decoration: BoxDecoration(
-                                shape: BoxShape.circle,
-                                color: _avatarColor(time.nome),
-                              ),
-                              clipBehavior: Clip.antiAlias,
-                              child: (time.logoUrl != null && time.logoUrl!.isNotEmpty)
-                                  ? CachedNetworkImage(
-                                      imageUrl: time.logoUrl!,
-                                      fit: BoxFit.cover,
-                                      placeholder: (context, url) => Center(
-                                        child: SizedBox(
-                                          width: 20,
-                                          height: 20,
-                                          child: CircularProgressIndicator(
-                                            strokeWidth: 2,
-                                            color: Colors.white.withValues(alpha: 0.5),
-                                          ),
-                                        ),
-                                      ),
-                                      errorWidget: (context, url, error) => Center(
-                                        child: Text(
-                                          initial,
-                                          style: GoogleFonts.poppins(
-                                            fontSize: 22,
-                                            fontWeight: FontWeight.w800,
-                                            color: Colors.white,
-                                          ),
-                                        ),
-                                      ),
-                                    )
-                                  : Center(
-                                      child: Text(
-                                        initial,
-                                        style: GoogleFonts.poppins(
-                                          fontSize: 22,
-                                          fontWeight: FontWeight.w800,
-                                          color: Colors.white,
-                                        ),
-                                      ),
-                                    ),
-                            ),
-                            const SizedBox(height: 10),
-                            Text(
-                              time.nome,
-                              style: GoogleFonts.poppins(
-                                fontSize: 13,
-                                fontWeight: FontWeight.w600,
-                                color: AppTheme.textPrimary,
-                              ),
-                              textAlign: TextAlign.center,
-                              maxLines: 2,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                            const SizedBox(height: 2),
-                            Text(
-                              time.responsavelNome,
-                              style: GoogleFonts.poppins(
-                                fontSize: 10,
-                                color: AppTheme.textSecondary,
-                              ),
-                              maxLines: 1,
-                              overflow: TextOverflow.ellipsis,
-                            ),
-                          ],
-                        ),
-                      );
-                    },
-                  ),
-            if (_isOrganizador)
-              Positioned(
-                bottom: 16,
-                right: 16,
-                child: FloatingActionButton.extended(
-                  backgroundColor: AppTheme.accentOrange,
-                  onPressed: () {
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      const SnackBar(
-                        content: Text('Adicionar time em breve'),
-                      ),
-                    );
-                  },
-                  icon: const Icon(Icons.add, color: Colors.white),
-                  label: Text(
-                    'Adicionar time',
-                    style: GoogleFonts.poppins(
-                      color: Colors.white,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
-                ),
-              ),
-          ],
-        );
-      },
-    );
-  }
-}
+// (ABA TIMES removida — não utilizada na versão atual)
 
 // ═══════════════════════════════════════════════════════════════════════════════
-// ABA FOTOS
+// ABA FOTOS (Galeria)
 // ═══════════════════════════════════════════════════════════════════════════════
 
 class _AbaFotos extends StatelessWidget {
@@ -1684,6 +1852,37 @@ class _EstadoVazio extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+// ═══════════════════════════════════════════════════════════════════════════════
+// BADGE DE STATUS (mantido para compatibilidade)
+// ═══════════════════════════════════════════════════════════════════════════════
+
+class _StatusBadge extends StatelessWidget {
+  final String label;
+  final Color color;
+
+  const _StatusBadge({required this.label, required this.color});
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+      decoration: BoxDecoration(
+        color: color.withValues(alpha: 0.18),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: color, width: 1),
+      ),
+      child: Text(
+        label,
+        style: GoogleFonts.poppins(
+          fontSize: 11,
+          fontWeight: FontWeight.w600,
+          color: color,
         ),
       ),
     );
