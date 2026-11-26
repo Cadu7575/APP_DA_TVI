@@ -147,16 +147,38 @@ class PartidasService {
     return false;
   }
 
+  /// Palavras-chave de programas de TV / conteúdos que NÃO são partidas de futebol.
+  /// Se o título do vídeo contiver alguma delas, o match automático é ignorado.
+  static const _programasTv = [
+    'telescopio', 'telescópio',
+    'entrevista', 'programa',
+    'debate', 'cobertura',
+    'especial', 'noticias', 'notícias',
+    'jornalismo', 'reportagem',
+    'bastidores', 'premios', 'prêmios',
+    'premiacao', 'premiação',
+    'inauguracao', 'inauguração',
+  ];
+
+  /// Retorna true se o título normalizado parece ser de um programa de TV (não-partida).
+  bool _eProgramaDeTv(String normTitle) {
+    return _programasTv.any((kw) => normTitle.contains(kw));
+  }
+
   /// Busca de forma inteligente e automática a [Partida] associada a um vídeo do YouTube.
   /// 1. Prioriza correspondência manual por `youtubeVideoId`.
-  /// 2. Prioriza partidas [emAndamento] se houver live ativa.
-  /// 3. Faz match semântico no título (ambos os times e categoria).
+  /// 2. Faz match semântico no título (ambos os times e categoria).
+  /// 3. Fallback: só vincula partida ao vivo se o título parecer de futebol.
   Future<Partida?> encontrarPartidaPorVideo({
     required String videoId,
     required String videoTitle,
   }) async {
     try {
       final normTitle = _normalizarTexto(videoTitle);
+
+      // Se o título indica um programa de TV, não vincular nenhuma partida
+      if (_eProgramaDeTv(normTitle)) return null;
+
       final snapAll = await _firestore.collectionGroup('partidas').get();
 
       Partida? melhorPartida;
@@ -195,17 +217,22 @@ class PartidasService {
         }
       }
 
-      // Se encontrou match com pontuação relevante
+      // Match semântico com pontuação suficiente
       if (melhorPontuacao >= 80) {
         return melhorPartida;
       }
 
-      // Fallback para transmissão ao vivo se houver alguma partida marcada como emAndamento
-      for (final doc in snapAll.docs) {
-        if (doc.reference.parent.parent?.id == 'Sl47UJ2ixicOki48NdIn') continue;
-        final p = Partida.fromFirestore(doc);
-        if (p.status == StatusPartida.emAndamento) {
-          return p;
+      // Fallback: só retorna partida ao vivo se o título contiver indicativo de futebol
+      final indicativoFutebol = RegExp(
+        r'(vs| x |sub\d*|\d[aª]\s*div|divisao|divisão|copa|campeonato|torneio|fut|futsal|futebol)',
+      );
+      if (indicativoFutebol.hasMatch(normTitle)) {
+        for (final doc in snapAll.docs) {
+          if (doc.reference.parent.parent?.id == 'Sl47UJ2ixicOki48NdIn') continue;
+          final p = Partida.fromFirestore(doc);
+          if (p.status == StatusPartida.emAndamento) {
+            return p;
+          }
         }
       }
 
